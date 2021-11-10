@@ -1,6 +1,9 @@
+package Car;
+
 import java.awt.*;
 
-public class Car {
+
+public class Car implements Movable{
     protected int nrDoors; // Number of doors on the car
     protected double enginePower; // Engine power of the car
     protected double currentSpeed; // The current speed of the car
@@ -42,6 +45,20 @@ public class Car {
 
     protected void stopEngine() {
         currentSpeed = 0;
+    }
+
+    protected void move(){
+
+    }
+
+
+    private void turnLeft(){
+
+    }
+
+
+    private void turnRight(){
+
     }
 
 }
