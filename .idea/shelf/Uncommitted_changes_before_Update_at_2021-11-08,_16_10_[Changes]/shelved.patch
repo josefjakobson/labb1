@@ -1,0 +1,180 @@
+Index: Car.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import java.awt.*;\n\npublic class Car {\n\n    public int nrDoors; // Number of doors on the car\n    public double enginePower; // Engine power of the car\n    public double currentSpeed; // The current speed of the car\n    public Color color; // Color of the car\n    public String modelName; // The car model name\n\n\n\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Car.java b/Car.java
+--- a/Car.java	
++++ b/Car.java	
+@@ -1,13 +1,49 @@
+ import java.awt.*;
+ 
+-public class Car {
++public class Car{
+ 
+-    public int nrDoors; // Number of doors on the car
+-    public double enginePower; // Engine power of the car
+-    public double currentSpeed; // The current speed of the car
+-    public Color color; // Color of the car
+-    public String modelName; // The car model name
++    protected int nrDoors; // Number of doors on the car
++    protected double enginePower; // Engine power of the car
++    protected double currentSpeed; // The current speed of the car
++    protected Color color; // Color of the car
++    protected String modelName; // The car model name
++
++
++    protected Car(int nrDoors, double enginePower, double currentSpeed, Color color, String modelName){
++        this.nrDoors = nrDoors;
++        this.enginePower = enginePower;
++        this.currentSpeed = currentSpeed;
++        this.color = color;
++        this.modelName = modelName;
++
++    }
++
++    protected int getNrDoors(){
++        return nrDoors;
++    }
++
++    protected double getEnginePower(){
++        return enginePower;
++    }
++
++    protected double getCurrentSpeed(){
++        return currentSpeed;
++    }
++
++    protected Color getColor(){
++        return color;
++    }
+ 
++    protected void setColor(Color clr){
++        color = clr;
++    }
+ 
++    protected void startEngine(){
++        currentSpeed = 0.1;
++    }
++
++    protected void stopEngine(){
++        currentSpeed = 0;
++    }
+ 
+ }
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	
++++ b/.idea/vcs.xml	
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+--- /dev/null	
++++ b/.idea/misc.xml	
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectRootManager" version="2" project-jdk-name="openjdk-17" project-jdk-type="JavaSDK">
++    <output url="file://$PROJECT_DIR$/out" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	
++++ b/.idea/modules.xml	
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/labb1.iml" filepath="$PROJECT_DIR$/labb1.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: labb1.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/labb1.iml b/labb1.iml
+new file mode 100644
+--- /dev/null	
++++ b/labb1.iml	
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+--- /dev/null	
++++ b/.idea/.gitignore	
+@@ -0,0 +1,8 @@
++# Default ignored files
++/shelf/
++/workspace.xml
++# Editor-based HTTP Client requests
++/httpRequests/
++# Datasource local storage ignored files
++/dataSources/
++/dataSources.local.xml
+Index: .idea/runConfigurations.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/runConfigurations.xml b/.idea/runConfigurations.xml
+new file mode 100644
+--- /dev/null	
++++ b/.idea/runConfigurations.xml	
+@@ -0,0 +1,10 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="RunConfigurationProducerService">
++    <option name="ignoredProducers">
++      <set>
++        <option value="com.android.tools.idea.compose.preview.runconfiguration.ComposePreviewRunConfigurationProducer" />
++      </set>
++    </option>
++  </component>
++</project>
+\ No newline at end of file
