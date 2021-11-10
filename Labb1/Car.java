@@ -1,6 +1,7 @@
 package Labb1;
 
 import java.awt.*;
+import java.util.ArrayList;
 
 
 public class Car implements Movable{
@@ -11,12 +12,13 @@ public class Car implements Movable{
     protected String modelName; // The car model name
 
 
-    protected Car(int nrDoors, double enginePower, double currentSpeed, Color color, String modelName){
+    protected Car(int nrDoors, double enginePower, double currentSpeed, Color color, String modelName) {
         this.nrDoors = nrDoors;
         this.enginePower = enginePower;
         this.currentSpeed = currentSpeed;
         this.color = color;
         this.modelName = modelName;
+        position = new int[]{0, 0};
     }
 
     protected int getNrDoors() {
@@ -61,4 +63,18 @@ public class Car implements Movable{
 
     }
 
+/*    protected void setNewPosition(){
+        int currentX = position[1];
+        int currentY = position[0];
+        switch (direction){
+            case "Upp":
+                position = new int[]{currentY+1, currentX};
+            case "Ner":
+                position = new int[]{currentY-1, currentX};
+            case "Hoger":
+                position = new int[]{currentY, currentX + 1};
+            case "Vanster":
+                position = new int[]{currentY, currentX-1};
+        }
+    }*/
 }

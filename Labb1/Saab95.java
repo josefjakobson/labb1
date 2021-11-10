@@ -1,11 +1,13 @@
 package Labb1;
 
 import java.awt.*;
+import java.util.Scanner;
 
 public class Saab95 extends Car{
 
     public boolean turboOn;
-    
+
+
     public Saab95(){
         super(2, 125, 1, Color.red, "Saab95");
 	    turboOn = false;
