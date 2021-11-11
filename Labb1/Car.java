@@ -12,7 +12,8 @@ public class Car implements Movable{
     protected double currentSpeed; // The current speed of the car
     protected Color color; // Color of the car
     protected String modelName; // The car model name
-
+    protected int[] position;
+    protected String direction = "Upp";
 
     protected Car(int nrDoors, double enginePower, double currentSpeed, Color color, String modelName) {
         this.nrDoors = nrDoors;
@@ -52,17 +53,36 @@ public class Car implements Movable{
     }
 
     protected void move(){
+        //public void keyPressed()
 
     }
 
 
-    private void turnLeft(){
-
+    private void turnLeft(){ switch (direction) {
+        case "Upp":
+            direction = "Vanster";
+        case "Ner":
+            direction = "Hoger";
+        case "Hoger":
+            direction = "Ner";
+        case "Vanster":
+            direction = "Upp";
+    }
     }
 
 
-    private void turnRight(){
+    private void turnRight() {
 
+        switch (direction) {
+            case "Upp":
+                direction = "Hoger";
+            case "Ner":
+                direction = "Vanster";
+            case "Hoger":
+                direction = "Ner";
+            case "Vanster":
+                direction = "Upp";
+        }
     }
 
 /*    protected void setNewPosition(){
