@@ -1,9 +1,6 @@
 package Labb1;
 
 import java.awt.*;
-import java.util.ArrayList;
-import java.awt.event.KeyEvent;
-import java.util.concurrent.TimeUnit;
 
 
 public class Car implements Movable{
@@ -12,8 +9,9 @@ public class Car implements Movable{
     private double currentSpeed; // The current speed of the car
     private Color color; // Color of the car
     private String modelName; // The car model name
-    protected int[] position;
-    protected String direction = "Upp";
+    private double positionX = 0;
+    private double positionY = 0;
+    private String direction = "Upp";
 
     protected Car(int nrDoors, double enginePower, double currentSpeed, Color color, String modelName) {
         this.nrDoors = nrDoors;
@@ -21,7 +19,6 @@ public class Car implements Movable{
         this.currentSpeed = currentSpeed;
         this.color = color;
         this.modelName = modelName;
-        position = new int[]{0, 0};
     }
 
     protected int getNrDoors() {
@@ -58,20 +55,31 @@ public class Car implements Movable{
     }
 
     protected void move(){
-        //public void keyPressed()
+        switch (direction){
+            case "Up":
+                positionY += currentSpeed;
+            case "Right":
+                positionX += currentSpeed;
+            case "Left":
+                positionX -= currentSpeed;
+            case "Down":
+                positionY -= currentSpeed;
+        }
+
 
     }
 
 
-    private void turnLeft(){ switch (direction) {
-        case "Upp":
-            direction = "Vanster";
-        case "Ner":
-            direction = "Hoger";
-        case "Hoger":
-            direction = "Ner";
-        case "Vanster":
-            direction = "Upp";
+    private void turnLeft(){
+        switch (direction) {
+        case "Up":
+            direction = "Left";
+        case "Down":
+            direction = "Right";
+        case "Right":
+            direction = "Down";
+        case "Left":
+            direction = "Up";
     }
     }
 
@@ -79,14 +87,14 @@ public class Car implements Movable{
     private void turnRight() {
 
         switch (direction) {
-            case "Upp":
-                direction = "Hoger";
-            case "Ner":
-                direction = "Vanster";
-            case "Hoger":
-                direction = "Ner";
-            case "Vanster":
-                direction = "Upp";
+            case "Up":
+                direction = "Right";
+            case "Down":
+                direction = "Left";
+            case "Right":
+                direction = "Down";
+            case "Left":
+                direction = "Up";
         }
     }
 
