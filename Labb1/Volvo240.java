@@ -13,15 +13,15 @@ public class Volvo240 extends Car{
     }
     
     public double speedFactor(){
-        return enginePower * 0.01 * trimFactor;
+        return getEnginePower() * 0.01 * trimFactor;
     }
 
     public void incrementSpeed(double amount){
-	    currentSpeed = Math.min(getCurrentSpeed() + speedFactor() * amount,enginePower);
+        setCurrentSpeed(getCurrentSpeed(), speedFactor(), amount);
     }
 
     public void decrementSpeed(double amount){
-        currentSpeed = Math.max(getCurrentSpeed() - speedFactor() * amount,0);
+        setCurrentSpeed(getCurrentSpeed(), -speedFactor(), amount);
     }
 
     // TODO fix this method according to lab pm

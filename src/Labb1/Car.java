@@ -1,6 +1,9 @@
 package Labb1;
 
 import java.awt.*;
+import java.util.ArrayList;
+import java.awt.event.KeyEvent;
+import java.util.concurrent.TimeUnit;
 
 
 public class Car implements Movable{
@@ -9,9 +12,9 @@ public class Car implements Movable{
     private double currentSpeed; // The current speed of the car
     private Color color; // Color of the car
     private String modelName; // The car model name
-    private double positionX = 0;
-    private double positionY = 0;
-    private String direction = "Upp";
+    protected double positionX;
+    protected double positionY;
+    protected String direction;
 
     protected Car(int nrDoors, double enginePower, double currentSpeed, Color color, String modelName) {
         this.nrDoors = nrDoors;
@@ -19,6 +22,9 @@ public class Car implements Movable{
         this.currentSpeed = currentSpeed;
         this.color = color;
         this.modelName = modelName;
+        positionX = 0;
+        positionY = 0;
+        direction = "Up";
     }
 
     protected int getNrDoors() {
@@ -33,6 +39,9 @@ public class Car implements Movable{
         return currentSpeed;
     }
 
+    protected double[] getCoordinates(){
+        return new double[] {positionY, positionX};
+    }
 
     protected void setCurrentSpeed(double currentSpeed, double speedFactor, double amount){
         this.currentSpeed = getCurrentSpeed() + speedFactor * amount;
@@ -55,32 +64,36 @@ public class Car implements Movable{
     }
 
     protected void move(){
-        switch (direction){
+        switch (direction) {
             case "Up":
                 positionY += currentSpeed;
-            case "Right":
-                positionX += currentSpeed;
-            case "Left":
-                positionX -= currentSpeed;
+                break;
             case "Down":
                 positionY -= currentSpeed;
+                break;
+            case "Right":
+                positionX += currentSpeed;
+                break;
+            case "Left":
+                positionX -= currentSpeed;
+                break;
+            default:
+                break;
         }
-
-
     }
 
 
-    private void turnLeft(){
+    private void turnLeft(){ 
         switch (direction) {
-        case "Up":
-            direction = "Left";
-        case "Down":
-            direction = "Right";
-        case "Right":
-            direction = "Down";
-        case "Left":
-            direction = "Up";
-    }
+            case "Up":
+                direction = "Left";
+            case "Down":
+                direction = "Right";
+            case "Right":
+                direction = "Down";
+            case "Left":
+                direction = "Up";
+        }
     }
 
 
@@ -97,19 +110,4 @@ public class Car implements Movable{
                 direction = "Up";
         }
     }
-
-/*    protected void setNewPosition(){
-        int currentX = position[1];
-        int currentY = position[0];
-        switch (direction){
-            case "Upp":
-                position = new int[]{currentY+1, currentX};
-            case "Ner":
-                position = new int[]{currentY-1, currentX};
-            case "Hoger":
-                position = new int[]{currentY, currentX + 1};
-            case "Vanster":
-                position = new int[]{currentY, currentX-1};
-        }
-    }*/
 }
