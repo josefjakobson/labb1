@@ -8,7 +8,7 @@ public class Animation extends JFrame{
 
     JLabel label;
 
-    Track(){
+    void Track(){
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setSize(400,400);
         this.setLayout(null);

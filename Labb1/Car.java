@@ -7,11 +7,11 @@ import java.util.concurrent.TimeUnit;
 
 
 public class Car implements Movable{
-    protected int nrDoors; // Number of doors on the car
-    protected double enginePower; // Engine power of the car
-    protected double currentSpeed; // The current speed of the car
-    protected Color color; // Color of the car
-    protected String modelName; // The car model name
+    private int nrDoors; // Number of doors on the car
+    private double enginePower; // Engine power of the car
+    private double currentSpeed; // The current speed of the car
+    private Color color; // Color of the car
+    private String modelName; // The car model name
     protected int[] position;
     protected String direction = "Upp";
 
@@ -34,6 +34,11 @@ public class Car implements Movable{
 
     protected double getCurrentSpeed() {
         return currentSpeed;
+    }
+
+
+    protected void setCurrentSpeed(double currentSpeed, double speedFactor, double amount){
+        this.currentSpeed = getCurrentSpeed() + speedFactor * amount;
     }
 
     protected Color getColor() {
