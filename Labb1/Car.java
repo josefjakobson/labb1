@@ -13,7 +13,7 @@ public class Car implements Movable{
     protected double positionY;
     protected String direction;
 
-    protected Car(int nrDoors, double enginePower, double currentSpeed, Color color, String modelName) {
+    public Car(int nrDoors, double enginePower, double currentSpeed, Color color, String modelName) {
         this.nrDoors = nrDoors;
         this.enginePower = enginePower;
         this.currentSpeed = currentSpeed;
@@ -24,39 +24,39 @@ public class Car implements Movable{
         direction = "Up";
     }
 
-    protected int getNrDoors() {
+    public int getNrDoors() {
         return nrDoors;
     }
 
-    protected double getEnginePower() {
+    public double getEnginePower() {
         return enginePower;
     }
 
-    protected double getCurrentSpeed() {
+    public double getCurrentSpeed() {
         return currentSpeed;
     }
 
-    protected double[] getCoordinates(){
+    public double[] getCoordinates(){
         return new double[] {positionY, positionX};
     }
 
-    protected void setCurrentSpeed(double currentSpeed, double speedFactor, double amount){
+    public void setCurrentSpeed(double currentSpeed, double speedFactor, double amount){
         this.currentSpeed = getCurrentSpeed() + speedFactor * amount;
     }
 
-    protected Color getColor() {
+    public Color getColor() {
         return color;
     }
 
-    protected void setColor(Color clr) {
+    public void setColor(Color clr) {
         color = clr;
     }
 
-    protected void startEngine() {
+    public void startEngine() {
         currentSpeed = 0.1;
     }
 
-    protected void stopEngine() {
+    public void stopEngine() {
         currentSpeed = 0;
     }
 

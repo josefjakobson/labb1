@@ -5,26 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f10cac7b-b317-4629-973b-cf0eb4809fa2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/labb1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-11-08,_16_10_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-11-08,_16_10_[Changes]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCar/TestCar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Labb1/Animation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb1/Animation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Labb1/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb1/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Labb1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Labb1/Movable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb1/Movable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Labb1/Saab95.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb1/Saab95.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Labb1/Volvo240.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb1/Volvo240.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Labb1/labb1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb1/labb1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labb1/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/Labb1/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labb1/Movable.java" beforeDir="false" afterPath="$PROJECT_DIR$/Labb1/Labb1/Movable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labb1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/labb1.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -36,6 +34,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -48,6 +50,56 @@
       <recent name="C:\Users\jonte\IdeaProjects\labb1\src\Labb1P" />
       <recent name="C:\Users\jonte\IdeaProjects\labb1\src" />
     </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TestCar.test_setColor">
+    <configuration name="TestCar.test_color" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="labb1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestCar" />
+      <option name="METHOD_NAME" value="test_color" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCar.test_engine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="labb1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestCar" />
+      <option name="METHOD_NAME" value="test_engine" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCar.test_setColor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="labb1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestCar" />
+      <option name="METHOD_NAME" value="test_setColor" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCar.test_speed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="labb1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestCar" />
+      <option name="METHOD_NAME" value="test_speed" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestCar.test_setColor" />
+        <item itemvalue="JUnit.TestCar.test_engine" />
+        <item itemvalue="JUnit.TestCar.test_speed" />
+        <item itemvalue="JUnit.TestCar.test_color" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -74,5 +126,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Laboration1$TestCar_test_color.ic" NAME="TestCar.test_color Coverage Results" MODIFIED="1636723023223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Laboration1$TestCar_test_engine.ic" NAME="TestCar.test_engine Coverage Results" MODIFIED="1636723289457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
