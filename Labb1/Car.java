@@ -1,9 +1,6 @@
 package Labb1;
 
 import java.awt.*;
-import java.util.ArrayList;
-import java.awt.event.KeyEvent;
-import java.util.concurrent.TimeUnit;
 
 
 public class Car implements Movable{
