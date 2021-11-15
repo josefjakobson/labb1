@@ -10,6 +10,7 @@ import java.awt.*;
 
 import static java.lang.Math.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.testng.Assert.assertTrue;
 
 public class TestCar {
 
@@ -59,21 +60,6 @@ public class TestCar {
         assertEquals(0, volvo.getCurrentSpeed());
     }
 
-   @Test
-    public void test_increaseSpeed() {
-        Car volvo = new Volvo240();
-        double prev_speed = volvo.getCurrentSpeed();
-        volvo.increaseSpeed(0.1);
-        assertEquals(prev_speed + volvo.getSpeedFactor() * 0.1, volvo.getCurrentSpeed());
-    }
-    
-  @Test
-   public void test_decreaseSpeed(){
-        Car volvo = new Volvo240();
-        double prev_speed = volvo.getCurrentSpeed();
-        volvo.decreaseSpeed(0.1);
-      assertEquals(Math.max(prev_speed - volvo.getSpeedFactor() * 0.1,0), volvo.getCurrentSpeed());
-   }
 
    @Test
    public void test_gas(){
