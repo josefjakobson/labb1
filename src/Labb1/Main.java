@@ -1,6 +1,4 @@
 package Labb1;
-
-
 import java.io.IOException;
 
 public class Main {
@@ -23,7 +21,7 @@ public class Main {
 
 
     public void printCoordinates(){
-        bil.incrementSpeed(5);
+        bil.increaseSpeed(5);
         bil.move();
         System.out.println("Y:"+bil.getCoordinates()[0]+", X:"+bil.getCoordinates()[1]);
     }
