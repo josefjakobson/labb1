@@ -3,76 +3,103 @@ package TestCar;
 import Labb1.Car;
 import Labb1.Saab95;
 import Labb1.Volvo240;
+import org.junit.Test;
 import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.assertEquals;
+
 import java.awt.*;
 
-public class TestCar {
-    private Volvo240 volvo;
-    private Saab95 saab;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-    @BeforeEach
-    void init(){
-        volvo = new Volvo240();
-        saab = new Saab95();
-    }
+public class TestCar {
+    //private Volvo240 volvo;
+    //private Saab95 saab;
+
+    //@BeforeEach
+     //public void TestCar(){
+     //   volvo = new Volvo240();
+      //  saab = new Saab95();
+   // }
 
     @Test
     public void test_getColor() {
-        assertEquals(Color.black, volvo.getColor());
-    }
+        Car volvo = new Volvo240();
+        assertEquals(Color.black, volvo.getColor());}
 
     @Test
     public void test_getNrDoors(){
+        Car saab = new Saab95();
         assertEquals(2,saab.getNrDoors());
     }
 
     @Test
     public void test_getCurrentSpeed() {
+        Car volvo = new Volvo240();
         assertEquals(1, volvo.getCurrentSpeed());
     }
 
     @Test
+
     public void test_getEnginePower() {
+        Car volvo = new Volvo240();
         assertEquals(100, volvo.getEnginePower());
     }
 
     @Test
     public void test_setColor() {
+        Car volvo = new Volvo240();
         volvo.setColor(Color.CYAN);
         assertEquals(volvo.getColor(), Color.CYAN);
     }
 
     @Test
     public void test_startEngine(){
+        Car volvo = new Volvo240();
         volvo.startEngine();
         assertEquals(0.1, volvo.getCurrentSpeed());
     }
 
     @Test
     public void test_stopEngine(){
+        Car volvo = new Volvo240();
         volvo.startEngine();
         volvo.stopEngine();
         assertEquals(0, volvo.getCurrentSpeed());
     }
 
-    @Test
+   @Test
     public void test_increaseSpeed() {
+        Car volvo = new Volvo240();
         double prev_speed = volvo.getCurrentSpeed();
         volvo.increaseSpeed(0.1);
         assertEquals(prev_speed + volvo.getSpeedFactor() * 0.1, volvo.getCurrentSpeed());
     }
     
-//   @Test
-//   public void test_decreaseSpeed(){
-//       double prev_speed = volvo.getCurrentSpeed();
-//       volvo.decreaseSpeed(0.1);
-//       assertEquals(prev_speed - volvo.getSpeedFactor()*0.1, volvo.getCurrentSpeed());
-//   }
+  @Test
+   public void test_decreaseSpeed(){
+        Car volvo = new Volvo240();
+        double prev_speed = volvo.getCurrentSpeed();
+        volvo.decreaseSpeed(0.1);
+        assertEquals(prev_speed - volvo.getSpeedFactor()*0.1, volvo.getCurrentSpeed());
+   }
+
+   @Test
+   public void test_gas(){
+
+       Car volvo = new Volvo240();
+
+       double prev_speed = volvo.getCurrentSpeed();
+       int amount = 1;
+       volvo.gas(1.1);
+       assertEquals(prev_speed + volvo.getSpeedFactor() * amount, volvo.getCurrentSpeed());
+   }
+
 
     @Test
-    public void test_gas(){
+    public void test_brake(){                                      //The test checks the new value of current speed for the object.
+        Car volvo = new Volvo240();
+        volvo.brake(1.1);
+        assertEquals(volvo.getCurrentSpeed(),0);
+    }
 
     }
 
@@ -83,6 +110,6 @@ public class TestCar {
 
 
 
-}
+
 
 

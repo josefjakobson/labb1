@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f10cac7b-b317-4629-973b-cf0eb4809fa2" name="Changes" comment="" />
+    <list default="true" id="f10cac7b-b317-4629-973b-cf0eb4809fa2" name="Changes" comment="Några tester">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labb1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/labb1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Labb1/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb1/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestCar/TestCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestCar/TestCar.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,9 +26,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="20iuLoCfz0QVyEXjlVH3yrEZRPP" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -47,42 +49,81 @@
       <recent name="C:\Users\jonte\IdeaProjects\labb1\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestCar.test_setColor">
-    <configuration name="TestCar.test_color" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestCar.test_gas">
+    <configuration name="TestCar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="labb1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestCar" />
-      <option name="METHOD_NAME" value="test_color" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCar" />
+      <option name="MAIN_CLASS_NAME" value="TestCar.TestCar" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCar.test_brake" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="labb1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCar" />
+      <option name="MAIN_CLASS_NAME" value="TestCar.TestCar" />
+      <option name="METHOD_NAME" value="test_brake" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCar.test_engine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCar.test_gas" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="labb1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestCar" />
-      <option name="METHOD_NAME" value="test_engine" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCar" />
+      <option name="MAIN_CLASS_NAME" value="TestCar.TestCar" />
+      <option name="METHOD_NAME" value="test_gas" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCar.test_setColor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCar.test_getColor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="labb1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestCar" />
-      <option name="METHOD_NAME" value="test_setColor" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCar" />
+      <option name="MAIN_CLASS_NAME" value="TestCar.TestCar" />
+      <option name="METHOD_NAME" value="test_getColor" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCar.test_speed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCar.test_stopEngine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="labb1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestCar" />
-      <option name="METHOD_NAME" value="test_speed" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCar" />
+      <option name="MAIN_CLASS_NAME" value="TestCar.TestCar" />
+      <option name="METHOD_NAME" value="test_stopEngine" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -90,10 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestCar.test_setColor" />
-        <item itemvalue="JUnit.TestCar.test_engine" />
-        <item itemvalue="JUnit.TestCar.test_speed" />
-        <item itemvalue="JUnit.TestCar.test_color" />
+        <item itemvalue="JUnit.TestCar.test_gas" />
+        <item itemvalue="JUnit.TestCar.test_brake" />
+        <item itemvalue="JUnit.TestCar.test_getColor" />
+        <item itemvalue="JUnit.TestCar" />
+        <item itemvalue="JUnit.TestCar.test_stopEngine" />
       </list>
     </recent_temporary>
   </component>
@@ -107,9 +149,6 @@
       <updated>1636539675955</updated>
     </task>
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -127,7 +166,23 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Laboration1$TestCar_test_engine.ic" NAME="TestCar.test_engine Coverage Results" MODIFIED="1636723289457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Laboration1$TestCar_test_brake.ic" NAME="TestCar.test_brake Coverage Results" MODIFIED="1636981467248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>TestCar.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Laboration1$TestCar_test_increaseSpeed.ic" NAME="TestCar.test_increaseSpeed Coverage Results" MODIFIED="1636978594441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>TestCar.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Laboration1$TestCar_test_stopEngine.ic" NAME="TestCar.test_stopEngine Coverage Results" MODIFIED="1636978949219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>TestCar.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Laboration1$TestCar.ic" NAME="TestCar Coverage Results" MODIFIED="1636979196155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>TestCar.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Laboration1$TestCar_test_getColor.ic" NAME="TestCar.test_getColor Coverage Results" MODIFIED="1636979954600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>TestCar.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/Laboration1$TestCar_test_color.ic" NAME="TestCar.test_color Coverage Results" MODIFIED="1636723023223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Laboration1$TestCar_test_engine.ic" NAME="TestCar.test_engine Coverage Results" MODIFIED="1636723289457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Laboration1$TestCar_test_setColor.ic" NAME="TestCar.test_setColor Coverage Results" MODIFIED="1636724029523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
