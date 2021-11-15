@@ -1,7 +1,7 @@
 package TestSaab95;
 import java.awt.*;
 import Labb1.Saab95;
-import org.junit.Test;
+import org.testng.annotations.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class TestSaab95 {
