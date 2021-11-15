@@ -104,20 +104,7 @@ public class TestCar {
 
     }
 
-    @Test
-    public void test_setTurboOn(){
-        Saab95 saab = new Saab95();
-        saab.setTurboOn();
-        assertTrue(saab.getTurboOn());
-    }
 
-    @Test
-    public void test_setTurboOff(){
-        Saab95 saab = new Saab95();
-        saab.setTurboOff();
-        assertTrue(!saab.getTurboOn());
-
-    }
 
 }
 
