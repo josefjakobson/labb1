@@ -1,5 +1,4 @@
-package TestCar;
-import Labb1.Saab95;
+package TestVolvo;
 import Labb1.Volvo240;
 import org.junit.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;

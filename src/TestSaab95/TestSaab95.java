@@ -1,4 +1,4 @@
-package TestCar;
+package TestSaab95;
 import java.awt.*;
 import Labb1.Saab95;
 import org.junit.Test;

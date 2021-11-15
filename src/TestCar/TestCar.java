@@ -8,17 +8,10 @@ import org.junit.jupiter.api.BeforeEach;
 
 import java.awt.*;
 
+import static java.lang.Math.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class TestCar {
-    //private Volvo240 volvo;
-    //private Saab95 saab;
-
-    //@BeforeEach
-     //public void TestCar(){
-     //   volvo = new Volvo240();
-      //  saab = new Saab95();
-   // }
 
     @Test
     public void test_getColor() {
@@ -34,7 +27,7 @@ public class TestCar {
     @Test
     public void test_getCurrentSpeed() {
         Car volvo = new Volvo240();
-        assertEquals(1, volvo.getCurrentSpeed());
+        assertEquals(0, volvo.getCurrentSpeed());
     }
 
     @Test
@@ -79,7 +72,7 @@ public class TestCar {
         Car volvo = new Volvo240();
         double prev_speed = volvo.getCurrentSpeed();
         volvo.decreaseSpeed(0.1);
-        assertEquals(prev_speed - volvo.getSpeedFactor()*0.1, volvo.getCurrentSpeed());
+      assertEquals(Math.max(prev_speed - volvo.getSpeedFactor() * 0.1,0), volvo.getCurrentSpeed());
    }
 
    @Test
