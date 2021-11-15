@@ -23,27 +23,27 @@ public abstract class Car implements Movable{
         this.direction = "Up";
     }
 
-    protected int getNrDoors() {
+    public int getNrDoors() {
         return nrDoors;
     }
 
-    protected double getEnginePower() {
+    public double getEnginePower() {
         return enginePower;
     }
 
-    protected double getCurrentSpeed() {
+    public double getCurrentSpeed() {
         return currentSpeed;
     }
 
-    protected double[] getCoordinates(){
+    public double[] getCoordinates(){
         return new double[] {positionY, positionX};
     }
 
-    protected Color getColor() {
+    public Color getColor() {
         return color;
     }
 
-    protected void setColor(Color clr) {
+    public void setColor(Color clr) {
         color = clr;
     }
 
@@ -55,7 +55,7 @@ public abstract class Car implements Movable{
         currentSpeed = 0;
     }
 
-    abstract protected double getSpeedFactor();
+    abstract public double getSpeedFactor();
 
     protected void increaseSpeed(double amount){
         currentSpeed = Math.min(getCurrentSpeed()  + getSpeedFactor() * amount,enginePower); // Current speed is set to the lowest of amount and enginePower, making sure currentSpeed never exceeds enginePower
@@ -89,34 +89,22 @@ public abstract class Car implements Movable{
 
     public void move(){
         switch (direction) {
-            case "Up":
-                positionY += currentSpeed;
-                break;
-            case "Down":
-                positionY -= currentSpeed;
-                break;
-            case "Right":
-                positionX += currentSpeed;
-                break;
-            case "Left":
-                positionX -= currentSpeed;
-                break;
-            default:
-                break;
+            case "Up" -> positionY += currentSpeed;
+            case "Down" -> positionY -= currentSpeed;
+            case "Right" -> positionX += currentSpeed;
+            case "Left" -> positionX -= currentSpeed;
+            default -> {
+            }
         }
     }
 
 
     public void turnLeft(){
         switch (direction) {
-            case "Up":
-                direction = "Left";
-            case "Down":
-                direction = "Right";
-            case "Right":
-                direction = "Down";
-            case "Left":
-                direction = "Up";
+            case "Up" -> direction = "Left";
+            case "Down" -> direction = "Right";
+            case "Right" -> direction = "Down";
+            case "Left" -> direction = "Up";
         }
     }
 
@@ -124,14 +112,10 @@ public abstract class Car implements Movable{
     public void turnRight() {
 
         switch (direction) {
-            case "Up":
-                direction = "Right";
-            case "Down":
-                direction = "Left";
-            case "Right":
-                direction = "Down";
-            case "Left":
-                direction = "Up";
+            case "Up" -> direction = "Right";
+            case "Down" -> direction = "Left";
+            case "Right" -> direction = "Down";
+            case "Left" -> direction = "Up";
         }
     }
 }

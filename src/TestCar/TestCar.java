@@ -1,42 +1,47 @@
 package TestCar;
 
 import Labb1.Car;
+import Labb1.Saab95;
+import Labb1.Volvo240;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import java.awt.*;
 
 public class TestCar {
+    private Volvo240 volvo;
+    private Saab95 saab;
 
+    @BeforeEach
+    void init(){
+        volvo = new Volvo240();
+        saab = new Saab95();
+    }
 
     @Test
     public void test_color() {
-        Car Tesla = new Car(4, 50, 1, Color.red, "Tesla");
-        assertEquals(Color.red,Tesla.getColor());
+        assertEquals(Color.black, volvo.getColor());
     }
 
     @Test
     public void test_doors(){
-        Car Tesla = new Car(4, 50, 1, Color.red, "Tesla");
-        assertEquals(4,Tesla.getNrDoors());
+        assertEquals(2,saab.getNrDoors());
     }
 
     @Test
     public void test_speed() {
-        Car Tesla = new Car(4, 50, 1, Color.red, "Tesla");
-        assertEquals(1, Tesla.getCurrentSpeed());
+        assertEquals(1, volvo.getCurrentSpeed());
     }
 
     @Test
     public void test_engine() {
-        Car Tesla = new Car(4, 50, 1, Color.red, "Tesla");
-        assertEquals(50, Tesla.getEnginePower());
+        assertEquals(50, volvo.getEnginePower());
     }
 
     @Test
     public void test_setColor() {
-        Car Tesla = new Car(4, 50, 1, Color.red, "Tesla");
-        Tesla.setColor(Color.CYAN);
-        assertEquals(Tesla.getColor(), Color.CYAN);
+        volvo.setColor(Color.CYAN);
+        assertEquals(volvo.getColor(), Color.CYAN);
     }
 }
 
