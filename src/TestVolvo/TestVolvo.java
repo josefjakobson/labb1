@@ -1,6 +1,7 @@
 package TestVolvo;
+import Labb1.Saab95;
 import Labb1.Volvo240;
-import org.junit.Test;
+import org.testng.annotations.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class TestVolvo {
