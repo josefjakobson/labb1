@@ -21,9 +21,6 @@ public class Main {
 
 
     public void printCoordinates(){
-        bil.increaseSpeed(5);
-        bil.move();
-        System.out.println("Y:"+bil.getCoordinates()[0]+", X:"+bil.getCoordinates()[1]);
     }
 
 }

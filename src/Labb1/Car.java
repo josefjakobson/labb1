@@ -8,9 +8,9 @@ public abstract class Car implements Movable{
     private double currentSpeed; // The current speed of the car
     private Color color; // Color of the car
     private String modelName; // The car model name
-    protected double positionX;
-    protected double positionY;
-    protected String direction;
+    private double positionX;
+    private double positionY;
+    private String direction;
 
     public Car(int nrDoors, double enginePower, double currentSpeed, Color color, String modelName) {
         this.nrDoors = nrDoors;
@@ -36,7 +36,7 @@ public abstract class Car implements Movable{
     }
 
     public double[] getCoordinates(){
-        return new double[] {positionY, positionX};
+        return new double[] {positionX, positionY};
     }
 
     public Color getColor() {
@@ -57,11 +57,11 @@ public abstract class Car implements Movable{
 
     abstract public double getSpeedFactor();
 
-    public void increaseSpeed(double amount){
+    private void increaseSpeed(double amount){
         currentSpeed = Math.min(getCurrentSpeed()  + getSpeedFactor() * amount,enginePower); // Current speed is set to the lowest of amount and enginePower, making sure currentSpeed never exceeds enginePower
     }
 
-    public void decreaseSpeed(double amount){
+    private void decreaseSpeed(double amount){
         currentSpeed = Math.max(getCurrentSpeed() - getSpeedFactor() * amount,0); // Current speed is set to the largest of amount and 0, making sure the speed never falls below zero
     }
 

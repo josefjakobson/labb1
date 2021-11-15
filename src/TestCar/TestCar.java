@@ -9,16 +9,17 @@ import org.junit.jupiter.api.BeforeEach;
 import java.awt.*;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class TestCar {
     //private Volvo240 volvo;
     //private Saab95 saab;
 
-    //@BeforeEach
-     //public void TestCar(){
-     //   volvo = new Volvo240();
-      //  saab = new Saab95();
-   // }
+//    @BeforeEach
+//     public void TestCar(){
+//        Volvo240 volvo = new Volvo240();
+//        Saab95 saab = new Saab95();
+//    }
 
     @Test
     public void test_getColor() {
@@ -34,7 +35,7 @@ public class TestCar {
     @Test
     public void test_getCurrentSpeed() {
         Car volvo = new Volvo240();
-        assertEquals(1, volvo.getCurrentSpeed());
+        assertEquals(0, volvo.getCurrentSpeed());
     }
 
     @Test
@@ -66,21 +67,6 @@ public class TestCar {
         assertEquals(0, volvo.getCurrentSpeed());
     }
 
-   @Test
-    public void test_increaseSpeed() {
-        Car volvo = new Volvo240();
-        double prev_speed = volvo.getCurrentSpeed();
-        volvo.increaseSpeed(0.1);
-        assertEquals(prev_speed + volvo.getSpeedFactor() * 0.1, volvo.getCurrentSpeed());
-    }
-    
-  @Test
-   public void test_decreaseSpeed(){
-        Car volvo = new Volvo240();
-        double prev_speed = volvo.getCurrentSpeed();
-        volvo.decreaseSpeed(0.1);
-        assertEquals(prev_speed - volvo.getSpeedFactor()*0.1, volvo.getCurrentSpeed());
-   }
 
    @Test
    public void test_gas(){
@@ -101,7 +87,31 @@ public class TestCar {
         assertEquals(volvo.getCurrentSpeed(),0);
     }
 
+
+    @Test
+    public void test_move(){
+        Car volvo = new Volvo240();
+        volvo.gas(1);
+        volvo.move();
+        assertEquals(volvo.getCoordinates()[1], 1.25);
     }
+
+    @Test
+    public void test_setTurboOn(){
+        Saab95 saab = new Saab95();
+        saab.setTurboOn();
+        assertTrue(saab.getTurboOn());
+    }
+
+    @Test
+    public void test_setTurboOff(){
+        Saab95 saab = new Saab95();
+        saab.setTurboOff();
+        assertTrue(!saab.getTurboOn());
+
+    }
+
+}
 
 
 

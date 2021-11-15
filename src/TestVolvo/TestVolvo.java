@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class TestVolvo {
     @Test
-    public void test_Speedf(){
+    public void test_SpeedFactor(){
         Volvo240 volvo = new Volvo240();
         assertEquals(volvo.getSpeedFactor(),1.25);
     }

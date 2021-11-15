@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class TestSaab95 {
 
         @Test
-        public void test_Speedf() {
+        public void test_Speedfactor() {
             Saab95 Saab = new Saab95();
             Saab.setTurboOn();
             assertEquals(Saab.getSpeedFactor(), 1.625);
