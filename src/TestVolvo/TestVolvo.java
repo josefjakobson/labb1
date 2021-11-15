@@ -1,4 +1,4 @@
-package TestCar;
+package TestVolvo;
 import Labb1.Saab95;
 import Labb1.Volvo240;
 import org.junit.Test;
