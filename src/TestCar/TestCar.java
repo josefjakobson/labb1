@@ -82,11 +82,26 @@ public class TestCar {
 
 
     @Test
-    public void test_move(){
+    public void test_move() {
         Car volvo = new Volvo240();
         volvo.gas(1);
         volvo.move();
         assertEquals(volvo.getCoordinates()[1], 1.25);
+    }
+
+    @Test
+    public void test_right(){
+        Car volvo = new Volvo240();
+        volvo.turnRight();
+        assertEquals(volvo.getDirection(),"Right");
+    }
+
+    @Test
+    public void test_left(){
+        Volvo240 volvo = new Volvo240();
+        volvo.turnLeft();
+        assertEquals(volvo.getDirection(),"Left");
+
     }
 
     @Test

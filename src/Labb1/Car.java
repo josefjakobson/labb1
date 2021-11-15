@@ -23,6 +23,8 @@ public abstract class Car implements Movable{
         this.direction = "Up";
     }
 
+    public String getDirection(){return direction;}
+
     public int getNrDoors() {
         return nrDoors;
     }

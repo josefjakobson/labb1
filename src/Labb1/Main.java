@@ -1,3 +1,4 @@
+/*
 package Labb1;
 import java.io.IOException;
 
@@ -24,3 +25,4 @@ public class Main {
     }
 
 }
+*/
