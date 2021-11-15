@@ -47,21 +47,21 @@ public abstract class Car implements Movable{
         color = clr;
     }
 
-    protected void startEngine() {
+    public void startEngine() {
         currentSpeed = 0.1;
     }
 
-    protected void stopEngine() {
+    public void stopEngine() {
         currentSpeed = 0;
     }
 
     abstract public double getSpeedFactor();
 
-    protected void increaseSpeed(double amount){
+    public void increaseSpeed(double amount){
         currentSpeed = Math.min(getCurrentSpeed()  + getSpeedFactor() * amount,enginePower); // Current speed is set to the lowest of amount and enginePower, making sure currentSpeed never exceeds enginePower
     }
 
-    protected void decreaseSpeed(double amount){
+    public void decreaseSpeed(double amount){
         currentSpeed = Math.max(getCurrentSpeed() - getSpeedFactor() * amount,0); // Current speed is set to the largest of amount and 0, making sure the speed never falls below zero
     }
 
