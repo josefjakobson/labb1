@@ -1,3 +1,4 @@
+package TestCar;
 
 import Labb1.Car;
 import org.junit.jupiter.api.Test;
