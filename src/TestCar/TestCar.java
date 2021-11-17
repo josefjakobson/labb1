@@ -4,14 +4,8 @@ import Labb1.Car;
 import Labb1.Saab95;
 import Labb1.Volvo240;
 import org.testng.annotations.Test;
-import org.junit.jupiter.api.BeforeEach;
-
 import java.awt.*;
-
-import static java.lang.Math.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.testng.Assert.assertTrue;
-
 public class TestCar {
 
     @Test
