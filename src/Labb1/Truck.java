@@ -18,7 +18,12 @@ public abstract class Truck extends Vehicle{
 
     @Override
     public double getSpeedFactor() {
-        return 0;
+        if (platformAngle == 0) {
+            return getEnginePower() * 0.01;
+        }
+        else{
+            return 0;
+        }
     }
 
     public boolean checkIfMoving(){
