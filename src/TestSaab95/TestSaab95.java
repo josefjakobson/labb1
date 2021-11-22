@@ -8,10 +8,17 @@ import static org.testng.Assert.assertTrue;
 public class TestSaab95 {
 
     @Test
-    public void test_SpeedFactor() {
+    public void test_Speedfactor() {
         Saab95 Saab = new Saab95();
         Saab.setTurboOn();
         assertEquals(Saab.getSpeedFactor(), 1.625);
+        }
+
+        @Test
+        public void test_Speedfactcor_turbooff(){
+            Saab95 Saab = new Saab95();
+            Saab.setTurboOff();
+            assertEquals(Saab.getSpeedFactor(),1.25);
         }
 
     @Test
