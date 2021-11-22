@@ -8,7 +8,7 @@ import static org.testng.Assert.assertTrue;
 public class TestSaab95 {
 
     @Test
-    public void test_Speedfactor() {
+    public void test_SpeedFactor() {
         Saab95 Saab = new Saab95();
         Saab.setTurboOn();
         assertEquals(Saab.getSpeedFactor(), 1.625);
