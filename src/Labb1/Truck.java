@@ -14,6 +14,9 @@ public abstract class Truck extends Vehicle{
         super(nrDoors, enginePower, currentSpeed);
         this.length = length;
         this.modelName = modelName;
+        this.isMoving = false;
+        this.platformAngle = 0;
+
     }
 
     @Override
@@ -26,21 +29,24 @@ public abstract class Truck extends Vehicle{
         }
     }
 
-    public boolean checkIfMoving(){
+    private void UpdateMovement(){
         if (getCurrentSpeed() > 0){isMoving = true;}
         else{isMoving = false;}
+    }
+
+
+    abstract public void LowerPlatform ();
+
+    abstract public void RaisePlatform ();
+
+    public boolean getisMoving(){
+        UpdateMovement();
         return isMoving;
     }
 
+    public double getPlatformAngle(){return platformAngle;}
 
-    public void LowerPlatform (){
-        if (platformAngle < 70){
-            platformAngle += 5;}
-    }
-
-    public void RaisePlatform (){
-        if (platformAngle > 0) {
-            platformAngle -= 5;
-        }
+    public int getLength(){
+        return length;
     }
 }
