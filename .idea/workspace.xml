@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f10cac7b-b317-4629-973b-cf0eb4809fa2" name="Changes" comment="11/22">
-      <change afterPath="$PROJECT_DIR$/src/TestScania/TestScania.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Labb1/Scania.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb1/Scania.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Labb1/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb1/Truck.java" afterDir="false" />
-    </list>
+    <list default="true" id="f10cac7b-b317-4629-973b-cf0eb4809fa2" name="Changes" comment="11/24" />
     <list id="1c936048-b42b-4850-b8d0-890782038313" name="Changes by jonte" comment="">
       <change beforePath="$PROJECT_DIR$/src/Labb1/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb1/Truck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Labb1/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb1/Vehicle.java" afterDir="false" />
@@ -29,22 +24,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/src/Labb1/Truck.java">
-      <ranges>
-        <range start1="4" end1="5" start2="4" end2="5" changelist="1c936048-b42b-4850-b8d0-890782038313" />
-        <range start1="8" end1="9" start2="8" end2="9" changelist="1c936048-b42b-4850-b8d0-890782038313" />
-        <range start1="10" end1="10" start2="10" end2="11" changelist="1c936048-b42b-4850-b8d0-890782038313" />
-        <range start1="16" end1="16" start2="17" end2="20" changelist="f10cac7b-b317-4629-973b-cf0eb4809fa2" />
-        <range start1="21" end1="21" start2="25" end2="26" changelist="1c936048-b42b-4850-b8d0-890782038313" />
-        <range start1="28" end1="29" start2="33" end2="34" changelist="f10cac7b-b317-4629-973b-cf0eb4809fa2" />
-        <range start1="31" end1="32" start2="36" end2="36" changelist="f10cac7b-b317-4629-973b-cf0eb4809fa2" />
-        <range start1="35" end1="39" start2="39" end2="40" changelist="f10cac7b-b317-4629-973b-cf0eb4809fa2" />
-        <range start1="40" end1="44" start2="41" end2="46" changelist="f10cac7b-b317-4629-973b-cf0eb4809fa2" />
-        <range start1="45" end1="45" start2="47" end2="53" changelist="f10cac7b-b317-4629-973b-cf0eb4809fa2" />
-      </ranges>
-    </file>
   </component>
   <component name="ProjectId" id="20iuLoCfz0QVyEXjlVH3yrEZRPP" />
   <component name="ProjectViewState">
@@ -207,7 +186,13 @@
       <option name="presentableId" value="LOCAL−00004" />
       <updated>1636991134088</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL−00005" summary="11/24">
+      <created>1637769740812</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1637769740812</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -225,7 +210,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Några tester" />
-    <option name="LAST_COMMIT_MESSAGE" value="Några tester" />
+    <MESSAGE value="11/24" />
+    <option name="LAST_COMMIT_MESSAGE" value="11/24" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Laboration1$TestScania_test_LowerPlatform_On.ic" NAME="TestScania.test_LowerPlatform_On Coverage Results" MODIFIED="1637757385037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
