@@ -2,23 +2,32 @@ package Labb1;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.List;
 
-public abstract class Workshop {
+public class Workshop<T extends Vehicle> {
     private int maxCapacity;
-    private ArrayList<Vehicle> capacity;
+    private List<T> content;
     private String workshopName;
     private Vehicle specification;
 
-    public Workshop(int maxCapacity, ArrayList capacity, String workshopName, Vehicle specification) {
+    public Workshop(int maxCapacity, String workshopName) {
         this.maxCapacity = maxCapacity;
-        this.capacity = new ArrayList<>(maxCapacity);
         this.workshopName = workshopName;
-        this.specification = specification;
+        this.content = new ArrayList<>(maxCapacity);
+
     }
 
-    public void LoadVehicle() {
-        
+    public void LoadVehicle(T vehicle) {
+        content.add(vehicle);
     }
+
+    public T removeVehicle(){
+        T vehicle = content.remove(0);
+        return vehicle;
+    }
+
+
+
 
 
 }
