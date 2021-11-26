@@ -1,0 +1,298 @@
+Index: src/TestSaab95/TestSaab95.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package TestSaab95;\r\nimport java.awt.*;\r\nimport Labb1.Saab95;\r\nimport org.testng.annotations.Test;\r\nimport static org.junit.jupiter.api.Assertions.assertEquals;\r\nimport static org.testng.Assert.assertTrue;\r\n\r\npublic class TestSaab95 {\r\n\r\n    @Test\r\n    public void test_Speedfactor() {\r\n        Saab95 Saab = new Saab95();\r\n        Saab.setTurboOn();\r\n        assertEquals(Saab.getSpeedFactor(), 1.625);\r\n        }\r\n\r\n    @Test\r\n    public void test_setTurboOn(){\r\n        Saab95 saab = new Saab95();\r\n        saab.setTurboOn();\r\n        assertTrue(saab.getTurboOn());\r\n    }\r\n\r\n    @Test\r\n    public void test_setTurboOff(){\r\n        Saab95 saab = new Saab95();\r\n        saab.setTurboOff();\r\n        assertTrue(!saab.getTurboOn());\r\n\r\n    }\r\n\r\n    @Test\r\n    public void test_getTurboOn(){\r\n        Saab95 saab = new Saab95();\r\n        assertTrue(!saab.getTurboOn());\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/TestSaab95/TestSaab95.java b/src/TestSaab95/TestSaab95.java
+--- a/src/TestSaab95/TestSaab95.java	(revision fee0e7aac76b4e7c564dbca66372c2ef0ecb7c60)
++++ b/src/TestSaab95/TestSaab95.java	(date 1637159523094)
+@@ -7,13 +7,20 @@
+ 
+ public class TestSaab95 {
+ 
+-    @Test
+-    public void test_Speedfactor() {
+-        Saab95 Saab = new Saab95();
+-        Saab.setTurboOn();
+-        assertEquals(Saab.getSpeedFactor(), 1.625);
++        @Test
++        public void test_Speedfactor_turboon() {
++            Saab95 Saab = new Saab95();
++            Saab.setTurboOn();
++            assertEquals(Saab.getSpeedFactor(), 1.625);
+         }
+ 
++        @Test
++        public void test_Speedfactcor_turbooff(){
++            Saab95 Saab = new Saab95();
++            Saab.setTurboOff();
++            assertEquals(Saab.getSpeedFactor(),1.25);
++        }
++
+     @Test
+     public void test_setTurboOn(){
+         Saab95 saab = new Saab95();
+@@ -34,4 +41,6 @@
+         Saab95 saab = new Saab95();
+         assertTrue(!saab.getTurboOn());
+     }
++
++
+ }
+Index: src/Labb1/Scania.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Labb1/Scania.java b/src/Labb1/Scania.java
+new file mode 100644
+--- /dev/null	(date 1637575277417)
++++ b/src/Labb1/Scania.java	(date 1637575277417)
+@@ -0,0 +1,32 @@
++package Labb1;
++
++import java.awt.*;
++
++public class Scania extends Car{
++    private int PlattformAngle = 0;
++
++
++
++    public Scania(){
++        super(2, 125, 0, Color.red, "Scania");
++    };
++
++    public void Lowerplatform{
++        if (PlattformAngle < 70){
++        PlattformAngle += 5;}
++    }
++
++    public void RaisePlatform{
++        if (PlattformAngle > 0){
++            PlattformAngle -= 5;
++        }
++    }
++
++
++
++    @Override
++    public double getSpeedFactor() {
++        return 0;
++    }
++
++}
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"f10cac7b-b317-4629-973b-cf0eb4809fa2\" name=\"Changes\" comment=\"Några tester\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/labb1.iml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/labb1.iml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Labb1/Car.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Labb1/Car.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Labb1/Main.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Labb1/Main.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/TestCar/TestCar.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/TestCar/TestCar.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"20iuLoCfz0QVyEXjlVH3yrEZRPP\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"ASKED_ADD_EXTERNAL_FILES\" value=\"true\" />\r\n    <property name=\"Downloaded.Files.Path.Enabled\" value=\"false\" />\r\n    <property name=\"Repository.Attach.Annotations\" value=\"false\" />\r\n    <property name=\"Repository.Attach.JavaDocs\" value=\"false\" />\r\n    <property name=\"Repository.Attach.Sources\" value=\"false\" />\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\r\n    <property name=\"project.structure.last.edited\" value=\"Modules\" />\r\n    <property name=\"project.structure.proportion\" value=\"0.0\" />\r\n    <property name=\"project.structure.side.proportion\" value=\"0.0\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\jonte\\IdeaProjects\\Laboration1\\src\" />\r\n      <recent name=\"C:\\Users\\jonte\\IdeaProjects\\Laboration1\" />\r\n      <recent name=\"C:\\Users\\jonte\\IdeaProjects\\labb1\\src\\Labb1P\" />\r\n      <recent name=\"C:\\Users\\jonte\\IdeaProjects\\labb1\\src\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"TestNG.TestCar\">\r\n    <configuration name=\"TestCar\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"labb1\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"TestCar.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"TestCar\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"TestCar.TestCar\" />\r\n      <option name=\"TEST_OBJECT\" value=\"class\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"TestCar.test_getCurrentSpeed\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"labb1\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"TestCar.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"TestCar\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"TestCar.TestCar\" />\r\n      <option name=\"METHOD_NAME\" value=\"test_getCurrentSpeed\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"TestCar.test_left\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"labb1\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"TestCar.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"TestCar\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"TestCar.TestCar\" />\r\n      <option name=\"METHOD_NAME\" value=\"test_left\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"TestCar.test_right\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"labb1\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"TestCar.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"TestCar\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"TestCar.TestCar\" />\r\n      <option name=\"METHOD_NAME\" value=\"test_right\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"TestCar\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"labb1\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"TestCar.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"TestCar\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"TestCar.TestCar\" />\r\n      <option name=\"TEST_OBJECT\" value=\"CLASS\" />\r\n      <properties />\r\n      <listeners />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"TestNG.TestCar\" />\r\n        <item itemvalue=\"JUnit.TestCar\" />\r\n        <item itemvalue=\"JUnit.TestCar.test_getCurrentSpeed\" />\r\n        <item itemvalue=\"JUnit.TestCar.test_left\" />\r\n        <item itemvalue=\"JUnit.TestCar.test_right\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"f10cac7b-b317-4629-973b-cf0eb4809fa2\" name=\"Changes\" comment=\"\" />\r\n      <created>1636539675955</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1636539675955</updated>\r\n    </task>\r\n    <task id=\"LOCAL−00001\" summary=\"Några tester\">\r\n      <created>1636981933700</created>\r\n      <option name=\"number\" value=\"LOCAL−00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL−00001\" />\r\n      <updated>1636981933700</updated>\r\n    </task>\r\n    <task id=\"LOCAL−00002\" summary=\"Några tester\">\r\n      <created>1636985399204</created>\r\n      <option name=\"number\" value=\"LOCAL−00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL−00002\" />\r\n      <updated>1636985399204</updated>\r\n    </task>\r\n    <task id=\"LOCAL−00003\" summary=\"Några tester\">\r\n      <created>1636987290937</created>\r\n      <option name=\"number\" value=\"LOCAL−00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL−00003\" />\r\n      <updated>1636987290937</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"4\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <option name=\"ADD_EXTERNAL_FILES_SILENTLY\" value=\"true\" />\r\n    <MESSAGE value=\"Några tester\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Några tester\" />\r\n  </component>\r\n  <component name=\"com.intellij.coverage.CoverageDataManagerImpl\">\r\n    <SUITE FILE_PATH=\"coverage/Laboration1$TestCar_test_gas.ic\" NAME=\"TestCar.test_gas Coverage Results\" MODIFIED=\"1636983008289\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"idea\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\">\r\n      <FILTER>TestCar.*</FILTER>\r\n    </SUITE>\r\n    <SUITE FILE_PATH=\"coverage/Laboration1$TestSaab95.ic\" NAME=\"TestSaab95 Coverage Results\" MODIFIED=\"1636987985293\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"idea\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\">\r\n      <FILTER>TestSaab95.*</FILTER>\r\n    </SUITE>\r\n    <SUITE FILE_PATH=\"coverage/Laboration1$TestCar_test_stopEngine.ic\" NAME=\"TestCar.test_stopEngine Coverage Results\" MODIFIED=\"1636978949219\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"idea\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\">\r\n      <FILTER>TestCar.*</FILTER>\r\n    </SUITE>\r\n    <SUITE FILE_PATH=\"coverage/Laboration1$TestVolvo_test_Speedf.ic\" NAME=\"TestVolvo.test_Speedf Coverage Results\" MODIFIED=\"1636985381991\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"idea\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\">\r\n      <FILTER>TestCar.*</FILTER>\r\n    </SUITE>\r\n    <SUITE FILE_PATH=\"coverage/Laboration1$TestCar_test_increaseSpeed.ic\" NAME=\"TestCar.test_increaseSpeed Coverage Results\" MODIFIED=\"1636987171283\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"idea\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\">\r\n      <FILTER>TestCar.*</FILTER>\r\n    </SUITE>\r\n    <SUITE FILE_PATH=\"coverage/Laboration1$TestCar_test_right.ic\" NAME=\"TestCar.test_right Coverage Results\" MODIFIED=\"1636990223861\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"idea\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\">\r\n      <FILTER>TestCar.*</FILTER>\r\n    </SUITE>\r\n    <SUITE FILE_PATH=\"coverage/Laboration1$TestVolvo.ic\" NAME=\"TestVolvo Coverage Results\" MODIFIED=\"1636986713125\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"idea\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\">\r\n      <FILTER>TestVolvo.*</FILTER>\r\n    </SUITE>\r\n    <SUITE FILE_PATH=\"coverage/Laboration1$TestCar_test_decreaseSpeed.ic\" NAME=\"TestCar.test_decreaseSpeed Coverage Results\" MODIFIED=\"1636987161955\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"idea\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\">\r\n      <FILTER>TestCar.*</FILTER>\r\n    </SUITE>\r\n    <SUITE FILE_PATH=\"coverage/Laboration1$TestSaab95_in_labb1.ic\" NAME=\"TestSaab95 in labb1 Coverage Results\" MODIFIED=\"1636987974579\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"idea\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\">\r\n      <FILTER>TestSaab95.*</FILTER>\r\n    </SUITE>\r\n    <SUITE FILE_PATH=\"coverage/Laboration1$TestCar_test_brake.ic\" NAME=\"TestCar.test_brake Coverage Results\" MODIFIED=\"1636983654307\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"idea\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\">\r\n      <FILTER>TestCar.*</FILTER>\r\n    </SUITE>\r\n    <SUITE FILE_PATH=\"coverage/Laboration1$TestCar_test_left.ic\" NAME=\"TestCar.test_left Coverage Results\" MODIFIED=\"1636990435888\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"idea\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\">\r\n      <FILTER>TestCar.*</FILTER>\r\n    </SUITE>\r\n    <SUITE FILE_PATH=\"coverage/Laboration1$TestSaab95_test_Speedf.ic\" NAME=\"TestSaab95.test_Speedf Coverage Results\" MODIFIED=\"1636983894208\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"idea\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\">\r\n      <FILTER>TestCar.*</FILTER>\r\n    </SUITE>\r\n    <SUITE FILE_PATH=\"coverage/Laboration1$TestCar_in_labb1.ic\" NAME=\"TestCar in labb1 Coverage Results\" MODIFIED=\"1636987403200\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"idea\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\">\r\n      <FILTER>TestCar.*</FILTER>\r\n    </SUITE>\r\n    <SUITE FILE_PATH=\"coverage/Laboration1$TestCar.ic\" NAME=\"TestCar Coverage Results\" MODIFIED=\"1636991067749\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"idea\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\">\r\n      <FILTER>TestCar.*</FILTER>\r\n    </SUITE>\r\n    <SUITE FILE_PATH=\"coverage/Laboration1$TestCar_test_getColor.ic\" NAME=\"TestCar.test_getColor Coverage Results\" MODIFIED=\"1636979954600\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"idea\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\">\r\n      <FILTER>TestCar.*</FILTER>\r\n    </SUITE>\r\n    <SUITE FILE_PATH=\"coverage/Laboration1$TestCar_test_color.ic\" NAME=\"TestCar.test_color Coverage Results\" MODIFIED=\"1636723023223\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"idea\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\" />\r\n    <SUITE FILE_PATH=\"coverage/Laboration1$TestCar_test_engine.ic\" NAME=\"TestCar.test_engine Coverage Results\" MODIFIED=\"1636723289457\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"idea\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\" />\r\n    <SUITE FILE_PATH=\"coverage/Laboration1$TestCar_test_setColor.ic\" NAME=\"TestCar.test_setColor Coverage Results\" MODIFIED=\"1636724029523\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"idea\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\" />\r\n    <SUITE FILE_PATH=\"coverage/Laboration1$TestCar_test_getNrDoors.ic\" NAME=\"TestCar.test_getNrDoors Coverage Results\" MODIFIED=\"1636987433478\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"idea\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\">\r\n      <FILTER>TestCar.*</FILTER>\r\n    </SUITE>\r\n    <SUITE FILE_PATH=\"coverage/Laboration1$TestCar_test_getCurrentSpeed.ic\" NAME=\"TestCar.test_getCurrentSpeed Coverage Results\" MODIFIED=\"1636990568146\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"idea\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\">\r\n      <FILTER>TestCar.*</FILTER>\r\n    </SUITE>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision fee0e7aac76b4e7c564dbca66372c2ef0ecb7c60)
++++ b/.idea/workspace.xml	(date 1637573579851)
+@@ -5,11 +5,9 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="f10cac7b-b317-4629-973b-cf0eb4809fa2" name="Changes" comment="Några tester">
++      <change afterPath="$PROJECT_DIR$/src/Labb1/Scania.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/labb1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/labb1.iml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Labb1/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb1/Car.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Labb1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb1/Main.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/TestCar/TestCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestCar/TestCar.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/TestSaab95/TestSaab95.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestSaab95/TestSaab95.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -52,80 +50,88 @@
+       <recent name="C:\Users\jonte\IdeaProjects\labb1\src" />
+     </key>
+   </component>
+-  <component name="RunManager" selected="TestNG.TestCar">
+-    <configuration name="TestCar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++  <component name="RunManager" selected="TestNG.TestSaab95">
++    <configuration name="TestSaab95" type="TestNG" temporary="true" nameIsGenerated="true">
+       <module name="labb1" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="TestCar.*" />
++          <option name="PATTERN" value="TestSaab95.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+-      <option name="PACKAGE_NAME" value="TestCar" />
+-      <option name="MAIN_CLASS_NAME" value="TestCar.TestCar" />
+-      <option name="TEST_OBJECT" value="class" />
++      <option name="PACKAGE_NAME" value="TestSaab95" />
++      <option name="MAIN_CLASS_NAME" value="TestSaab95.TestSaab95" />
++      <option name="TEST_OBJECT" value="CLASS" />
++      <properties />
++      <listeners />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="TestCar.test_getCurrentSpeed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++    <configuration name="TestSaab95.test_Speedfactcor_turbooff (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+       <module name="labb1" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="TestCar.*" />
++          <option name="PATTERN" value="TestSaab95.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+-      <option name="PACKAGE_NAME" value="TestCar" />
+-      <option name="MAIN_CLASS_NAME" value="TestCar.TestCar" />
+-      <option name="METHOD_NAME" value="test_getCurrentSpeed" />
+-      <option name="TEST_OBJECT" value="method" />
++      <option name="PACKAGE_NAME" value="TestSaab95" />
++      <option name="MAIN_CLASS_NAME" value="TestSaab95.TestSaab95" />
++      <option name="METHOD_NAME" value="test_Speedfactcor_turbooff" />
++      <option name="TEST_OBJECT" value="METHOD" />
++      <properties />
++      <listeners />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="TestCar.test_left" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++    <configuration name="TestSaab95.test_Speedfactcor_turbooff" type="TestNG" temporary="true" nameIsGenerated="true">
+       <module name="labb1" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="TestCar.*" />
++          <option name="PATTERN" value="TestSaab95.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+-      <option name="PACKAGE_NAME" value="TestCar" />
+-      <option name="MAIN_CLASS_NAME" value="TestCar.TestCar" />
+-      <option name="METHOD_NAME" value="test_left" />
+-      <option name="TEST_OBJECT" value="method" />
++      <option name="PACKAGE_NAME" value="TestSaab95" />
++      <option name="MAIN_CLASS_NAME" value="TestSaab95.TestSaab95" />
++      <option name="METHOD_NAME" value="test_Speedfactcor_turbooff" />
++      <option name="TEST_OBJECT" value="METHOD" />
++      <properties />
++      <listeners />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="TestCar.test_right" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++    <configuration name="TestSaab95.test_Speedfactor_turboon" type="TestNG" temporary="true" nameIsGenerated="true">
+       <module name="labb1" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="TestCar.*" />
++          <option name="PATTERN" value="TestSaab95.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+-      <option name="PACKAGE_NAME" value="TestCar" />
+-      <option name="MAIN_CLASS_NAME" value="TestCar.TestCar" />
+-      <option name="METHOD_NAME" value="test_right" />
+-      <option name="TEST_OBJECT" value="method" />
++      <option name="PACKAGE_NAME" value="TestSaab95" />
++      <option name="MAIN_CLASS_NAME" value="TestSaab95.TestSaab95" />
++      <option name="METHOD_NAME" value="test_Speedfactor_turboon" />
++      <option name="TEST_OBJECT" value="METHOD" />
++      <properties />
++      <listeners />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="TestCar" type="TestNG" temporary="true" nameIsGenerated="true">
++    <configuration name="TestVolvo" type="TestNG" temporary="true" nameIsGenerated="true">
+       <module name="labb1" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="TestCar.*" />
++          <option name="PATTERN" value="TestVolvo.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+-      <option name="PACKAGE_NAME" value="TestCar" />
+-      <option name="MAIN_CLASS_NAME" value="TestCar.TestCar" />
++      <option name="PACKAGE_NAME" value="TestVolvo" />
++      <option name="MAIN_CLASS_NAME" value="TestVolvo.TestVolvo" />
+       <option name="TEST_OBJECT" value="CLASS" />
+       <properties />
+       <listeners />
+@@ -135,11 +141,11 @@
+     </configuration>
+     <recent_temporary>
+       <list>
+-        <item itemvalue="TestNG.TestCar" />
+-        <item itemvalue="JUnit.TestCar" />
+-        <item itemvalue="JUnit.TestCar.test_getCurrentSpeed" />
+-        <item itemvalue="JUnit.TestCar.test_left" />
+-        <item itemvalue="JUnit.TestCar.test_right" />
++        <item itemvalue="TestNG.TestSaab95" />
++        <item itemvalue="TestNG.TestSaab95.test_Speedfactor_turboon" />
++        <item itemvalue="TestNG.TestSaab95.test_Speedfactcor_turbooff (1)" />
++        <item itemvalue="TestNG.TestSaab95.test_Speedfactcor_turbooff" />
++        <item itemvalue="TestNG.TestVolvo" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -170,7 +176,13 @@
+       <option name="presentableId" value="LOCAL−00003" />
+       <updated>1636987290937</updated>
+     </task>
+-    <option name="localTasksCounter" value="4" />
++    <task id="LOCAL−00004" summary="Några tester">
++      <created>1636991134088</created>
++      <option name="number" value="LOCAL−00004" />
++      <option name="presentableId" value="LOCAL−00004" />
++      <updated>1636991134088</updated>
++    </task>
++    <option name="localTasksCounter" value="5" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -194,7 +206,7 @@
+     <SUITE FILE_PATH="coverage/Laboration1$TestCar_test_gas.ic" NAME="TestCar.test_gas Coverage Results" MODIFIED="1636983008289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+       <FILTER>TestCar.*</FILTER>
+     </SUITE>
+-    <SUITE FILE_PATH="coverage/Laboration1$TestSaab95.ic" NAME="TestSaab95 Coverage Results" MODIFIED="1636987985293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
++    <SUITE FILE_PATH="coverage/Laboration1$TestSaab95.ic" NAME="TestSaab95 Coverage Results" MODIFIED="1637159639680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+       <FILTER>TestSaab95.*</FILTER>
+     </SUITE>
+     <SUITE FILE_PATH="coverage/Laboration1$TestCar_test_stopEngine.ic" NAME="TestCar.test_stopEngine Coverage Results" MODIFIED="1636978949219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+@@ -209,7 +221,10 @@
+     <SUITE FILE_PATH="coverage/Laboration1$TestCar_test_right.ic" NAME="TestCar.test_right Coverage Results" MODIFIED="1636990223861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+       <FILTER>TestCar.*</FILTER>
+     </SUITE>
+-    <SUITE FILE_PATH="coverage/Laboration1$TestVolvo.ic" NAME="TestVolvo Coverage Results" MODIFIED="1636986713125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
++    <SUITE FILE_PATH="coverage/Laboration1$TestSaab95_test_Speedfactcor_turbooff.ic" NAME="TestSaab95.test_Speedfactcor_turbooff Coverage Results" MODIFIED="1637159441284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
++      <FILTER>TestSaab95.*</FILTER>
++    </SUITE>
++    <SUITE FILE_PATH="coverage/Laboration1$TestVolvo.ic" NAME="TestVolvo Coverage Results" MODIFIED="1637158726305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+       <FILTER>TestVolvo.*</FILTER>
+     </SUITE>
+     <SUITE FILE_PATH="coverage/Laboration1$TestCar_test_decreaseSpeed.ic" NAME="TestCar.test_decreaseSpeed Coverage Results" MODIFIED="1636987161955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+@@ -230,11 +245,17 @@
+     <SUITE FILE_PATH="coverage/Laboration1$TestCar_in_labb1.ic" NAME="TestCar in labb1 Coverage Results" MODIFIED="1636987403200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+       <FILTER>TestCar.*</FILTER>
+     </SUITE>
+-    <SUITE FILE_PATH="coverage/Laboration1$TestCar.ic" NAME="TestCar Coverage Results" MODIFIED="1636991067749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
++    <SUITE FILE_PATH="coverage/Laboration1$TestSaab95_test_Speedfactor_turboon.ic" NAME="TestSaab95.test_Speedfactor_turboon Coverage Results" MODIFIED="1637159556071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
++      <FILTER>TestSaab95.*</FILTER>
++    </SUITE>
++    <SUITE FILE_PATH="coverage/Laboration1$TestCar.ic" NAME="TestCar Coverage Results" MODIFIED="1637158708234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+       <FILTER>TestCar.*</FILTER>
+     </SUITE>
+     <SUITE FILE_PATH="coverage/Laboration1$TestCar_test_getColor.ic" NAME="TestCar.test_getColor Coverage Results" MODIFIED="1636979954600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+       <FILTER>TestCar.*</FILTER>
++    </SUITE>
++    <SUITE FILE_PATH="coverage/Laboration1$TestSaab95_test_Speedfactcor_turbooff__1_.ic" NAME="TestSaab95.test_Speedfactcor_turbooff (1) Coverage Results" MODIFIED="1637159456916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
++      <FILTER>TestSaab95.*</FILTER>
+     </SUITE>
+     <SUITE FILE_PATH="coverage/Laboration1$TestCar_test_color.ic" NAME="TestCar.test_color Coverage Results" MODIFIED="1636723023223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+     <SUITE FILE_PATH="coverage/Laboration1$TestCar_test_engine.ic" NAME="TestCar.test_engine Coverage Results" MODIFIED="1636723289457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

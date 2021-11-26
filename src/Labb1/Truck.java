@@ -2,12 +2,13 @@ package Labb1;
 
 import java.awt.*;
 
-public abstract class Truck extends Vehicle{
+public abstract class Truck extends Vehicle implements Platform{
 
     private int length;
     private String modelName;
-    private double platformAngle;
+    protected double platformAngle;
     private boolean isMoving;
+
 
 
     public Truck(int nrDoors, double enginePower, double currentSpeed, int length, String modelName) {
@@ -22,6 +23,7 @@ public abstract class Truck extends Vehicle{
     @Override
     public double getSpeedFactor() {
         if (platformAngle == 0) {
+            isMoving = true;
             return getEnginePower() * 0.01;
         }
         else{

@@ -35,6 +35,22 @@ public abstract class Vehicle implements Movable{
         return new double[] {positionX, positionY};
     }
 
+    public double getPositionX(){
+        return positionX;
+    }
+
+    public double getPositionY(){
+        return positionY;
+    }
+
+    public void setPositionX(double xPos) {
+        this.positionX = xPos;
+    }
+
+    public void setPositionY(double yPos) {
+        this.positionY = yPos;
+    }
+
     public void startEngine() {
         currentSpeed = 0.1;
     }
@@ -75,6 +91,10 @@ public abstract class Vehicle implements Movable{
         decreaseSpeed(amount);
     }
 
+    public void moveCall() {
+        move();
+    }
+
     public void move(){
         switch (direction) {
             case "Up" -> positionY += currentSpeed;
@@ -106,5 +126,11 @@ public abstract class Vehicle implements Movable{
             case "Left" -> direction = "Up";
         }
     }
+
+    protected double getDistanceBetweenPoints(double[] coordinates1, double[] coordinates2) {
+
+        return Math.abs(Math.sqrt(coordinates1[0] - coordinates2[0])+(coordinates1[1]-coordinates2[2]));
+    }
+
 
 }
