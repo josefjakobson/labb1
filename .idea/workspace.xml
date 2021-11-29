@@ -5,13 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f10cac7b-b317-4629-973b-cf0eb4809fa2" name="Changes" comment="11/24">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-11-22_11_01_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-11-22_11_01__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-11-22_11_16_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-11-22_11_16__Changes_.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestWorkshop/TestWorkshop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/labb1/Labb1/Scania.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labb1/Labb1/Scania.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/labb1/Labb1/Truck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labb1/Labb1/Truck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/labb1/Labb1/Vehicle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labb1/Labb1/Vehicle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/labb1/TestScania/TestScania.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labb1/TestScania/TestScania.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/labb1/TestVolvo/TestVolvo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labb1/TestVolvo/TestVolvo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Labb1/Workshop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb1/Workshop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestVolvo/TestVolvo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestVolvo/TestVolvo.java" afterDir="false" />
     </list>
-    <list id="1c936048-b42b-4850-b8d0-890782038313" name="Changes by jonte" comment="" />
+    <list id="d7e83fc0-06b6-4c68-bea5-cee87bd77fd2" name="Changes by jewishnazi" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Labb1/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb1/Vehicle.java" afterDir="false" />
+    </list>
+    <list id="fd67ec6a-dcaf-4493-8dbe-6eb76120f900" name="Changes by jonte" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Labb1/CarTransport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb1/CarTransport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Labb1/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb1/Vehicle.java" afterDir="false" />
+    </list>
+    <list id="b0d3be97-eae6-401f-9fe5-52b7cf566fbb" name="Changes by Josef" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Labb1/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb1/Vehicle.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +41,37 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/src/Labb1/Vehicle.java">
+      <ranges>
+        <range start1="1" end1="1" start2="1" end2="12" changelist="d7e83fc0-06b6-4c68-bea5-cee87bd77fd2" />
+        <range start1="10" end1="10" start2="21" end2="27" changelist="d7e83fc0-06b6-4c68-bea5-cee87bd77fd2" />
+        <range start1="19" end1="19" start2="36" end2="41" changelist="d7e83fc0-06b6-4c68-bea5-cee87bd77fd2" />
+        <range start1="21" end1="21" start2="43" end2="48" changelist="d7e83fc0-06b6-4c68-bea5-cee87bd77fd2" />
+        <range start1="25" end1="25" start2="52" end2="57" changelist="d7e83fc0-06b6-4c68-bea5-cee87bd77fd2" />
+        <range start1="29" end1="29" start2="61" end2="66" changelist="d7e83fc0-06b6-4c68-bea5-cee87bd77fd2" />
+        <range start1="33" end1="33" start2="70" end2="75" changelist="d7e83fc0-06b6-4c68-bea5-cee87bd77fd2" />
+        <range start1="37" end1="37" start2="79" end2="84" changelist="d7e83fc0-06b6-4c68-bea5-cee87bd77fd2" />
+        <range start1="41" end1="41" start2="88" end2="93" changelist="d7e83fc0-06b6-4c68-bea5-cee87bd77fd2" />
+        <range start1="45" end1="45" start2="97" end2="102" changelist="d7e83fc0-06b6-4c68-bea5-cee87bd77fd2" />
+        <range start1="49" end1="49" start2="106" end2="111" changelist="d7e83fc0-06b6-4c68-bea5-cee87bd77fd2" />
+        <range start1="53" end1="53" start2="115" end2="119" changelist="d7e83fc0-06b6-4c68-bea5-cee87bd77fd2" />
+        <range start1="57" end1="57" start2="123" end2="127" changelist="d7e83fc0-06b6-4c68-bea5-cee87bd77fd2" />
+        <range start1="61" end1="61" start2="131" end2="135" changelist="d7e83fc0-06b6-4c68-bea5-cee87bd77fd2" />
+        <range start1="63" end1="63" start2="137" end2="139" changelist="d7e83fc0-06b6-4c68-bea5-cee87bd77fd2" />
+        <range start1="67" end1="67" start2="143" end2="144" changelist="b0d3be97-eae6-401f-9fe5-52b7cf566fbb" />
+        <range start1="71" end1="71" start2="148" end2="155" changelist="b0d3be97-eae6-401f-9fe5-52b7cf566fbb" />
+        <range start1="82" end1="82" start2="166" end2="173" changelist="b0d3be97-eae6-401f-9fe5-52b7cf566fbb" />
+        <range start1="93" end1="93" start2="184" end2="187" changelist="b0d3be97-eae6-401f-9fe5-52b7cf566fbb" />
+        <range start1="109" end1="109" start2="203" end2="206" changelist="b0d3be97-eae6-401f-9fe5-52b7cf566fbb" />
+        <range start1="119" end1="119" start2="216" end2="219" changelist="b0d3be97-eae6-401f-9fe5-52b7cf566fbb" />
+        <range start1="120" end1="121" start2="220" end2="220" changelist="b0d3be97-eae6-401f-9fe5-52b7cf566fbb" />
+        <range start1="129" end1="129" start2="228" end2="235" changelist="b0d3be97-eae6-401f-9fe5-52b7cf566fbb" />
+        <range start1="131" end1="132" start2="237" end2="239" changelist="fd67ec6a-dcaf-4493-8dbe-6eb76120f900" />
+        <range start1="133" end1="133" start2="240" end2="242" changelist="fd67ec6a-dcaf-4493-8dbe-6eb76120f900" />
+      </ranges>
+    </file>
+  </component>
   <component name="ProjectId" id="20iuLoCfz0QVyEXjlVH3yrEZRPP" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -42,7 +86,6 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="codeWithMe.voiceChat.enabledByDefault" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -56,18 +99,18 @@
       <recent name="C:\Users\jonte\IdeaProjects\labb1\src" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestScania.test_RaisePlatform_TooHigh (1)">
-    <configuration name="TestScania.test_LowerPlatform_On (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TestCarTransport.test_load_car">
+    <configuration name="TestCarTransport.test_load_availability_if_angle_is_70_and_within_distance" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="labb1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TestScania.*" />
+          <option name="PATTERN" value="TestCarTransport.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="TestScania" />
-      <option name="MAIN_CLASS_NAME" value="TestScania.TestScania" />
-      <option name="METHOD_NAME" value="test_LowerPlatform_On" />
+      <option name="PACKAGE_NAME" value="TestCarTransport" />
+      <option name="MAIN_CLASS_NAME" value="TestCarTransport.TestCarTransport" />
+      <option name="METHOD_NAME" value="test_load_availability_if_angle_is_70_and_within_distance" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -75,17 +118,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestScania.test_LowerPlatform_On (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCarTransport.test_load_car" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="labb1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TestScania.*" />
+          <option name="PATTERN" value="TestCarTransport.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="TestScania" />
-      <option name="MAIN_CLASS_NAME" value="TestScania.TestScania" />
-      <option name="METHOD_NAME" value="test_LowerPlatform_On" />
+      <option name="PACKAGE_NAME" value="TestCarTransport" />
+      <option name="MAIN_CLASS_NAME" value="TestCarTransport.TestCarTransport" />
+      <option name="METHOD_NAME" value="test_load_car" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -93,17 +136,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestScania.test_LowerPlatform_On" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestWorkshop.test_LoadVehicle_Content (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="labb1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TestScania.*" />
+          <option name="PATTERN" value="TestWorkshop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="TestScania" />
-      <option name="MAIN_CLASS_NAME" value="TestScania.TestScania" />
-      <option name="METHOD_NAME" value="test_LowerPlatform_On" />
+      <option name="PACKAGE_NAME" value="TestWorkshop" />
+      <option name="MAIN_CLASS_NAME" value="TestWorkshop.TestWorkshop" />
+      <option name="METHOD_NAME" value="test_LoadVehicle_Content" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -111,17 +154,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestScania.test_RaisePlatform_TooHigh (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestWorkshop.test_LoadVehicle_Length (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="labb1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TestScania.*" />
+          <option name="PATTERN" value="TestWorkshop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="TestScania" />
-      <option name="MAIN_CLASS_NAME" value="TestScania.TestScania" />
-      <option name="METHOD_NAME" value="test_RaisePlatform_TooHigh" />
+      <option name="PACKAGE_NAME" value="TestWorkshop" />
+      <option name="MAIN_CLASS_NAME" value="TestWorkshop.TestWorkshop" />
+      <option name="METHOD_NAME" value="test_LoadVehicle_Length" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -129,17 +172,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestScania.test_RaisePlatform_TooHigh" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestWorkshop.test_LoadVehicle_Length" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="labb1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TestScania.*" />
+          <option name="PATTERN" value="TestWorkshop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="TestScania" />
-      <option name="MAIN_CLASS_NAME" value="TestScania.TestScania" />
-      <option name="METHOD_NAME" value="test_RaisePlatform_TooHigh" />
+      <option name="PACKAGE_NAME" value="TestWorkshop" />
+      <option name="MAIN_CLASS_NAME" value="TestWorkshop.TestWorkshop" />
+      <option name="METHOD_NAME" value="test_LoadVehicle_Length" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -149,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestScania.test_RaisePlatform_TooHigh (1)" />
-        <item itemvalue="TestNG.TestScania.test_RaisePlatform_TooHigh" />
-        <item itemvalue="TestNG.TestScania.test_LowerPlatform_On" />
-        <item itemvalue="TestNG.TestScania.test_LowerPlatform_On (2)" />
-        <item itemvalue="TestNG.TestScania.test_LowerPlatform_On (1)" />
+        <item itemvalue="TestNG.TestCarTransport.test_load_car" />
+        <item itemvalue="TestNG.TestCarTransport.test_load_availability_if_angle_is_70_and_within_distance" />
+        <item itemvalue="TestNG.TestWorkshop.test_LoadVehicle_Length (1)" />
+        <item itemvalue="TestNG.TestWorkshop.test_LoadVehicle_Length" />
+        <item itemvalue="TestNG.TestWorkshop.test_LoadVehicle_Content (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -235,59 +278,37 @@
     <MESSAGE value="11/26" />
     <option name="LAST_COMMIT_MESSAGE" value="11/26" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Labb1/Workshop.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Laboration1$TestSaab95_test_Speedfactor_turboon.ic" NAME="TestSaab95.test_Speedfactor_turboon Coverage Results" MODIFIED="1637159556071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>TestSaab95.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/Laboration1$TestCar_test_engine.ic" NAME="TestCar.test_engine Coverage Results" MODIFIED="1636723289457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Laboration1$TestCar_test_decreaseSpeed.ic" NAME="TestCar.test_decreaseSpeed Coverage Results" MODIFIED="1636987161955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>TestCar.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/Laboration1$TestVolvo_test_Speedf.ic" NAME="TestVolvo.test_Speedf Coverage Results" MODIFIED="1636985381991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>TestCar.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/Laboration1$TestScania_test_LowerPlatform_TooLow.ic" NAME="TestScania.test_LowerPlatform_TooLow Coverage Results" MODIFIED="1637756354731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>TestScania.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/Laboration1$TestScania_test_isMoving_gas__1_.ic" NAME="TestScania.test_isMoving_gas (1) Coverage Results" MODIFIED="1637755565537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>TestScania.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/Laboration1$TestCar.ic" NAME="TestCar Coverage Results" MODIFIED="1637158708234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>TestCar.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/Laboration1$TestScania_test_LowerPlatform_On.ic" NAME="TestScania.test_LowerPlatform_On Coverage Results" MODIFIED="1637757385037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>TestScania.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Laboration1$TestScania_test_LowerPlatform_On__2_.ic" NAME="TestScania.test_LowerPlatform_On (2) Coverage Results" MODIFIED="1637757317360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>TestScania.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/Laboration1$TestSaab95_test_Speedf.ic" NAME="TestSaab95.test_Speedf Coverage Results" MODIFIED="1636983894208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>TestCar.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/Laboration1$TestVolvo.ic" NAME="TestVolvo Coverage Results" MODIFIED="1637158726305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>TestVolvo.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/Laboration1$TestCar_test_setColor.ic" NAME="TestCar.test_setColor Coverage Results" MODIFIED="1636724029523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Laboration1$TestCar_test_gas.ic" NAME="TestCar.test_gas Coverage Results" MODIFIED="1636983008289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>TestCar.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Laboration1$TestCar_test_color.ic" NAME="TestCar.test_color Coverage Results" MODIFIED="1636723023223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Laboration1$TestSaab95_in_labb1.ic" NAME="TestSaab95 in labb1 Coverage Results" MODIFIED="1636987974579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Laboration1$TestScania.ic" NAME="TestScania Coverage Results" MODIFIED="1637755776899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>TestScania.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Laboration1$TestSaab95.ic" NAME="TestSaab95 Coverage Results" MODIFIED="1637159639680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>TestSaab95.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Laboration1$TestCar_test_brake.ic" NAME="TestCar.test_brake Coverage Results" MODIFIED="1636983654307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>TestCar.*</FILTER>
+    <SUITE FILE_PATH="coverage/Laboration1$TestScania_test_isMoving_gas.ic" NAME="TestScania.test_isMoving_gas Coverage Results" MODIFIED="1637755453495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>TestScania.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Laboration1$TestCar_test_getNrDoors.ic" NAME="TestCar.test_getNrDoors Coverage Results" MODIFIED="1636987433478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>TestCar.*</FILTER>
+    <SUITE FILE_PATH="coverage/Laboration1$TestWorkshop_test_LoadVehicle.ic" NAME="TestWorkshop.test_LoadVehicle Coverage Results" MODIFIED="1638198089957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>TestWorkshop.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Laboration1$TestSaab95_test_Speedfactcor_turbooff__1_.ic" NAME="TestSaab95.test_Speedfactcor_turbooff (1) Coverage Results" MODIFIED="1637159456916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>TestSaab95.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/Laboration1$TestCar_test_left.ic" NAME="TestCar.test_left Coverage Results" MODIFIED="1636990435888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>TestCar.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/Laboration1$TestCar_test_stopEngine.ic" NAME="TestCar.test_stopEngine Coverage Results" MODIFIED="1636978949219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Laboration1$TestCar_test_increaseSpeed.ic" NAME="TestCar.test_increaseSpeed Coverage Results" MODIFIED="1636987171283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>TestCar.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/Laboration1$TestCar_test_right.ic" NAME="TestCar.test_right Coverage Results" MODIFIED="1636990223861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -296,38 +317,77 @@
     <SUITE FILE_PATH="coverage/Laboration1$TestScania_test_LowerPlatform_On__1_.ic" NAME="TestScania.test_LowerPlatform_On (1) Coverage Results" MODIFIED="1637757160396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>TestScania.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Laboration1$TestCar_test_getColor.ic" NAME="TestCar.test_getColor Coverage Results" MODIFIED="1636979954600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>TestCar.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/Laboration1$TestScania.ic" NAME="TestScania Coverage Results" MODIFIED="1637755776899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Laboration1$TestScania_test_LowerPlatform_On__2_.ic" NAME="TestScania.test_LowerPlatform_On (2) Coverage Results" MODIFIED="1637757317360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>TestScania.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Laboration1$TestCar_in_labb1.ic" NAME="TestCar in labb1 Coverage Results" MODIFIED="1636987403200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Laboration1$TestSaab95_test_Speedfactcor_turbooff.ic" NAME="TestSaab95.test_Speedfactcor_turbooff Coverage Results" MODIFIED="1637159441284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>TestSaab95.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Laboration1$TestCar_test_decreaseSpeed.ic" NAME="TestCar.test_decreaseSpeed Coverage Results" MODIFIED="1636987161955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>TestCar.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Laboration1$TestCar_test_getCurrentSpeed.ic" NAME="TestCar.test_getCurrentSpeed Coverage Results" MODIFIED="1636990568146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Laboration1$TestCar_test_brake.ic" NAME="TestCar.test_brake Coverage Results" MODIFIED="1636983654307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>TestCar.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Laboration1$TestCar_test_increaseSpeed.ic" NAME="TestCar.test_increaseSpeed Coverage Results" MODIFIED="1636987171283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Laboration1$TestCar_test_left.ic" NAME="TestCar.test_left Coverage Results" MODIFIED="1636990435888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>TestCar.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Laboration1$TestSaab95_test_Speedf.ic" NAME="TestSaab95.test_Speedf Coverage Results" MODIFIED="1636983894208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>TestCar.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Laboration1$TestScania_test_LowerPlatform_TooLow.ic" NAME="TestScania.test_LowerPlatform_TooLow Coverage Results" MODIFIED="1637756354731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>TestScania.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Laboration1$TestScania_test_isMoving_gas__1_.ic" NAME="TestScania.test_isMoving_gas (1) Coverage Results" MODIFIED="1637755565537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>TestScania.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Laboration1$TestSaab95_test_Speedfactcor_turbooff__1_.ic" NAME="TestSaab95.test_Speedfactcor_turbooff (1) Coverage Results" MODIFIED="1637159456916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>TestSaab95.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Laboration1$TestCar_test_color.ic" NAME="TestCar.test_color Coverage Results" MODIFIED="1636723023223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Laboration1$TestCar_test_engine.ic" NAME="TestCar.test_engine Coverage Results" MODIFIED="1636723289457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Laboration1$TestCar_test_getNrDoors.ic" NAME="TestCar.test_getNrDoors Coverage Results" MODIFIED="1636987433478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>TestCar.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Laboration1$TestCar_test_stopEngine.ic" NAME="TestCar.test_stopEngine Coverage Results" MODIFIED="1636978949219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>TestCar.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Laboration1$TestVolvo_test_Speedf.ic" NAME="TestVolvo.test_Speedf Coverage Results" MODIFIED="1636985381991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>TestCar.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/Laboration1$TestScania_test_isMoving_gas__3_.ic" NAME="TestScania.test_isMoving_gas (3) Coverage Results" MODIFIED="1637755720716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>TestScania.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Laboration1$TestSaab95.ic" NAME="TestSaab95 Coverage Results" MODIFIED="1637159639680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Laboration1$TestScania_test_isMoving_gas__2_.ic" NAME="TestScania.test_isMoving_gas (2) Coverage Results" MODIFIED="1637755640279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>TestScania.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Laboration1$TestVolvo.ic" NAME="TestVolvo Coverage Results" MODIFIED="1637158726305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>TestVolvo.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Laboration1$TestSaab95_in_labb1.ic" NAME="TestSaab95 in labb1 Coverage Results" MODIFIED="1636987974579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>TestSaab95.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Laboration1$TestSaab95_test_Speedfactcor_turbooff.ic" NAME="TestSaab95.test_Speedfactcor_turbooff Coverage Results" MODIFIED="1637159441284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Laboration1$TestWorkshop_test_LoadVehicle_Max.ic" NAME="TestWorkshop.test_LoadVehicle_Max Coverage Results" MODIFIED="1638199133922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>TestWorkshop.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Laboration1$TestCar_in_labb1.ic" NAME="TestCar in labb1 Coverage Results" MODIFIED="1636987403200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>TestCar.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Laboration1$TestSaab95_test_Speedfactor_turboon.ic" NAME="TestSaab95.test_Speedfactor_turboon Coverage Results" MODIFIED="1637159556071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>TestSaab95.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Laboration1$TestCar.ic" NAME="TestCar Coverage Results" MODIFIED="1637158708234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>TestCar.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Laboration1$TestCar_test_getColor.ic" NAME="TestCar.test_getColor Coverage Results" MODIFIED="1636979954600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>TestCar.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/Laboration1$TestScania_test_RaisePlatform_TooHigh__1_.ic" NAME="TestScania.test_RaisePlatform_TooHigh (1) Coverage Results" MODIFIED="1637757602736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>TestScania.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Laboration1$TestScania_test_isMoving_gas__2_.ic" NAME="TestScania.test_isMoving_gas (2) Coverage Results" MODIFIED="1637755640279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>TestScania.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/Laboration1$TestScania_test_isMoving_gas.ic" NAME="TestScania.test_isMoving_gas Coverage Results" MODIFIED="1637755453495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>TestScania.*</FILTER>
+    <SUITE FILE_PATH="coverage/Laboration1$TestCar_test_setColor.ic" NAME="TestCar.test_setColor Coverage Results" MODIFIED="1636724029523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Laboration1$TestCar_test_getCurrentSpeed.ic" NAME="TestCar.test_getCurrentSpeed Coverage Results" MODIFIED="1636990568146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>TestCar.*</FILTER>
     </SUITE>
   </component>
 </project>
