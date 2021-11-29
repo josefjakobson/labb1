@@ -3,11 +3,11 @@ package Labb1;
 import java.util.ArrayList;
 
 
-public class Flatbed extends Truck implements Platform {
+public class CarTransport extends Truck implements Platform {
 
     private ArrayList<Car> Cargo = new ArrayList<>(getLength()-1);
 
-    public Flatbed(){
+    public CarTransport(){
         super(2, 100, 0, 4, "Flatbed");
     }
 
