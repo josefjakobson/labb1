@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f10cac7b-b317-4629-973b-cf0eb4809fa2" name="Changes" comment="11/24">
-      <change afterPath="$PROJECT_DIR$/src/TestWorkshop/TestWorkshop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/labb1/Labb1/Scania.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labb1/Labb1/Scania.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/labb1/Labb1/Truck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labb1/Labb1/Truck.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/labb1/Labb1/Vehicle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labb1/Labb1/Vehicle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/labb1/TestScania/TestScania.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labb1/TestScania/TestScania.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/labb1/TestVolvo/TestVolvo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labb1/TestVolvo/TestVolvo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Labb1/Workshop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb1/Workshop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestVolvo/TestVolvo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestVolvo/TestVolvo.java" afterDir="false" />
-    </list>
+    <list default="true" id="f10cac7b-b317-4629-973b-cf0eb4809fa2" name="Changes" comment="11/29" />
     <list id="d7e83fc0-06b6-4c68-bea5-cee87bd77fd2" name="Changes by jewishnazi" comment="">
       <change beforePath="$PROJECT_DIR$/src/Labb1/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb1/Vehicle.java" afterDir="false" />
     </list>
@@ -253,7 +243,13 @@
       <option name="presentableId" value="LOCAL−00007" />
       <updated>1637917588913</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL−00008" summary="11/29">
+      <created>1638202120716</created>
+      <option name="number" value="LOCAL−00008" />
+      <option name="presentableId" value="LOCAL−00008" />
+      <updated>1638202120716</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,7 +272,8 @@
     <MESSAGE value="Några tester" />
     <MESSAGE value="11/24" />
     <MESSAGE value="11/26" />
-    <option name="LAST_COMMIT_MESSAGE" value="11/26" />
+    <MESSAGE value="11/29" />
+    <option name="LAST_COMMIT_MESSAGE" value="11/29" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
