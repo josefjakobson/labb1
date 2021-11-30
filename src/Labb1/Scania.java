@@ -21,6 +21,9 @@ public class Scania extends Truck {
     }
 
 
+    /**
+     * Increases the angle of the platform if the car is stationary and the angle isn't too big
+     */
     @Override
     public void RaisePlatform() {
         if (platformAngle < 70 && getisMoving() == false) {
@@ -31,6 +34,10 @@ public class Scania extends Truck {
         }
     }
 
+
+    /**
+     * Decreases the angle of the platform if the car is stationary and the angle isn't too big
+     */
     @Override
     public void LowerPlatform() {
         if (platformAngle == 0 && getisMoving() == false) {
