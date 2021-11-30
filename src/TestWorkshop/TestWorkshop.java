@@ -17,7 +17,7 @@ public class TestWorkshop {
         Workshop Test_Workshop = new Workshop<Car>(1,"Test_WorkshopName");
         Test_Workshop.LoadVehicle(TestCar);
         Test_Workshop.LoadVehicle(TestCar2);
-        assertEquals(Test_Workshop.getContent_Size(),1);
+        assertEquals(Test_Workshop.getContent().size(),1);
 
     }
 

@@ -4,13 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f10cac7b-b317-4629-973b-cf0eb4809fa2" name="Changes" comment="11/29" />
+    <list default="true" id="f10cac7b-b317-4629-973b-cf0eb4809fa2" name="Changes" comment="11/30">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Labb1/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb1/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Labb1/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb1/Truck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Labb1/Workshop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb1/Workshop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestWorkshop/TestWorkshop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestWorkshop/TestWorkshop.java" afterDir="false" />
+    </list>
     <list id="d7e83fc0-06b6-4c68-bea5-cee87bd77fd2" name="Changes by jewishnazi" comment="">
       <change beforePath="$PROJECT_DIR$/src/Labb1/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb1/Vehicle.java" afterDir="false" />
     </list>
     <list id="fd67ec6a-dcaf-4493-8dbe-6eb76120f900" name="Changes by jonte" comment="">
       <change beforePath="$PROJECT_DIR$/src/Labb1/CarTransport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb1/CarTransport.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Labb1/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb1/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Labb1/Workshop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb1/Workshop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestWorkshop/TestWorkshop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestWorkshop/TestWorkshop.java" afterDir="false" />
     </list>
     <list id="b0d3be97-eae6-401f-9fe5-52b7cf566fbb" name="Changes by Josef" comment="">
       <change beforePath="$PROJECT_DIR$/src/Labb1/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb1/Vehicle.java" afterDir="false" />
@@ -32,6 +40,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/src/Labb1/Workshop.java">
+      <ranges>
+        <range start1="1" end1="1" start2="1" end2="11" changelist="f10cac7b-b317-4629-973b-cf0eb4809fa2" />
+        <range start1="12" end1="13" start2="22" end2="29" changelist="f10cac7b-b317-4629-973b-cf0eb4809fa2" />
+        <range start1="20" end1="22" start2="36" end2="40" changelist="f10cac7b-b317-4629-973b-cf0eb4809fa2" />
+        <range start1="24" end1="25" start2="42" end2="46" changelist="f10cac7b-b317-4629-973b-cf0eb4809fa2" />
+        <range start1="27" end1="28" start2="48" end2="52" changelist="f10cac7b-b317-4629-973b-cf0eb4809fa2" />
+        <range start1="29" end1="30" start2="53" end2="54" changelist="fd67ec6a-dcaf-4493-8dbe-6eb76120f900" />
+      </ranges>
+    </file>
     <file path="$PROJECT_DIR$/src/Labb1/Vehicle.java">
       <ranges>
         <range start1="1" end1="1" start2="1" end2="12" changelist="d7e83fc0-06b6-4c68-bea5-cee87bd77fd2" />
@@ -59,6 +77,14 @@
         <range start1="129" end1="129" start2="228" end2="235" changelist="b0d3be97-eae6-401f-9fe5-52b7cf566fbb" />
         <range start1="131" end1="132" start2="237" end2="239" changelist="fd67ec6a-dcaf-4493-8dbe-6eb76120f900" />
         <range start1="133" end1="133" start2="240" end2="242" changelist="fd67ec6a-dcaf-4493-8dbe-6eb76120f900" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/TestWorkshop/TestWorkshop.java">
+      <ranges>
+        <range start1="2" end1="5" start2="2" end2="3" changelist="fd67ec6a-dcaf-4493-8dbe-6eb76120f900" />
+        <range start1="19" end1="20" start2="17" end2="18" changelist="f10cac7b-b317-4629-973b-cf0eb4809fa2" />
+        <range start1="24" end1="25" start2="22" end2="23" changelist="fd67ec6a-dcaf-4493-8dbe-6eb76120f900" />
+        <range start1="31" end1="31" start2="29" end2="58" changelist="fd67ec6a-dcaf-4493-8dbe-6eb76120f900" />
       </ranges>
     </file>
   </component>
@@ -89,25 +115,7 @@
       <recent name="C:\Users\jonte\IdeaProjects\labb1\src" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestCarTransport.test_load_car">
-    <configuration name="TestCarTransport.test_load_availability_if_angle_is_70_and_within_distance" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="labb1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestCarTransport.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestCarTransport" />
-      <option name="MAIN_CLASS_NAME" value="TestCarTransport.TestCarTransport" />
-      <option name="METHOD_NAME" value="test_load_availability_if_angle_is_70_and_within_distance" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.TestCarTransport.test_load_car_with_platform">
     <configuration name="TestCarTransport.test_load_car" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="labb1" />
       <extension name="coverage">
@@ -126,7 +134,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestWorkshop.test_LoadVehicle_Content (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCarTransport.test_load_car_with_platform" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="labb1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCarTransport.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCarTransport" />
+      <option name="MAIN_CLASS_NAME" value="TestCarTransport.TestCarTransport" />
+      <option name="METHOD_NAME" value="test_load_car_with_platform" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCarTransport.test_load_truck_onto_transport" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="labb1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCarTransport.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCarTransport" />
+      <option name="MAIN_CLASS_NAME" value="TestCarTransport.TestCarTransport" />
+      <option name="METHOD_NAME" value="test_load_truck_onto_transport" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestWorkshop.test_LoadVehicle_Content" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="labb1" />
       <extension name="coverage">
         <pattern>
@@ -144,7 +188,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestWorkshop.test_LoadVehicle_Length (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestWorkshop.test_UnLoadVehicle_Content" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="labb1" />
       <extension name="coverage">
         <pattern>
@@ -154,25 +198,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="TestWorkshop" />
       <option name="MAIN_CLASS_NAME" value="TestWorkshop.TestWorkshop" />
-      <option name="METHOD_NAME" value="test_LoadVehicle_Length" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestWorkshop.test_LoadVehicle_Length" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="labb1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestWorkshop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestWorkshop" />
-      <option name="MAIN_CLASS_NAME" value="TestWorkshop.TestWorkshop" />
-      <option name="METHOD_NAME" value="test_LoadVehicle_Length" />
+      <option name="METHOD_NAME" value="test_UnLoadVehicle_Content" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -182,11 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestCarTransport.test_load_car_with_platform" />
+        <item itemvalue="TestNG.TestWorkshop.test_UnLoadVehicle_Content" />
+        <item itemvalue="TestNG.TestCarTransport.test_load_truck_onto_transport" />
         <item itemvalue="TestNG.TestCarTransport.test_load_car" />
-        <item itemvalue="TestNG.TestCarTransport.test_load_availability_if_angle_is_70_and_within_distance" />
-        <item itemvalue="TestNG.TestWorkshop.test_LoadVehicle_Length (1)" />
-        <item itemvalue="TestNG.TestWorkshop.test_LoadVehicle_Length" />
-        <item itemvalue="TestNG.TestWorkshop.test_LoadVehicle_Content (1)" />
+        <item itemvalue="TestNG.TestWorkshop.test_LoadVehicle_Content" />
       </list>
     </recent_temporary>
   </component>
@@ -249,7 +275,13 @@
       <option name="presentableId" value="LOCAL−00008" />
       <updated>1638202120716</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL−00009" summary="11/30">
+      <created>1638281718888</created>
+      <option name="number" value="LOCAL−00009" />
+      <option name="presentableId" value="LOCAL−00009" />
+      <updated>1638281718888</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,14 +305,15 @@
     <MESSAGE value="11/24" />
     <MESSAGE value="11/26" />
     <MESSAGE value="11/29" />
-    <option name="LAST_COMMIT_MESSAGE" value="11/29" />
+    <MESSAGE value="11/30" />
+    <option name="LAST_COMMIT_MESSAGE" value="11/30" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Labb1/Workshop.java</url>
-          <line>15</line>
+          <line>31</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
