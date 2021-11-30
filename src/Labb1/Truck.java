@@ -68,13 +68,27 @@ public abstract class Truck extends Vehicle implements Platform{
 
     abstract public void RaisePlatform ();
 
+    /**
+     * Gets the isMoving value.
+     * @return isMoving value
+     */
     public boolean getisMoving(){
         UpdateMovement();
         return isMoving;
     }
 
+
+    /**
+     * Gets the current angle of the platform
+     * @return value of platformAngle
+     */
     public double getPlatformAngle(){return platformAngle;}
 
+
+    /**
+     * Gets the length of the object
+     * @return value of the length variable
+     */
     public int getLength(){
         return length;
     }
