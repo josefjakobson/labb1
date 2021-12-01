@@ -5,14 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f10cac7b-b317-4629-973b-cf0eb4809fa2" name="Changes" comment="12/1">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-11-24_12_56_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-11-24_12_56__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/labb1/Labb1/Animation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/labb1/Labb1/Scania.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labb1/Labb1/Scania.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/labb1/TestCar/TestCar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labb1/TestCar/TestCar.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/labb1/TestVolvo/TestVolvo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labb1/TestVolvo/TestVolvo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Labb1/Animation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Labb1/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb1/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Labb1/CarTransport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb1/CarTransport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Labb1/Scania.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb1/Scania.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Labb1/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb1/Truck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Labb1/Workshop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb1/Workshop.java" afterDir="false" />
     </list>
     <list id="d7e83fc0-06b6-4c68-bea5-cee87bd77fd2" name="Changes by jewishnazi" comment="">
       <change beforePath="$PROJECT_DIR$/src/Labb1/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb1/Vehicle.java" afterDir="false" />
@@ -53,6 +54,23 @@
     </file-type-list>
   </component>
   <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/src/Labb1/Workshop.java">
+      <ranges>
+        <range start1="53" end1="54" start2="53" end2="54" changelist="fd67ec6a-dcaf-4493-8dbe-6eb76120f900" />
+        <range start1="57" end1="61" start2="57" end2="57" changelist="f10cac7b-b317-4629-973b-cf0eb4809fa2" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/Labb1/CarTransport.java">
+      <ranges>
+        <range start1="26" end1="26" start2="26" end2="30" changelist="fd67ec6a-dcaf-4493-8dbe-6eb76120f900" />
+        <range start1="51" end1="51" start2="55" end2="56" changelist="f10cac7b-b317-4629-973b-cf0eb4809fa2" />
+        <range start1="61" end1="62" start2="66" end2="67" changelist="f10cac7b-b317-4629-973b-cf0eb4809fa2" />
+        <range start1="78" end1="79" start2="83" end2="84" changelist="fd67ec6a-dcaf-4493-8dbe-6eb76120f900" />
+        <range start1="80" end1="81" start2="85" end2="86" changelist="f10cac7b-b317-4629-973b-cf0eb4809fa2" />
+        <range start1="90" end1="92" start2="95" end2="97" changelist="fd67ec6a-dcaf-4493-8dbe-6eb76120f900" />
+        <range start1="96" end1="97" start2="101" end2="102" changelist="fd67ec6a-dcaf-4493-8dbe-6eb76120f900" />
+      </ranges>
+    </file>
     <file path="$PROJECT_DIR$/src/Labb1/Vehicle.java">
       <ranges>
         <range start1="38" end1="38" start2="38" end2="39" changelist="d7e83fc0-06b6-4c68-bea5-cee87bd77fd2" />
@@ -62,17 +80,6 @@
         <range start1="138" end1="138" start2="143" end2="144" changelist="b0d3be97-eae6-401f-9fe5-52b7cf566fbb" />
         <range start1="233" end1="234" start2="239" end2="241" changelist="fd67ec6a-dcaf-4493-8dbe-6eb76120f900" />
         <range start1="235" end1="235" start2="242" end2="244" changelist="fd67ec6a-dcaf-4493-8dbe-6eb76120f900" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/src/Labb1/CarTransport.java">
-      <ranges>
-        <range start1="26" end1="26" start2="26" end2="30" changelist="fd67ec6a-dcaf-4493-8dbe-6eb76120f900" />
-        <range start1="61" end1="63" start2="65" end2="70" changelist="f10cac7b-b317-4629-973b-cf0eb4809fa2" />
-        <range start1="65" end1="66" start2="72" end2="73" changelist="f10cac7b-b317-4629-973b-cf0eb4809fa2" />
-        <range start1="75" end1="76" start2="82" end2="83" changelist="fd67ec6a-dcaf-4493-8dbe-6eb76120f900" />
-        <range start1="77" end1="77" start2="84" end2="85" changelist="f10cac7b-b317-4629-973b-cf0eb4809fa2" />
-        <range start1="86" end1="88" start2="94" end2="96" changelist="fd67ec6a-dcaf-4493-8dbe-6eb76120f900" />
-        <range start1="92" end1="93" start2="100" end2="101" changelist="fd67ec6a-dcaf-4493-8dbe-6eb76120f900" />
       </ranges>
     </file>
   </component>
@@ -103,20 +110,25 @@
       <recent name="C:\Users\jonte\IdeaProjects\labb1\src" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestVolvo.test_direction">
-    <configuration name="TestVolvo" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.&lt;default&gt;">
+    <configuration name="All in labb1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="labb1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Labb1 in labb1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="labb1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TestVolvo.*" />
+          <option name="PATTERN" value="Labb1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="TestVolvo" />
-      <option name="MAIN_CLASS_NAME" value="TestVolvo.TestVolvo" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="PACKAGE_NAME" value="Labb1" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -139,54 +151,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestVolvo.test_direction" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestWorkshop" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="labb1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TestVolvo.*" />
+          <option name="PATTERN" value="TestWorkshop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="TestVolvo" />
-      <option name="MAIN_CLASS_NAME" value="TestVolvo.TestVolvo" />
-      <option name="METHOD_NAME" value="test_direction" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="TestWorkshop" />
+      <option name="MAIN_CLASS_NAME" value="TestWorkshop.TestWorkshop" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestVolvo.test_stop_engine" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="labb1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestVolvo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestVolvo" />
-      <option name="MAIN_CLASS_NAME" value="TestVolvo.TestVolvo" />
-      <option name="METHOD_NAME" value="test_stop_engine" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestVolvo.test_when_amount_less_than_zero" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="labb1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestVolvo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestVolvo" />
-      <option name="MAIN_CLASS_NAME" value="TestVolvo.TestVolvo" />
-      <option name="METHOD_NAME" value="test_when_amount_less_than_zero" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
       <properties />
       <listeners />
       <method v="2">
@@ -195,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestVolvo.test_direction" />
-        <item itemvalue="TestNG.TestVolvo.test_stop_engine" />
+        <item itemvalue="TestNG.&lt;default&gt;" />
         <item itemvalue="TestNG.TestVolvo.donuts_in_the_parking_lot" />
-        <item itemvalue="TestNG.TestVolvo" />
-        <item itemvalue="TestNG.TestVolvo.test_when_amount_less_than_zero" />
+        <item itemvalue="JUnit.All in labb1" />
+        <item itemvalue="JUnit.Labb1 in labb1" />
+        <item itemvalue="TestNG.TestWorkshop" />
       </list>
     </recent_temporary>
   </component>
@@ -280,7 +265,13 @@
       <option name="presentableId" value="LOCAL−00011" />
       <updated>1638351714337</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL−00012" summary="12/1">
+      <created>1638355865035</created>
+      <option name="number" value="LOCAL−00012" />
+      <option name="presentableId" value="LOCAL−00012" />
+      <updated>1638355865035</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -362,7 +353,7 @@
     <SUITE FILE_PATH="coverage/Laboration1$TestCarTransport_test_unload_with_platform.ic" NAME="TestCarTransport.test_unload_with_platform Coverage Results" MODIFIED="1638353613902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>TestCarTransport.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Laboration1$Labb1_in_labb1.ic" NAME="Labb1 in labb1 Coverage Results" MODIFIED="1638354314723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Laboration1$Labb1_in_labb1.ic" NAME="Labb1 in labb1 Coverage Results" MODIFIED="1638362132831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Labb1.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/Laboration1$TestSaab95_test_Speedfactcor_turbooff.ic" NAME="TestSaab95.test_Speedfactcor_turbooff Coverage Results" MODIFIED="1637159441284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -403,10 +394,10 @@
     <SUITE FILE_PATH="coverage/Laboration1$TestCar_test_getNrDoors.ic" NAME="TestCar.test_getNrDoors Coverage Results" MODIFIED="1636987433478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>TestCar.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Laboration1$TestWorkshop.ic" NAME="TestWorkshop Coverage Results" MODIFIED="1638354225950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Laboration1$TestWorkshop.ic" NAME="TestWorkshop Coverage Results" MODIFIED="1638362108853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>TestWorkshop.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Laboration1$All_in_labb1.ic" NAME="All in labb1 Coverage Results" MODIFIED="1638354114676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Laboration1$All_in_labb1.ic" NAME="All in labb1 Coverage Results" MODIFIED="1638362154260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Laboration1$TestCar_test_stopEngine.ic" NAME="TestCar.test_stopEngine Coverage Results" MODIFIED="1636978949219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>TestCar.*</FILTER>
     </SUITE>
@@ -419,7 +410,7 @@
     <SUITE FILE_PATH="coverage/Laboration1$TestScania_test_isMoving_gas__2_.ic" NAME="TestScania.test_isMoving_gas (2) Coverage Results" MODIFIED="1637755640279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>TestScania.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Laboration1$TestCarTransport.ic" NAME="TestCarTransport Coverage Results" MODIFIED="1638354271258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Laboration1$TestCarTransport.ic" NAME="TestCarTransport Coverage Results" MODIFIED="1638361504626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>TestCarTransport.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/Laboration1$TestVolvo.ic" NAME="TestVolvo Coverage Results" MODIFIED="1638355519528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -443,12 +434,15 @@
     <SUITE FILE_PATH="coverage/Laboration1$TestCar.ic" NAME="TestCar Coverage Results" MODIFIED="1638354279545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>TestCar.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Laboration1$_default_.ic" NAME="&lt;default&gt; Coverage Results" MODIFIED="1638354329136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Laboration1$_default_.ic" NAME="&lt;default&gt; Coverage Results" MODIFIED="1638365892345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Laboration1$TestCar_test_getColor.ic" NAME="TestCar.test_getColor Coverage Results" MODIFIED="1636979954600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>TestCar.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/Laboration1$TestScania_test_RaisePlatform_TooHigh__1_.ic" NAME="TestScania.test_RaisePlatform_TooHigh (1) Coverage Results" MODIFIED="1637757602736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>TestScania.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Laboration1$TestVolvo_test_direction.ic" NAME="TestVolvo.test_direction Coverage Results" MODIFIED="1638355838835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>TestVolvo.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/Laboration1$TestCar_test_setColor.ic" NAME="TestCar.test_setColor Coverage Results" MODIFIED="1636724029523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Laboration1$TestCar_test_getCurrentSpeed.ic" NAME="TestCar.test_getCurrentSpeed Coverage Results" MODIFIED="1636990568146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

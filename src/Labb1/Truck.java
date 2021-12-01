@@ -42,7 +42,7 @@ public abstract class Truck extends Vehicle implements Platform{
 
     /**
      * Overrides the method from the superclass Vehicle and checks the platforms position
-     * @return 1 or 0 depending on the attribute platform angle
+     * @return speedFactor or 0 depending on the attribute platform angle
      */
     @Override
     public double getSpeedFactor() {

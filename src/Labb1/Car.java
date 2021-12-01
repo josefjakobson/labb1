@@ -20,7 +20,7 @@ public abstract class Car extends Vehicle {
 
     private Color color; // Color of the car
     private String modelName; // The car model name
-
+    private boolean isloaded; //
     /**
      * Contains all the attribute that are passed down to the subclasses
      * @param nrDoors is the value of the number of doors that an instance of a subclass has.
@@ -33,6 +33,7 @@ public abstract class Car extends Vehicle {
         super(nrDoors, enginePower, currentSpeed);
         this.color = color;
         this.modelName = modelName;
+        this.isloaded = false;
     }
 
     /**
@@ -50,4 +51,11 @@ public abstract class Car extends Vehicle {
     public void setColor(Color clr) {
         color = clr;
     }
+
+    public void setIsloadedtrue(){isloaded = true;}
+
+    public void setIsloadedfalse(){isloaded = false;}
+
+    public boolean getisloaded(){return isloaded;}
+
 }

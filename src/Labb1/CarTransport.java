@@ -49,6 +49,7 @@ public class CarTransport extends Truck implements Platform {
      */
     public void LoadCar (Car content){
         if (checkLoadAvailability(content)) {
+            content.setIsloadedtrue();
             Cargo.add(content);}
     }
 
@@ -59,7 +60,7 @@ public class CarTransport extends Truck implements Platform {
      * @return possibility to load the car
      */
     public boolean checkLoadAvailability(Car car) {
-        if ((getLength()-1) > getCargo().size()){
+        if ((getLength()-1) > getCargo().size() && !car.getisloaded()) {
 
             if (platformAngle == 70){
 
@@ -78,7 +79,7 @@ public class CarTransport extends Truck implements Platform {
         if (platformAngle == 70) {
             Car Car = Cargo.remove(0);
             Car.setPositionX(getPositionX() + 1);
-
+            Car.setIsloadedfalse();
         }
     }
 
