@@ -132,7 +132,6 @@ public abstract class Vehicle implements Movable{
 
     abstract public double getSpeedFactor();
 
-
     private void increaseSpeed(double amount){
         currentSpeed = Math.min(getCurrentSpeed()  + getSpeedFactor() * amount,enginePower); // Current speed is set to the lowest of amount and enginePower, making sure currentSpeed never exceeds enginePower
     }

@@ -6,15 +6,19 @@
   <component name="ChangeListManager">
     <list default="true" id="f10cac7b-b317-4629-973b-cf0eb4809fa2" name="Changes" comment="11/30">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Labb1/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb1/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Labb1/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb1/Truck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Labb1/Workshop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb1/Workshop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestWorkshop/TestWorkshop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestWorkshop/TestWorkshop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/labb1/Labb1/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labb1/Labb1/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/labb1/Labb1/Saab95.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labb1/Labb1/Saab95.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/labb1/Labb1/Scania.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labb1/Labb1/Scania.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/labb1/Labb1/Truck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labb1/Labb1/Truck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/labb1/Labb1/Vehicle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labb1/Labb1/Vehicle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/labb1/Labb1/Volvo240.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labb1/Labb1/Volvo240.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Labb1/CarTransport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb1/CarTransport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Labb1/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb1/Vehicle.java" afterDir="false" />
     </list>
     <list id="d7e83fc0-06b6-4c68-bea5-cee87bd77fd2" name="Changes by jewishnazi" comment="">
       <change beforePath="$PROJECT_DIR$/src/Labb1/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb1/Vehicle.java" afterDir="false" />
     </list>
-    <list id="fd67ec6a-dcaf-4493-8dbe-6eb76120f900" name="Changes by jonte" comment="">
+    <list id="fd67ec6a-dcaf-4493-8dbe-6eb76120f900" name="Changes by jonte" comment="Changes by jonte">
       <change beforePath="$PROJECT_DIR$/src/Labb1/CarTransport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb1/CarTransport.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Labb1/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb1/Vehicle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Labb1/Workshop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb1/Workshop.java" afterDir="false" />
@@ -39,52 +43,34 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/src/Labb1/Workshop.java">
+    <file path="$PROJECT_DIR$/src/Labb1/CarTransport.java">
       <ranges>
-        <range start1="1" end1="1" start2="1" end2="11" changelist="f10cac7b-b317-4629-973b-cf0eb4809fa2" />
-        <range start1="12" end1="13" start2="22" end2="29" changelist="f10cac7b-b317-4629-973b-cf0eb4809fa2" />
-        <range start1="20" end1="22" start2="36" end2="40" changelist="f10cac7b-b317-4629-973b-cf0eb4809fa2" />
-        <range start1="24" end1="25" start2="42" end2="46" changelist="f10cac7b-b317-4629-973b-cf0eb4809fa2" />
-        <range start1="27" end1="28" start2="48" end2="52" changelist="f10cac7b-b317-4629-973b-cf0eb4809fa2" />
-        <range start1="29" end1="30" start2="53" end2="54" changelist="fd67ec6a-dcaf-4493-8dbe-6eb76120f900" />
+        <range start1="1" end1="1" start2="1" end2="2" changelist="f10cac7b-b317-4629-973b-cf0eb4809fa2" />
+        <range start1="25" end1="25" start2="26" end2="30" changelist="fd67ec6a-dcaf-4493-8dbe-6eb76120f900" />
+        <range start1="74" end1="75" start2="79" end2="80" changelist="fd67ec6a-dcaf-4493-8dbe-6eb76120f900" />
+        <range start1="85" end1="87" start2="90" end2="92" changelist="fd67ec6a-dcaf-4493-8dbe-6eb76120f900" />
+        <range start1="91" end1="92" start2="96" end2="97" changelist="fd67ec6a-dcaf-4493-8dbe-6eb76120f900" />
       </ranges>
     </file>
     <file path="$PROJECT_DIR$/src/Labb1/Vehicle.java">
       <ranges>
-        <range start1="1" end1="1" start2="1" end2="12" changelist="d7e83fc0-06b6-4c68-bea5-cee87bd77fd2" />
-        <range start1="10" end1="10" start2="21" end2="27" changelist="d7e83fc0-06b6-4c68-bea5-cee87bd77fd2" />
-        <range start1="19" end1="19" start2="36" end2="41" changelist="d7e83fc0-06b6-4c68-bea5-cee87bd77fd2" />
-        <range start1="21" end1="21" start2="43" end2="48" changelist="d7e83fc0-06b6-4c68-bea5-cee87bd77fd2" />
-        <range start1="25" end1="25" start2="52" end2="57" changelist="d7e83fc0-06b6-4c68-bea5-cee87bd77fd2" />
-        <range start1="29" end1="29" start2="61" end2="66" changelist="d7e83fc0-06b6-4c68-bea5-cee87bd77fd2" />
-        <range start1="33" end1="33" start2="70" end2="75" changelist="d7e83fc0-06b6-4c68-bea5-cee87bd77fd2" />
-        <range start1="37" end1="37" start2="79" end2="84" changelist="d7e83fc0-06b6-4c68-bea5-cee87bd77fd2" />
-        <range start1="41" end1="41" start2="88" end2="93" changelist="d7e83fc0-06b6-4c68-bea5-cee87bd77fd2" />
-        <range start1="45" end1="45" start2="97" end2="102" changelist="d7e83fc0-06b6-4c68-bea5-cee87bd77fd2" />
-        <range start1="49" end1="49" start2="106" end2="111" changelist="d7e83fc0-06b6-4c68-bea5-cee87bd77fd2" />
-        <range start1="53" end1="53" start2="115" end2="119" changelist="d7e83fc0-06b6-4c68-bea5-cee87bd77fd2" />
-        <range start1="57" end1="57" start2="123" end2="127" changelist="d7e83fc0-06b6-4c68-bea5-cee87bd77fd2" />
-        <range start1="61" end1="61" start2="131" end2="135" changelist="d7e83fc0-06b6-4c68-bea5-cee87bd77fd2" />
-        <range start1="63" end1="63" start2="137" end2="139" changelist="d7e83fc0-06b6-4c68-bea5-cee87bd77fd2" />
-        <range start1="67" end1="67" start2="143" end2="144" changelist="b0d3be97-eae6-401f-9fe5-52b7cf566fbb" />
-        <range start1="71" end1="71" start2="148" end2="155" changelist="b0d3be97-eae6-401f-9fe5-52b7cf566fbb" />
-        <range start1="82" end1="82" start2="166" end2="173" changelist="b0d3be97-eae6-401f-9fe5-52b7cf566fbb" />
-        <range start1="93" end1="93" start2="184" end2="187" changelist="b0d3be97-eae6-401f-9fe5-52b7cf566fbb" />
-        <range start1="109" end1="109" start2="203" end2="206" changelist="b0d3be97-eae6-401f-9fe5-52b7cf566fbb" />
-        <range start1="119" end1="119" start2="216" end2="219" changelist="b0d3be97-eae6-401f-9fe5-52b7cf566fbb" />
-        <range start1="120" end1="121" start2="220" end2="220" changelist="b0d3be97-eae6-401f-9fe5-52b7cf566fbb" />
-        <range start1="129" end1="129" start2="228" end2="235" changelist="b0d3be97-eae6-401f-9fe5-52b7cf566fbb" />
-        <range start1="131" end1="132" start2="237" end2="239" changelist="fd67ec6a-dcaf-4493-8dbe-6eb76120f900" />
-        <range start1="133" end1="133" start2="240" end2="242" changelist="fd67ec6a-dcaf-4493-8dbe-6eb76120f900" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/src/TestWorkshop/TestWorkshop.java">
-      <ranges>
-        <range start1="2" end1="5" start2="2" end2="3" changelist="fd67ec6a-dcaf-4493-8dbe-6eb76120f900" />
-        <range start1="19" end1="20" start2="17" end2="18" changelist="f10cac7b-b317-4629-973b-cf0eb4809fa2" />
-        <range start1="24" end1="25" start2="22" end2="23" changelist="fd67ec6a-dcaf-4493-8dbe-6eb76120f900" />
-        <range start1="31" end1="31" start2="29" end2="58" changelist="fd67ec6a-dcaf-4493-8dbe-6eb76120f900" />
+        <range start1="38" end1="38" start2="38" end2="39" changelist="d7e83fc0-06b6-4c68-bea5-cee87bd77fd2" />
+        <range start1="39" end1="41" start2="40" end2="42" changelist="d7e83fc0-06b6-4c68-bea5-cee87bd77fd2" />
+        <range start1="46" end1="48" start2="47" end2="49" changelist="d7e83fc0-06b6-4c68-bea5-cee87bd77fd2" />
+        <range start1="132" end1="132" start2="133" end2="137" changelist="d7e83fc0-06b6-4c68-bea5-cee87bd77fd2" />
+        <range start1="134" end1="135" start2="139" end2="139" changelist="f10cac7b-b317-4629-973b-cf0eb4809fa2" />
+        <range start1="139" end1="139" start2="143" end2="144" changelist="b0d3be97-eae6-401f-9fe5-52b7cf566fbb" />
+        <range start1="234" end1="235" start2="239" end2="241" changelist="fd67ec6a-dcaf-4493-8dbe-6eb76120f900" />
+        <range start1="236" end1="236" start2="242" end2="244" changelist="fd67ec6a-dcaf-4493-8dbe-6eb76120f900" />
       </ranges>
     </file>
   </component>
@@ -115,8 +101,8 @@
       <recent name="C:\Users\jonte\IdeaProjects\labb1\src" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestCarTransport.test_load_car_with_platform">
-    <configuration name="TestCarTransport.test_load_car" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.&lt;default&gt;">
+    <configuration name="TestCarTransport" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="labb1" />
       <extension name="coverage">
         <pattern>
@@ -125,9 +111,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="TestCarTransport" />
-      <option name="MAIN_CLASS_NAME" value="TestCarTransport.TestCarTransport" />
-      <option name="METHOD_NAME" value="test_load_car" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
       <properties />
       <listeners />
       <method v="2">
@@ -170,24 +154,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestWorkshop.test_LoadVehicle_Content" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="labb1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestWorkshop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestWorkshop" />
-      <option name="MAIN_CLASS_NAME" value="TestWorkshop.TestWorkshop" />
-      <option name="METHOD_NAME" value="test_LoadVehicle_Content" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestWorkshop.test_UnLoadVehicle_Content" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="labb1" />
       <extension name="coverage">
@@ -206,13 +172,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="labb1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.&lt;default&gt;" />
+        <item itemvalue="TestNG.TestCarTransport" />
         <item itemvalue="TestNG.TestCarTransport.test_load_car_with_platform" />
         <item itemvalue="TestNG.TestWorkshop.test_UnLoadVehicle_Content" />
         <item itemvalue="TestNG.TestCarTransport.test_load_truck_onto_transport" />
-        <item itemvalue="TestNG.TestCarTransport.test_load_car" />
-        <item itemvalue="TestNG.TestWorkshop.test_LoadVehicle_Content" />
       </list>
     </recent_temporary>
   </component>
@@ -281,7 +257,13 @@
       <option name="presentableId" value="LOCAL−00009" />
       <updated>1638281718888</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL−00010" summary="11/30">
+      <created>1638286924996</created>
+      <option name="number" value="LOCAL−00010" />
+      <option name="presentableId" value="LOCAL−00010" />
+      <updated>1638286924996</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -391,6 +373,9 @@
     <SUITE FILE_PATH="coverage/Laboration1$TestScania_test_isMoving_gas__2_.ic" NAME="TestScania.test_isMoving_gas (2) Coverage Results" MODIFIED="1637755640279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>TestScania.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/Laboration1$TestCarTransport.ic" NAME="TestCarTransport Coverage Results" MODIFIED="1638351406231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>TestCarTransport.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/Laboration1$TestVolvo.ic" NAME="TestVolvo Coverage Results" MODIFIED="1637158726305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>TestVolvo.*</FILTER>
     </SUITE>
@@ -409,6 +394,7 @@
     <SUITE FILE_PATH="coverage/Laboration1$TestCar.ic" NAME="TestCar Coverage Results" MODIFIED="1637158708234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>TestCar.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/Laboration1$_default_.ic" NAME="&lt;default&gt; Coverage Results" MODIFIED="1638351419739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Laboration1$TestCar_test_getColor.ic" NAME="TestCar.test_getColor Coverage Results" MODIFIED="1636979954600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>TestCar.*</FILTER>
     </SUITE>
