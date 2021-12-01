@@ -26,10 +26,10 @@ public class Scania extends Truck {
      */
     @Override
     public void RaisePlatform() {
-        if (platformAngle < 70 && getisMoving() == false) {
-            platformAngle += 5;
-            if (platformAngle > 70) {
-                platformAngle = 70;
+        if (platformAngle > 0 && getisMoving() == false) {
+            platformAngle -= 5;
+            if (platformAngle < 5) {
+                platformAngle = 0;
             }
         }
     }

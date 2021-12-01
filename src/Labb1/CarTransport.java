@@ -59,11 +59,14 @@ public class CarTransport extends Truck implements Platform {
      * @return possibility to load the car
      */
     public boolean checkLoadAvailability(Car car) {
-        if (platformAngle == 70){
-            if (getDistanceBetweenPoints(car.getCoordinates(), getCoordinates()) <= 2) {
+        if ((getLength()-1) > getCargo().size()){
+
+            if (platformAngle == 70){
+
+                if (getDistanceBetweenPoints(car.getCoordinates(), getCoordinates()) <= 2) {
                 return true;
             }
-        }
+        } }
         return false;
     }
 
@@ -75,6 +78,7 @@ public class CarTransport extends Truck implements Platform {
         if (platformAngle == 70) {
             Car Car = Cargo.remove(0);
             Car.setPositionX(getPositionX() + 1);
+
         }
     }
 
