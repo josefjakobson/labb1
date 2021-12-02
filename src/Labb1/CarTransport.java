@@ -60,7 +60,7 @@ public class CarTransport extends Truck implements Platform {
      * @return possibility to load the car
      */
     public boolean checkLoadAvailability(Car car) {
-        if ((getLength()-1) > getCargo().size() && !car.getisloaded()) {
+        if ((getLength()-1) > Cargo.size() && !car.getisloaded()) {
 
             if (platformAngle == 70){
 
