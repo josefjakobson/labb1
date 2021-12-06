@@ -1,3 +1,8 @@
+import Labb1.Vehicle;
+import Labb1.Volvo240;
+import Labb2.CarView;
+import Labb2.DrawPanel;
+
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -9,7 +14,7 @@ import java.util.ArrayList;
 * modifying the model state and the updating the view.
  */
 
-public class CarController {
+public class CarController extends Labb2.CarController {
     // member fields:
 
     // The delay (ms) corresponds to 20 updates a sec (hz)
@@ -21,7 +26,7 @@ public class CarController {
     // The frame that represents this instance View of the MVC pattern
     CarView frame;
     // A list of cars, modify if needed
-    ArrayList<ACar> cars = new ArrayList<>();
+    ArrayList<Vehicle> cars = new ArrayList<>();
 
     //methods:
 
@@ -43,10 +48,10 @@ public class CarController {
     * */
     private class TimerListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
-            for (ACar car : cars) {
+            for (Vehicle car : cars) {
                 car.move();
-                int x = (int) Math.round(car.getPosition().getX());
-                int y = (int) Math.round(car.getPosition().getY());
+                int x = (int) Math.round(car.getPositionX());
+                int y = (int) Math.round(car.getPositionY());
                 frame.drawPanel.moveit(x, y);
                 // repaint() calls the paintComponent method of the panel
                 frame.drawPanel.repaint();
@@ -55,9 +60,9 @@ public class CarController {
     }
 
     // Calls the gas method for each car once
-    void gas(int amount) {
+    public void gas(int amount) {
         double gas = ((double) amount) / 100;
-        for (ACar car : cars
+        for (Vehicle car : cars
                 ) {
             car.gas(gas);
         }

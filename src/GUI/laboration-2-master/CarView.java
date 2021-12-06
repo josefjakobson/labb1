@@ -1,3 +1,6 @@
+import Labb2.CarController;
+import Labb2.DrawPanel;
+
 import javax.swing.*;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
