@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f10cac7b-b317-4629-973b-cf0eb4809fa2" name="Changes" comment="12/1">
+    <list default="true" id="f10cac7b-b317-4629-973b-cf0eb4809fa2" name="Changes" comment="6/12">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/labb1/Labb1/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/labb1/Labb1/Truck.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/laboration-2-master/CarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/laboration-2-master/CarController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/laboration-2-master/CarView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/laboration-2-master/CarView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/laboration-2-master/CarController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/laboration-2-master/CarView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/laboration-2-master/DrawPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/laboration-2-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/laboration-2-master/pics/Saab95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/laboration-2-master/pics/Scania.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/laboration-2-master/pics/Volvo240.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Labb2/CarView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb2/CarView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Labb2/DrawPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb2/DrawPanel.java" afterDir="false" />
     </list>
@@ -117,6 +120,9 @@
       <change beforePath="$PROJECT_DIR$/src/Labb1/CarTransport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb1/CarTransport.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Labb1/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb1/Vehicle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Labb1/Workshop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb1/Workshop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Labb2/CarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb2/CarController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Labb2/CarView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb2/CarView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Labb2/DrawPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb2/DrawPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TestVolvo/TestVolvo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestVolvo/TestVolvo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TestWorkshop/TestWorkshop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestWorkshop/TestWorkshop.java" afterDir="false" />
     </list>
@@ -149,6 +155,25 @@
     </file-type-list>
   </component>
   <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/src/Labb2/DrawPanel.java">
+      <ranges>
+        <range start1="1" end1="1" start2="1" end2="3" changelist="f10cac7b-b317-4629-973b-cf0eb4809fa2" />
+        <range start1="8" end1="9" start2="10" end2="11" changelist="fd67ec6a-dcaf-4493-8dbe-6eb76120f900" />
+        <range start1="14" end1="15" start2="16" end2="19" changelist="fd67ec6a-dcaf-4493-8dbe-6eb76120f900" />
+        <range start1="16" end1="16" start2="20" end2="22" changelist="f10cac7b-b317-4629-973b-cf0eb4809fa2" />
+        <range start1="17" end1="18" start2="23" end2="24" changelist="fd67ec6a-dcaf-4493-8dbe-6eb76120f900" />
+        <range start1="21" end1="21" start2="27" end2="30" changelist="fd67ec6a-dcaf-4493-8dbe-6eb76120f900" />
+        <range start1="37" end1="37" start2="46" end2="48" changelist="f10cac7b-b317-4629-973b-cf0eb4809fa2" />
+        <range start1="50" end1="50" start2="61" end2="62" changelist="fd67ec6a-dcaf-4493-8dbe-6eb76120f900" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/Labb2/CarView.java">
+      <ranges>
+        <range start1="1" end1="1" start2="1" end2="3" changelist="fd67ec6a-dcaf-4493-8dbe-6eb76120f900" />
+        <range start1="2" end1="2" start2="4" end2="6" changelist="f10cac7b-b317-4629-973b-cf0eb4809fa2" />
+        <range start1="110" end1="110" start2="114" end2="163" changelist="fd67ec6a-dcaf-4493-8dbe-6eb76120f900" />
+      </ranges>
+    </file>
     <file path="$PROJECT_DIR$/src/Labb1/Vehicle.java">
       <ranges>
         <range start1="38" end1="38" start2="38" end2="39" changelist="d7e83fc0-06b6-4c68-bea5-cee87bd77fd2" />
@@ -156,6 +181,7 @@
         <range start1="46" end1="48" start2="47" end2="49" changelist="d7e83fc0-06b6-4c68-bea5-cee87bd77fd2" />
         <range start1="132" end1="132" start2="133" end2="137" changelist="d7e83fc0-06b6-4c68-bea5-cee87bd77fd2" />
         <range start1="138" end1="138" start2="143" end2="144" changelist="b0d3be97-eae6-401f-9fe5-52b7cf566fbb" />
+        <range start1="188" end1="190" start2="194" end2="196" changelist="fd67ec6a-dcaf-4493-8dbe-6eb76120f900" />
         <range start1="233" end1="234" start2="239" end2="241" changelist="fd67ec6a-dcaf-4493-8dbe-6eb76120f900" />
         <range start1="235" end1="235" start2="242" end2="244" changelist="fd67ec6a-dcaf-4493-8dbe-6eb76120f900" />
       </ranges>
@@ -351,7 +377,13 @@
       <option name="presentableId" value="LOCAL−00013" />
       <updated>1638372544449</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL−00014" summary="6/12">
+      <created>1638784269623</created>
+      <option name="number" value="LOCAL−00014" />
+      <option name="presentableId" value="LOCAL−00014" />
+      <updated>1638784269623</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -378,7 +410,9 @@
     <MESSAGE value="11/30" />
     <MESSAGE value="12/1" />
     <MESSAGE value="Changes by jewishnazi" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes by jewishnazi" />
+    <MESSAGE value="12/6" />
+    <MESSAGE value="6/12" />
+    <option name="LAST_COMMIT_MESSAGE" value="6/12" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

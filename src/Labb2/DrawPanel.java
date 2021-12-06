@@ -1,4 +1,6 @@
 package Labb2;
+import Labb1.Scania;
+
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
@@ -14,6 +16,8 @@ public class DrawPanel extends JPanel{
     BufferedImage volvoImage;
     // To keep track of a singel cars position
     Point volvoPoint = new Point();
+    Point saabPoint = new Point();
+    Point scaniaPoint = new Point();
 
     // TODO: Make this genereal for all cars
     public void moveit(int x, int y){
@@ -35,6 +39,8 @@ public class DrawPanel extends JPanel{
             // Rememember to rightclick src New -> Package -> name: pics -> MOVE *.jpg to pics.
             // if you are starting in IntelliJ.
             volvoImage = ImageIO.read(DrawPanel.class.getResourceAsStream("pics/Volvo240.jpg"));
+            scaniaImage = ImageIO.read(DrawPanel.class.getResourceAsStream("pics/Scania.jpg"));
+            saabIMage = ImageIO.read(DrawPanel.class.getResourceAsStream("pivs/Saab95.jpg"))
         } catch (IOException ex)
         {
             ex.printStackTrace();
