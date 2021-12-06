@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f10cac7b-b317-4629-973b-cf0eb4809fa2" name="Changes" comment="6/12">
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Labb2/DrawPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb2/DrawPanel.java" afterDir="false" />
-    </list>
+    <list default="true" id="f10cac7b-b317-4629-973b-cf0eb4809fa2" name="Changes" comment="fixade lite errors" />
     <list id="d7e83fc0-06b6-4c68-bea5-cee87bd77fd2" name="Changes by jewishnazi" comment="Changes by jewishnazi" />
     <list id="fd67ec6a-dcaf-4493-8dbe-6eb76120f900" name="Changes by jonte" comment="Changes by jonte" />
     <list id="b0d3be97-eae6-401f-9fe5-52b7cf566fbb" name="Changes by Josef" comment="Changes by Josef" />
@@ -150,7 +147,7 @@
       <updated>1636539675955</updated>
       <workItem from="1637922282075" duration="99000" />
       <workItem from="1637922419758" duration="2526000" />
-      <workItem from="1638799202074" duration="464000" />
+      <workItem from="1638799202074" duration="690000" />
     </task>
     <task id="LOCAL−00001" summary="Några tester">
       <created>1636981933700</created>
@@ -236,7 +233,14 @@
       <option name="presentableId" value="LOCAL−00014" />
       <updated>1638784269623</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="fixade lite errors">
+      <created>1638799690429</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1638799690429</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,7 +268,8 @@
     <MESSAGE value="Changes by jewishnazi" />
     <MESSAGE value="12/6" />
     <MESSAGE value="6/12" />
-    <option name="LAST_COMMIT_MESSAGE" value="6/12" />
+    <MESSAGE value="fixade lite errors" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixade lite errors" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
