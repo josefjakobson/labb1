@@ -4,164 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f10cac7b-b317-4629-973b-cf0eb4809fa2" name="Changes" comment="6/12">
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-12-06_10_15_[Changes]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-12-06_10_15_[Changes_by_Josef]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-12-06_10_15_[Changes_by_jewishnazi]/Car.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-12-06_10_15_[Changes_by_jewishnazi]/CarTransport.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-12-06_10_15_[Changes_by_jewishnazi]/Platform.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-12-06_10_15_[Changes_by_jewishnazi]/TestCarTransport.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-12-06_10_15_[Changes_by_jewishnazi]/TestWorkshop.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-12-06_10_15_[Changes_by_jewishnazi]/Truck.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-12-06_10_15_[Changes_by_jewishnazi]/Workshop.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-12-06_10_15_[Changes_by_jewishnazi]/glass.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-12-06_10_15_[Changes_by_jewishnazi]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-12-06_10_15_[Changes_by_jewishnazi]/ui-bg_glass_55_fbf9ee_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-12-06_10_15_[Changes_by_jewishnazi]/ui-bg_glass_65_dadada_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-12-06_10_15_[Changes_by_jewishnazi]/ui-bg_glass_75_dadada_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-12-06_10_15_[Changes_by_jewishnazi]/ui-bg_glass_75_e6e6e6_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-12-06_10_15_[Changes_by_jewishnazi]/ui-bg_glass_95_fef1ec_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-12-06_10_15_[Changes_by_jewishnazi]/ui-bg_highlight-soft_75_cccccc_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-12-06_10_15_[Changes_by_jewishnazi]/ui-icons_222222_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-12-06_10_15_[Changes_by_jewishnazi]/ui-icons_2e83ff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-12-06_10_15_[Changes_by_jewishnazi]/ui-icons_454545_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-12-06_10_15_[Changes_by_jewishnazi]/ui-icons_888888_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-12-06_10_15_[Changes_by_jewishnazi]/ui-icons_cd0a0a_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-12-06_10_15_[Changes_by_jewishnazi]/x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-12-06_10_15_[Changes_by_jonte]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-12-06_10_15__Changes_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-12-06_10_15__Changes_by_Josef_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-12-06_10_15__Changes_by_jewishnazi_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-12-06_10_15__Changes_by_jonte_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/labb1/Labb2/CarController$TimerListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/labb1/Labb2/CarController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/labb1/Labb2/CarView$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/labb1/Labb2/CarView$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/labb1/Labb2/CarView$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/labb1/Labb2/CarView$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/labb1/Labb2/CarView$5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/labb1/Labb2/CarView$6.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/labb1/Labb2/CarView$7.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/labb1/Labb2/CarView$8.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/labb1/Labb2/CarView$9.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/labb1/Labb2/CarView.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/labb1/Labb2/DrawPanel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/labb1/Labb2/pics/Saab95.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/labb1/Labb2/pics/Scania.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/labb1/Labb2/pics/Volvo240.jpg" afterDir="false" />
+    <list default="true" id="f10cac7b-b317-4629-973b-cf0eb4809fa2" name="Changes" comment="8/12">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-12-01_10_20_[Changes]/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-12-01_10_20_[Changes]/Truck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-12-01_10_20_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-12-01_10_20_[Changes_by_Josef]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-12-01_10_20_[Changes_by_jewishnazi]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-12-01_10_20_[Changes_by_jonte]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-12-01_10_20__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-12-01_10_20__Changes_by_Josef_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-12-01_10_20__Changes_by_jewishnazi_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-12-01_10_20__Changes_by_jonte_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/labb1/Labb1/Vehicle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labb1/Labb1/Vehicle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/labb1/Labb2/CarController$TimerListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labb1/Labb2/CarController$TimerListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/labb1/Labb2/CarController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labb1/Labb2/CarController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/labb1/Labb2/DrawPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labb1/Labb2/DrawPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Labb1/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb1/Vehicle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Labb2/DrawPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb2/DrawPanel.java" afterDir="false" />
     </list>
-    <list id="d7e83fc0-06b6-4c68-bea5-cee87bd77fd2" name="Changes by jewishnazi" comment="6/12">
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-12-01_10_20_[Changes]/Car.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-12-01_10_20_[Changes]/Truck.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-12-01_10_20_[Changes]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-12-01_10_20_[Changes_by_Josef]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-12-01_10_20_[Changes_by_jewishnazi]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-12-01_10_20_[Changes_by_jonte]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-12-01_10_20__Changes_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-12-01_10_20__Changes_by_Josef_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-12-01_10_20__Changes_by_jewishnazi_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-12-01_10_20__Changes_by_jonte_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/Labb1/Car.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/Labb1/CarTransport.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/Labb1/Movable.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/Labb1/Platform.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/Labb1/Saab95.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/Labb1/Scania.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/Labb1/Truck.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/Labb1/Vehicle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/Labb1/Volvo240.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/Labb1/Workshop.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/Labb1/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/Labb1/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/TestCar/TestCar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/TestCar/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/TestCar/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/TestCarTransport/TestCarTransport.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/TestCarTransport/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/TestCarTransport/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/TestSaab95/TestSaab95.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/TestSaab95/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/TestSaab95/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/TestScania/TestScania.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/TestScania/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/TestScania/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/TestVolvo/TestVolvo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/TestVolvo/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/TestVolvo/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/TestWorkshop/TestWorkshop.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/TestWorkshop/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/TestWorkshop/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/allclasses-index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/allpackages-index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/element-list" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/help-doc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/index-files/index-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/index-files/index-10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/index-files/index-11.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/index-files/index-12.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/index-files/index-13.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/index-files/index-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/index-files/index-3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/index-files/index-4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/index-files/index-5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/index-files/index-6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/index-files/index-7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/index-files/index-8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/index-files/index-9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/jquery-ui.overrides.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/legal/ADDITIONAL_LICENSE_INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/legal/ASSEMBLY_EXCEPTION" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/legal/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/legal/jquery.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/legal/jqueryUI.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/member-search-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/module-search-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/overview-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/overview-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/package-search-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/resources/glass.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/resources/x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/script-dir/images/ui-bg_glass_55_fbf9ee_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/script-dir/images/ui-bg_glass_65_dadada_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/script-dir/images/ui-bg_glass_75_dadada_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/script-dir/images/ui-bg_glass_75_e6e6e6_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/script-dir/images/ui-bg_glass_95_fef1ec_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/script-dir/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/script-dir/images/ui-icons_222222_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/script-dir/images/ui-icons_2e83ff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/script-dir/images/ui-icons_454545_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/script-dir/images/ui-icons_888888_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/script-dir/images/ui-icons_cd0a0a_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/script-dir/jquery-3.5.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/script-dir/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/script-dir/jquery-ui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/script-dir/jquery-ui.structure.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/tag-search-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javadoc/type-search-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/labb1/Labb1/Platform.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestCarTransport/TestCarTransport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Labb1/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb1/Vehicle.java" afterDir="false" />
-    </list>
-    <list id="fd67ec6a-dcaf-4493-8dbe-6eb76120f900" name="Changes by jonte" comment="Changes by jonte">
-      <change beforePath="$PROJECT_DIR$/src/Labb1/CarTransport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb1/CarTransport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Labb1/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb1/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Labb1/Workshop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb1/Workshop.java" afterDir="false" />
+    <list id="bc7daf9e-27b2-437d-aab0-f895e5e970c3" name="Changes by jonte" comment="">
       <change beforePath="$PROJECT_DIR$/src/Labb2/CarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb2/CarController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Labb2/CarView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb2/CarView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Labb2/DrawPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb2/DrawPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestVolvo/TestVolvo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestVolvo/TestVolvo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestWorkshop/TestWorkshop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestWorkshop/TestWorkshop.java" afterDir="false" />
-    </list>
-    <list id="b0d3be97-eae6-401f-9fe5-52b7cf566fbb" name="Changes by Josef" comment="Changes by Josef">
-      <change beforePath="$PROJECT_DIR$/src/Labb1/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb1/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestCar/TestCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestCar/TestCar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,30 +49,6 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/src/Labb2/DrawPanel.java">
-      <ranges>
-        <range start1="10" end1="11" start2="10" end2="11" changelist="fd67ec6a-dcaf-4493-8dbe-6eb76120f900" />
-        <range start1="16" end1="17" start2="16" end2="19" changelist="fd67ec6a-dcaf-4493-8dbe-6eb76120f900" />
-        <range start1="21" end1="22" start2="23" end2="24" changelist="fd67ec6a-dcaf-4493-8dbe-6eb76120f900" />
-        <range start1="25" end1="25" start2="27" end2="33" changelist="fd67ec6a-dcaf-4493-8dbe-6eb76120f900" />
-        <range start1="42" end1="43" start2="50" end2="51" changelist="f10cac7b-b317-4629-973b-cf0eb4809fa2" />
-        <range start1="56" end1="56" start2="64" end2="67" changelist="fd67ec6a-dcaf-4493-8dbe-6eb76120f900" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/src/Labb1/Vehicle.java">
-      <ranges>
-        <range start1="38" end1="38" start2="38" end2="39" changelist="d7e83fc0-06b6-4c68-bea5-cee87bd77fd2" />
-        <range start1="39" end1="41" start2="40" end2="42" changelist="d7e83fc0-06b6-4c68-bea5-cee87bd77fd2" />
-        <range start1="46" end1="48" start2="47" end2="49" changelist="d7e83fc0-06b6-4c68-bea5-cee87bd77fd2" />
-        <range start1="132" end1="132" start2="133" end2="137" changelist="d7e83fc0-06b6-4c68-bea5-cee87bd77fd2" />
-        <range start1="138" end1="138" start2="143" end2="144" changelist="b0d3be97-eae6-401f-9fe5-52b7cf566fbb" />
-        <range start1="188" end1="190" start2="194" end2="196" changelist="fd67ec6a-dcaf-4493-8dbe-6eb76120f900" />
-        <range start1="233" end1="234" start2="239" end2="241" changelist="fd67ec6a-dcaf-4493-8dbe-6eb76120f900" />
-        <range start1="235" end1="235" start2="242" end2="244" changelist="fd67ec6a-dcaf-4493-8dbe-6eb76120f900" />
-      </ranges>
-    </file>
   </component>
   <component name="ProjectId" id="20iuLoCfz0QVyEXjlVH3yrEZRPP" />
   <component name="ProjectViewState">
@@ -413,7 +252,13 @@
       <option name="presentableId" value="LOCAL−00015" />
       <updated>1638787574985</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL−00016" summary="8/12">
+      <created>1638956778251</created>
+      <option name="number" value="LOCAL−00016" />
+      <option name="presentableId" value="LOCAL−00016" />
+      <updated>1638956778251</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -442,7 +287,8 @@
     <MESSAGE value="Changes by jewishnazi" />
     <MESSAGE value="12/6" />
     <MESSAGE value="6/12" />
-    <option name="LAST_COMMIT_MESSAGE" value="6/12" />
+    <MESSAGE value="8/12" />
+    <option name="LAST_COMMIT_MESSAGE" value="8/12" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
