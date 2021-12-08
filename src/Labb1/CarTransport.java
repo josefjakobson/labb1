@@ -12,7 +12,7 @@ import java.util.ArrayList;
  * changed or accessed unless explicitly necessary.
  *
  */
-public class CarTransport extends Truck implements Platform {
+public class CarTransport extends Truck {
 
     private ArrayList<Car> Cargo = new ArrayList<>(getLength()-1);
 
