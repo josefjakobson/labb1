@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f10cac7b-b317-4629-973b-cf0eb4809fa2" name="Changes" comment="fixade lite errors" />
+    <list default="true" id="f10cac7b-b317-4629-973b-cf0eb4809fa2" name="Changes" comment="tom commit till workspace (?)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Labb1/CarTransport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb1/CarTransport.java" afterDir="false" />
+    </list>
     <list id="d7e83fc0-06b6-4c68-bea5-cee87bd77fd2" name="Changes by jewishnazi" comment="Changes by jewishnazi" />
     <list id="fd67ec6a-dcaf-4493-8dbe-6eb76120f900" name="Changes by jonte" comment="Changes by jonte" />
     <list id="b0d3be97-eae6-401f-9fe5-52b7cf566fbb" name="Changes by Josef" comment="Changes by Josef" />
@@ -150,6 +153,7 @@
       <workItem from="1638799202074" duration="690000" />
       <workItem from="1638887590714" duration="41000" />
       <workItem from="1638889826326" duration="27000" />
+      <workItem from="1638890678775" duration="2324000" />
     </task>
     <task id="LOCAL−00001" summary="Några tester">
       <created>1636981933700</created>
@@ -242,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638799690429</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="tom commit till workspace (?)">
+      <created>1638890707832</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1638890707832</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,7 +282,8 @@
     <MESSAGE value="12/6" />
     <MESSAGE value="6/12" />
     <MESSAGE value="fixade lite errors" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixade lite errors" />
+    <MESSAGE value="tom commit till workspace (?)" />
+    <option name="LAST_COMMIT_MESSAGE" value="tom commit till workspace (?)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
