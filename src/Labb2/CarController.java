@@ -31,20 +31,7 @@ public class CarController {
 
     //methods:
 
-    public static void main(String[] args) {
-        // Instance of this class
-        CarController cc = new CarController();
 
-        cc.Vehicle.add(new Volvo240());
-        cc.Vehicle.add(new Scania());
-        cc.Vehicle.add(new Saab95());
-
-        // Start a new view and send a reference of self
-        cc.frame = new CarView("CarSim 1.0", cc);
-
-        // Start the timer
-        cc.timer.start();
-    }
 
     /* Each step the TimerListener moves all the cars in the list and tells the
     * view to update its images. Change this method to your needs.
