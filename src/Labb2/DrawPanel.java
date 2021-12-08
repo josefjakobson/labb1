@@ -8,21 +8,29 @@ import java.io.IOException;
 import javax.imageio.ImageIO;
 import javax.swing.*;
 
-// This panel represent the animated part of the view with the car images.
+// This panel represents the animated part of the view with the car images.
 
 public class DrawPanel extends JPanel{
 
     // Just a single image, TODO: Generalize
     BufferedImage volvoImage;
-    // To keep track of a singel cars position
+    BufferedImage scaniaImage;
+    BufferedImage saabIMage;
+    // To keep track of a single cars position
     Point volvoPoint = new Point();
     Point saabPoint = new Point();
     Point scaniaPoint = new Point();
 
-    // TODO: Make this genereal for all cars
+    // TODO: Make this general for all cars
     public void moveit(int x, int y){
         volvoPoint.x = x;
         volvoPoint.y = y;
+
+        saabPoint.x = x;
+        saabPoint.y = y;
+
+        scaniaPoint.x = x;
+        scaniaPoint.y = y;
     }
 
     // Initializes the panel and reads the images
@@ -54,5 +62,8 @@ public class DrawPanel extends JPanel{
     protected void paintComponent(Graphics g) {
         super.paintComponent(g);
         g.drawImage(volvoImage, volvoPoint.x, volvoPoint.y, null); // see javadoc for more info on the parameters
+        g.drawImage(saabIMage, saabPoint.x + 100, saabPoint.y, null );
+        g.drawImage(scaniaImage, scaniaPoint.x + 200, scaniaPoint.y,null);
+
     }
 }

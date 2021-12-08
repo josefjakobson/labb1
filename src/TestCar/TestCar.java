@@ -19,14 +19,22 @@ public class TestCar {
         assertEquals(2,saab.getNrDoors());
     }
 
+
+    @Test
+    public void test_getDirection(){
+        Car volvo = new Volvo240();
+        assertEquals(volvo.getDirection(), "Up");
+    }
+
+
     @Test
     public void test_getCurrentSpeed() {
         Car volvo = new Volvo240();
         assertEquals(0, volvo.getCurrentSpeed());
     }
 
-    @Test
 
+    @Test
     public void test_getEnginePower() {
         Car volvo = new Volvo240();
         assertEquals(100, volvo.getEnginePower());

@@ -24,6 +24,10 @@ public class CarTransport extends Truck {
         super(2, 100, 0, 4, "Flatbed");
     }
 
+    public ArrayList<Car> getCargo() {
+        return Cargo;
+    }
+
 
     /**
      * Will increase the angle of the platform
@@ -77,7 +81,7 @@ public class CarTransport extends Truck {
      */
     public void unloadCar() {
         if (platformAngle == 70) {
-            Car Car = Cargo.remove(0);
+            Car Car = Cargo.remove(Cargo.size() - 1);
             Car.setPositionX(getPositionX() + 1);
             Car.setIsloadedfalse();
         }
@@ -89,12 +93,12 @@ public class CarTransport extends Truck {
      */
     @Override
     public void moveCall() {
-        for (int i = 0; i < getLength(); i++) {
-            System.out.println(i);
+        move();
+        for (int i = 0; i < Cargo.size(); i++) {
             Cargo.get(i).setPositionX(getPositionX()); // Ändra x positionen av cargo[i] till getPostionX
             Cargo.get(i).setPositionY(getPositionY()); // Ändra y positionen av cargo[i] till getPostionY
 
         }
-        move();
+
     }
 }

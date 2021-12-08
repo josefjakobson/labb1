@@ -1,0 +1,89 @@
+Index: src/Labb1/Vehicle.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Labb1;\r\n\r\npublic abstract class Vehicle implements Movable{\r\n    private int nrDoors; // Number of doors on the car\r\n    private double enginePower; // Engine power of the car\r\n    private double currentSpeed; // The current speed of the car\r\n    private double positionX;\r\n    private double positionY;\r\n    private String direction;\r\n\r\n    public Vehicle(int nrDoors, double enginePower, double currentSpeed){\r\n        this.nrDoors = nrDoors;\r\n        this.enginePower = enginePower;\r\n        this.currentSpeed = currentSpeed;\r\n        this.positionX = 0;\r\n        this.positionY = 0;\r\n        this.direction = \"Up\";\r\n    }\r\n\r\n    public String getDirection(){return direction;}\r\n\r\n    public int getNrDoors() {\r\n        return nrDoors;\r\n    }\r\n\r\n    public double getEnginePower() {\r\n        return enginePower;\r\n    }\r\n\r\n    public double getCurrentSpeed() {\r\n        return currentSpeed;\r\n    }\r\n\r\n    public double[] getCoordinates(){\r\n        return new double[] {positionX, positionY};\r\n    }\r\n\r\n    public double getPositionX(){\r\n        return positionX;\r\n    }\r\n\r\n    public double getPositionY(){\r\n        return positionY;\r\n    }\r\n\r\n    public void setPositionX(double xPos) {\r\n        this.positionX = xPos;\r\n    }\r\n\r\n    public void setPositionY(double yPos) {\r\n        this.positionY = yPos;\r\n    }\r\n\r\n    public void startEngine() {\r\n        currentSpeed = 0.1;\r\n    }\r\n\r\n    public void stopEngine() {\r\n        currentSpeed = 0;\r\n    }\r\n\r\n    abstract public double getSpeedFactor();\r\n\r\n    private void increaseSpeed(double amount){\r\n        currentSpeed = Math.min(getCurrentSpeed()  + getSpeedFactor() * amount,enginePower); // Current speed is set to the lowest of amount and enginePower, making sure currentSpeed never exceeds enginePower\r\n    }\r\n\r\n    private void decreaseSpeed(double amount){\r\n        currentSpeed = Math.max(getCurrentSpeed() - getSpeedFactor() * amount,0); // Current speed is set to the largest of amount and 0, making sure the speed never falls below zero\r\n    }\r\n\r\n    public void gas(double amount){ // Double checks if amount is between 0 and 1 and increases speed\r\n        if (amount < 0) {\r\n            amount = 0;\r\n        }\r\n        else if (amount > 1) {\r\n            amount = 1;\r\n        }\r\n\r\n        increaseSpeed(amount);\r\n    }\r\n\r\n    public void brake(double amount){\r\n        if (amount < 0) {\r\n            amount = 0;\r\n        }\r\n        else if (amount > 1) {\r\n            amount = 1;\r\n        }\r\n\r\n        decreaseSpeed(amount);\r\n    }\r\n\r\n    public void moveCall() {\r\n        move();\r\n    }\r\n\r\n    public void move(){\r\n        switch (direction) {\r\n            case \"Up\" -> positionY += currentSpeed;\r\n            case \"Down\" -> positionY -= currentSpeed;\r\n            case \"Right\" -> positionX += currentSpeed;\r\n            case \"Left\" -> positionX -= currentSpeed;\r\n            default -> {\r\n            }\r\n        }\r\n    }\r\n\r\n\r\n    public void turnLeft(){\r\n        switch (direction) {\r\n            case \"Up\" -> direction = \"Left\";\r\n            case \"Down\" -> direction = \"Right\";\r\n            case \"Right\" -> direction = \"Down\";\r\n            case \"Left\" -> direction = \"Up\";\r\n        }\r\n    }\r\n\r\n\r\n    public void turnRight() {\r\n\r\n        switch (direction) {\r\n            case \"Up\" -> direction = \"Right\";\r\n            case \"Down\" -> direction = \"Left\";\r\n            case \"Right\" -> direction = \"Down\";\r\n            case \"Left\" -> direction = \"Up\";\r\n        }\r\n    }\r\n\r\n    protected double getDistanceBetweenPoints(double[] coordinates1, double[] coordinates2) {\r\n\r\n        return Math.abs(Math.sqrt(coordinates1[0] - coordinates2[0])+(coordinates1[1]-coordinates2[2]));\r\n    }\r\n\r\n\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Labb1/Vehicle.java b/src/Labb1/Vehicle.java
+--- a/src/Labb1/Vehicle.java	(revision eb05ad38cb1b5768fddbcf84ccc56c9a95ff1cd0)
++++ b/src/Labb1/Vehicle.java	(date 1638284755396)
+@@ -65,10 +65,18 @@
+         currentSpeed = Math.min(getCurrentSpeed()  + getSpeedFactor() * amount,enginePower); // Current speed is set to the lowest of amount and enginePower, making sure currentSpeed never exceeds enginePower
+     }
+ 
++
+     private void decreaseSpeed(double amount){
+         currentSpeed = Math.max(getCurrentSpeed() - getSpeedFactor() * amount,0); // Current speed is set to the largest of amount and 0, making sure the speed never falls below zero
+     }
+ 
++
++    /**
++     * Increases the value of the currentSpeed variable to a value according to a calculation based on  the variable
++     * amount and its previous speed, and caps it off at enginePower.
++     *
++     * @param amount decides how much the speed will increase.
++     */
+     public void gas(double amount){ // Double checks if amount is between 0 and 1 and increases speed
+         if (amount < 0) {
+             amount = 0;
+@@ -80,6 +88,13 @@
+         increaseSpeed(amount);
+     }
+ 
++
++    /**
++     * Decreases the value of the currentSpeed variable to a value according to a calculation based on the variable
++     * amount and its previous speed, and caps it off at 0 so that the vehicle does not move backwards.
++     *
++     * @param amount decides how much the speed will increase.
++     */
+     public void brake(double amount){
+         if (amount < 0) {
+             amount = 0;
+@@ -91,6 +106,9 @@
+         decreaseSpeed(amount);
+     }
+ 
++    /**
++     * Updates the position of the vehicle according to currentSpeed, direction and position
++     * */
+     public void moveCall() {
+         move();
+     }
+@@ -107,6 +125,9 @@
+     }
+ 
+ 
++    /**
++     * Changes the value of direction based on its previous value.
++     */
+     public void turnLeft(){
+         switch (direction) {
+             case "Up" -> direction = "Left";
+@@ -117,8 +138,10 @@
+     }
+ 
+ 
++    /**
++     * Changes the value of direction based on its previous value.
++     */
+     public void turnRight() {
+-
+         switch (direction) {
+             case "Up" -> direction = "Right";
+             case "Down" -> direction = "Left";
+@@ -127,6 +150,13 @@
+         }
+     }
+ 
++
++    /**
++     * Calculates the distance between two coordinates using pythagoras.
++     * @param coordinates1 a list of doubles containing the coordinates of one point
++     * @param coordinates2 a list of doubles containing the coordinates of the other point
++     * @return the distance between point 1 and point 2
++     */
+     protected double getDistanceBetweenPoints(double[] coordinates1, double[] coordinates2) {
+ 
+         return Math.abs(Math.sqrt(coordinates1[0] - coordinates2[0])+(coordinates1[1]-coordinates2[2]));

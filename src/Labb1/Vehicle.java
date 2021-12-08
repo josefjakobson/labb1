@@ -36,16 +36,17 @@ public abstract class Vehicle implements Movable{
         this.direction = "Down";
     }
 
+
     /**
-     * Gets the current direction that the vehicle is facing
-     * @return the direction
+     * Gets the value of the direction variable.
+     * @return value of the direction variable
      */
     public String getDirection(){return direction;}
 
 
     /**
-     * Gets the value of the nrDoors attribute
-     * @return the value of the nrDoors variable
+     * Gets the value of the nrDoors variable.
+     * @return value of the nrDoors variable
      */
     public int getNrDoors() {
         return nrDoors;
@@ -130,11 +131,16 @@ public abstract class Vehicle implements Movable{
     }
 
 
+
+    /**
+     * gets the value of the variable speedFactor.
+     */
     abstract public double getSpeedFactor();
 
     private void increaseSpeed(double amount){
         currentSpeed = Math.min(getCurrentSpeed()  + getSpeedFactor() * amount,enginePower); // Current speed is set to the lowest of amount and enginePower, making sure currentSpeed never exceeds enginePower
     }
+
 
     private void decreaseSpeed(double amount){
         currentSpeed = Math.max(getCurrentSpeed() - getSpeedFactor() * amount,0); // Current speed is set to the largest of amount and 0, making sure the speed never falls below zero
@@ -186,8 +192,8 @@ public abstract class Vehicle implements Movable{
      */
     public void move(){
         switch (direction) {
-            case "Up" -> positionY += currentSpeed;
-            case "Down" -> positionY -= currentSpeed;
+            case "Up" -> positionY -= currentSpeed;
+            case "Down" -> positionY += currentSpeed;
             case "Right" -> positionX += currentSpeed;
             case "Left" -> positionX -= currentSpeed;
             default -> {
@@ -231,8 +237,11 @@ public abstract class Vehicle implements Movable{
      */
     protected double getDistanceBetweenPoints(double[] coordinates1, double[] coordinates2) {
 
-        return Math.abs(Math.sqrt(coordinates1[0] - coordinates2[0])+(coordinates1[1]-coordinates2[2]));
+        return Math.abs(Math.sqrt(Math.pow(coordinates1[0] - coordinates2[0], 2) + (Math.pow(coordinates1[1] - coordinates2[1], 2))));
+
     }
+
+
 
 
 }

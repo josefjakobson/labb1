@@ -1,0 +1,165 @@
+Index: src/Labb1/CarTransport.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Labb1;\r\n\r\nimport java.util.ArrayList;\r\n\r\n\r\npublic class CarTransport extends Truck implements Platform {\r\n\r\n    private ArrayList<Car> Cargo = new ArrayList<>(getLength()-1);\r\n\r\n    public CarTransport(){\r\n        super(2, 100, 0, 4, \"Flatbed\");\r\n    }\r\n\r\n    @Override\r\n    public void RaisePlatform() {\r\n        platformAngle = 70;\r\n    }\r\n\r\n    @Override\r\n    public void LowerPlatform() {\r\n        platformAngle = 0;\r\n    }\r\n\r\n    public void LoadCar (Car content){\r\n        if (checkLoadAvailability(content)) {\r\n            Cargo.add(content);}\r\n    }\r\n\r\n    public boolean checkLoadAvailability(Car Car) {\r\n        if (platformAngle == 70){\r\n            if (getDistanceBetweenPoints(Car.getCoordinates(), getCoordinates()) <= 2) {\r\n                return true;\r\n            }\r\n        }\r\n        return false;\r\n    }\r\n    \r\n    public void unloadCar() {\r\n        if (platformAngle == 70) {\r\n            Car Car = Cargo.remove(0);\r\n            Car.setPositionX(getPositionX() + 1);\r\n        }\r\n    }\r\n\r\n    @Override\r\n    public void moveCall() {\r\n        for (int i = 0; i < getLength(); i++) {\r\n            System.out.println(i);\r\n            Cargo.get(i).setPositionX(getPositionX()); // Ändra x positionen av cargo[i] till getPostionX\r\n            Cargo.get(i).setPositionY(getPositionY()); // Ändra y positionen av cargo[i] till getPostionY\r\n\r\n        }\r\n        move();\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Labb1/CarTransport.java b/src/Labb1/CarTransport.java
+--- a/src/Labb1/CarTransport.java	(revision eb05ad38cb1b5768fddbcf84ccc56c9a95ff1cd0)
++++ b/src/Labb1/CarTransport.java	(date 1638286737187)
+@@ -5,12 +5,16 @@
+ 
+ public class CarTransport extends Truck implements Platform {
+ 
+-    private ArrayList<Car> Cargo = new ArrayList<>(getLength()-1);
++    private ArrayList<Car> Cargo = new ArrayList<>(getLength());
+ 
+     public CarTransport(){
+         super(2, 100, 0, 4, "Flatbed");
+     }
+ 
++    public ArrayList<Car> getCargo() {
++        return Cargo;
++    }
++
+     @Override
+     public void RaisePlatform() {
+         platformAngle = 70;
+@@ -23,6 +27,7 @@
+ 
+     public void LoadCar (Car content){
+         if (checkLoadAvailability(content)) {
++            System.out.println("Car loaded!");
+             Cargo.add(content);}
+     }
+ 
+@@ -37,19 +42,19 @@
+     
+     public void unloadCar() {
+         if (platformAngle == 70) {
+-            Car Car = Cargo.remove(0);
++            Car Car = Cargo.remove(Cargo.size() - 1);
+             Car.setPositionX(getPositionX() + 1);
+         }
+     }
+ 
+     @Override
+     public void moveCall() {
+-        for (int i = 0; i < getLength(); i++) {
+-            System.out.println(i);
++        move();
++        for (int i = 0; i < Cargo.size(); i++) {
+             Cargo.get(i).setPositionX(getPositionX()); // Ändra x positionen av cargo[i] till getPostionX
+             Cargo.get(i).setPositionY(getPositionY()); // Ändra y positionen av cargo[i] till getPostionY
+ 
+         }
+-        move();
++
+     }
+ }
+Index: src/Labb1/Vehicle.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Labb1;\r\n\r\npublic abstract class Vehicle implements Movable{\r\n    private int nrDoors; // Number of doors on the car\r\n    private double enginePower; // Engine power of the car\r\n    private double currentSpeed; // The current speed of the car\r\n    private double positionX;\r\n    private double positionY;\r\n    private String direction;\r\n\r\n    public Vehicle(int nrDoors, double enginePower, double currentSpeed){\r\n        this.nrDoors = nrDoors;\r\n        this.enginePower = enginePower;\r\n        this.currentSpeed = currentSpeed;\r\n        this.positionX = 0;\r\n        this.positionY = 0;\r\n        this.direction = \"Up\";\r\n    }\r\n\r\n    public String getDirection(){return direction;}\r\n\r\n    public int getNrDoors() {\r\n        return nrDoors;\r\n    }\r\n\r\n    public double getEnginePower() {\r\n        return enginePower;\r\n    }\r\n\r\n    public double getCurrentSpeed() {\r\n        return currentSpeed;\r\n    }\r\n\r\n    public double[] getCoordinates(){\r\n        return new double[] {positionX, positionY};\r\n    }\r\n\r\n    public double getPositionX(){\r\n        return positionX;\r\n    }\r\n\r\n    public double getPositionY(){\r\n        return positionY;\r\n    }\r\n\r\n    public void setPositionX(double xPos) {\r\n        this.positionX = xPos;\r\n    }\r\n\r\n    public void setPositionY(double yPos) {\r\n        this.positionY = yPos;\r\n    }\r\n\r\n    public void startEngine() {\r\n        currentSpeed = 0.1;\r\n    }\r\n\r\n    public void stopEngine() {\r\n        currentSpeed = 0;\r\n    }\r\n\r\n    abstract public double getSpeedFactor();\r\n\r\n    private void increaseSpeed(double amount){\r\n        currentSpeed = Math.min(getCurrentSpeed()  + getSpeedFactor() * amount,enginePower); // Current speed is set to the lowest of amount and enginePower, making sure currentSpeed never exceeds enginePower\r\n    }\r\n\r\n    private void decreaseSpeed(double amount){\r\n        currentSpeed = Math.max(getCurrentSpeed() - getSpeedFactor() * amount,0); // Current speed is set to the largest of amount and 0, making sure the speed never falls below zero\r\n    }\r\n\r\n    public void gas(double amount){ // Double checks if amount is between 0 and 1 and increases speed\r\n        if (amount < 0) {\r\n            amount = 0;\r\n        }\r\n        else if (amount > 1) {\r\n            amount = 1;\r\n        }\r\n\r\n        increaseSpeed(amount);\r\n    }\r\n\r\n    public void brake(double amount){\r\n        if (amount < 0) {\r\n            amount = 0;\r\n        }\r\n        else if (amount > 1) {\r\n            amount = 1;\r\n        }\r\n\r\n        decreaseSpeed(amount);\r\n    }\r\n\r\n    public void moveCall() {\r\n        move();\r\n    }\r\n\r\n    public void move(){\r\n        switch (direction) {\r\n            case \"Up\" -> positionY += currentSpeed;\r\n            case \"Down\" -> positionY -= currentSpeed;\r\n            case \"Right\" -> positionX += currentSpeed;\r\n            case \"Left\" -> positionX -= currentSpeed;\r\n            default -> {\r\n            }\r\n        }\r\n    }\r\n\r\n\r\n    public void turnLeft(){\r\n        switch (direction) {\r\n            case \"Up\" -> direction = \"Left\";\r\n            case \"Down\" -> direction = \"Right\";\r\n            case \"Right\" -> direction = \"Down\";\r\n            case \"Left\" -> direction = \"Up\";\r\n        }\r\n    }\r\n\r\n\r\n    public void turnRight() {\r\n\r\n        switch (direction) {\r\n            case \"Up\" -> direction = \"Right\";\r\n            case \"Down\" -> direction = \"Left\";\r\n            case \"Right\" -> direction = \"Down\";\r\n            case \"Left\" -> direction = \"Up\";\r\n        }\r\n    }\r\n\r\n    protected double getDistanceBetweenPoints(double[] coordinates1, double[] coordinates2) {\r\n\r\n        return Math.abs(Math.sqrt(coordinates1[0] - coordinates2[0])+(coordinates1[1]-coordinates2[2]));\r\n    }\r\n\r\n\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Labb1/Vehicle.java b/src/Labb1/Vehicle.java
+--- a/src/Labb1/Vehicle.java	(revision eb05ad38cb1b5768fddbcf84ccc56c9a95ff1cd0)
++++ b/src/Labb1/Vehicle.java	(date 1638284755396)
+@@ -129,8 +129,11 @@
+ 
+     protected double getDistanceBetweenPoints(double[] coordinates1, double[] coordinates2) {
+ 
+-        return Math.abs(Math.sqrt(coordinates1[0] - coordinates2[0])+(coordinates1[1]-coordinates2[2]));
++        return Math.abs(Math.sqrt(Math.pow(coordinates1[0] - coordinates2[0], 2) + (Math.pow(coordinates1[1] - coordinates2[1], 2))));
++
+     }
++
++
+ 
+ 
+ }
+Index: src/Labb1/Workshop.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Labb1;\r\n/**\r\n * @JosefJakobson\r\n * @JonathanSvantesson\r\n * @JonathanEdenlund\r\n *\r\n * A class that creates instance objects of a Workshop with all the necessary attributes and methods for\r\n * a workshop. Type T extends from the superclass Vehicle.\r\n *\r\n * To get access to attributes getters and setters are used.\r\n */\r\n\r\nimport org.w3c.dom.ranges.Range;\r\n\r\nimport java.util.ArrayList;\r\nimport java.util.List;\r\n\r\npublic class Workshop<T extends Vehicle> {\r\n    private int maxCapacity;\r\n    private List<T> content;\r\n    private String workshopName;\r\n\r\n    /**\r\n     * A constructor for creating instance object for the class Workshop. Contains all the attributes\r\n     * for the class.\r\n     *\r\n     * @param maxCapacity are the max number of vehicles in the workshop\r\n     * @param workshopName the name of the specific workshop (instance object)\r\n     */\r\n    public Workshop(int maxCapacity, String workshopName) {\r\n        this.maxCapacity = maxCapacity;\r\n        this.workshopName = workshopName;\r\n        this.content = new ArrayList<>(maxCapacity);\r\n\r\n    }\r\n\r\n    /**\r\n     * Gets the value of the attribute content\r\n     * @return the value of the attribute content\r\n     */\r\n    public List<T> getContent (){return content;}\r\n\r\n    /**\r\n     * Loads the specific Vehicle in to the workshop (the attribute content).\r\n     * @param vehicle the type of the instance object\r\n     */\r\n    public void LoadVehicle(T vehicle) {content.add(vehicle);}\r\n\r\n    /**\r\n     * Removes the vehicle from the workshop (removes the instance object from the arraylist)\r\n     * @return the instance object\r\n     */\r\n    public T removeVehicle(){\r\n        T vehicle = content.remove(0);\r\n        return vehicle;\r\n    }\r\n\r\n\r\n\r\n\r\n\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Labb1/Workshop.java b/src/Labb1/Workshop.java
+--- a/src/Labb1/Workshop.java	(revision eb05ad38cb1b5768fddbcf84ccc56c9a95ff1cd0)
++++ b/src/Labb1/Workshop.java	(date 1638284558508)
+@@ -51,7 +51,7 @@
+      * @return the instance object
+      */
+     public T removeVehicle(){
+-        T vehicle = content.remove(0);
++        T vehicle = content.remove(content.size() - 1);
+         return vehicle;
+     }
+ 
+Index: src/TestWorkshop/TestWorkshop.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package TestWorkshop;\r\n\r\nimport Labb1.Car;\r\nimport Labb1.Workshop;\r\nimport Labb1.Volvo240;\r\n\r\nimport org.testng.annotations.Test;\r\nimport static org.junit.jupiter.api.Assertions.assertEquals;\r\n\r\npublic class TestWorkshop {\r\n\r\n\r\n    @Test\r\n    public void test_LoadVehicle_Length (){\r\n        Car TestCar = new Volvo240();\r\n        Car TestCar2 = new Volvo240();\r\n        Workshop Test_Workshop = new Workshop<Car>(1,\"Test_WorkshopName\");\r\n        Test_Workshop.LoadVehicle(TestCar);\r\n        Test_Workshop.LoadVehicle(TestCar2);\r\n        assertEquals(Test_Workshop.getContent().size(),1);\r\n\r\n    }\r\n\r\n    @Test\r\n    public void test_LoadVehicle_Content() {\r\n        Car TestCar = new Volvo240();\r\n        Workshop Test_Workshop = new Workshop<Car>(1,\"Test_Workshop\");\r\n        Test_Workshop.LoadVehicle(TestCar);\r\n        assertEquals((Test_Workshop.getContent().get(0)), TestCar);\r\n\r\n    }\r\n\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/TestWorkshop/TestWorkshop.java b/src/TestWorkshop/TestWorkshop.java
+--- a/src/TestWorkshop/TestWorkshop.java	(revision eb05ad38cb1b5768fddbcf84ccc56c9a95ff1cd0)
++++ b/src/TestWorkshop/TestWorkshop.java	(date 1638284755396)
+@@ -1,8 +1,6 @@
+ package TestWorkshop;
+ 
+-import Labb1.Car;
+-import Labb1.Workshop;
+-import Labb1.Volvo240;
++import Labb1.*;
+ 
+ import org.testng.annotations.Test;
+ import static org.junit.jupiter.api.Assertions.assertEquals;
+@@ -22,7 +20,7 @@
+     }
+ 
+     @Test
+-    public void test_LoadVehicle_Content() {
++    public void test_LoadCar_Content() {
+         Car TestCar = new Volvo240();
+         Workshop Test_Workshop = new Workshop<Car>(1,"Test_Workshop");
+         Test_Workshop.LoadVehicle(TestCar);
+@@ -30,4 +28,33 @@
+ 
+     }
+ 
++    @Test
++    public void test_LoadVehicle_Content() {
++        Car TestCar = new Volvo240();
++        CarTransport Cartransport = new CarTransport();
++        Scania scania = new Scania();
++
++        Workshop Test_Workshop = new Workshop<Vehicle>(5,"Vehicle_workshop");
++        Test_Workshop.LoadVehicle(TestCar);
++        Test_Workshop.LoadVehicle(Cartransport);
++        Test_Workshop.LoadVehicle(scania);
++        assertEquals((Test_Workshop.getContent().get(2)), scania);
++
++    }
++
++    @Test
++    public void test_UnLoadVehicle_Content() {
++        Car TestCar = new Volvo240();
++        Saab95 saab = new Saab95();
++
++        Workshop Test_Workshop = new Workshop<Car>(5, "Vehicle_workshop");
++        Test_Workshop.LoadVehicle(TestCar);
++        Test_Workshop.LoadVehicle(saab);
++        Test_Workshop.removeVehicle();
++
++        assertEquals((Test_Workshop.getContent().get(0)), TestCar);
++
++    }
++
++
+ }

@@ -1,0 +1,14 @@
+<changelist name="Uncommitted_changes_before_Update_at_2021-12-01_10_20_[Changes]" date="1638350719568" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-12-01_10_20_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 2021-12-01 10:20 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/labb1/Labb1/Car.class" />
+    <option name="AFTER_PATH" value="out/production/labb1/Labb1/Car.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-12-01_10_20_[Changes]/Car.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/labb1/Labb1/Truck.class" />
+    <option name="AFTER_PATH" value="out/production/labb1/Labb1/Truck.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-12-01_10_20_[Changes]/Truck.class" />
+  </binary>
+</changelist>

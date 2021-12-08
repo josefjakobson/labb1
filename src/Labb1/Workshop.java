@@ -51,7 +51,7 @@ public class Workshop<T extends Vehicle> {
      * @return the instance object
      */
     public T removeVehicle(){
-        T vehicle = content.remove(0);
+        T vehicle = content.remove(content.size() - 1);
         return vehicle;
     }
 
