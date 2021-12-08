@@ -33,7 +33,7 @@ public abstract class Vehicle implements Movable{
         this.currentSpeed = currentSpeed;
         this.positionX = 0;
         this.positionY = 0;
-        this.direction = "Up";
+        this.direction = "Down";
     }
 
     /**
