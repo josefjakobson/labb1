@@ -54,12 +54,14 @@ public class DrawPanel extends JPanel{
     @Override
     protected void paintComponent(Graphics g) {
         super.paintComponent(g);
+        int distance = 0;
         for (Vehicle car : vehicles){
-            g.drawImage(volvoImage, olvoPoint.x, volvoPoint.y, null); // see javadoc for more info on the parameters
-            g.drawImage(saabIMage, saabPoint.x + 100, saabPoint.y, null );
-            g.drawImage(scaniaImage, scaniaPoint.x + 200, scaniaPoint.y,null);
+            try {
+                g.drawImage( ImageIO.read(DrawPanel.class.getResourceAsStream("pics/"+car.getModelName()+".jpg")), (int) Math.round(car.getPositionX()) + distance, (int) Math.round(car.getPositionY()), null); // see javadoc for more info on the parameters
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            distance += 100;
         }
-
-
     }
 }

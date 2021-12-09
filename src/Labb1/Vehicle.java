@@ -19,6 +19,7 @@ public abstract class Vehicle implements Movable{
     private double positionX;
     private double positionY;
     private String direction;
+    private String modelName;
 
 
     /**
@@ -27,13 +28,14 @@ public abstract class Vehicle implements Movable{
      * @param enginePower is the max speed that an instance of a subclass has.
      * @param currentSpeed is the value of the current speed of the object
      */
-    public Vehicle(int nrDoors, double enginePower, double currentSpeed){
+    public Vehicle(int nrDoors, double enginePower, double currentSpeed, String modelName){
         this.nrDoors = nrDoors;
         this.enginePower = enginePower;
         this.currentSpeed = currentSpeed;
         this.positionX = 0;
         this.positionY = 0;
         this.direction = "Down";
+        this.modelName = modelName;
     }
 
 
@@ -239,6 +241,10 @@ public abstract class Vehicle implements Movable{
 
         return Math.abs(Math.sqrt(Math.pow(coordinates1[0] - coordinates2[0], 2) + (Math.pow(coordinates1[1] - coordinates2[1], 2))));
 
+    }
+
+    public String getModelName(){
+        return modelName;
     }
 
 

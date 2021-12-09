@@ -35,7 +35,7 @@ public class CarController {
     //methods:
 
     public CarController(ArrayList<Vehicle> Vehicle) {
-        this.Vehicle = model.getVehicleArray();
+        this.Vehicle = Vehicle;
 
     }
 
