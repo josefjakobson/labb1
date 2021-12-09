@@ -57,7 +57,7 @@ public class DrawPanel extends JPanel{
         int distance = 0;
         for (Vehicle car : vehicles){
             try {
-                g.drawImage( ImageIO.read(DrawPanel.class.getResourceAsStream("pics/"+car.getModelName()+".jpg")), (int) Math.round(car.getPositionX()) + distance, (int) Math.round(car.getPositionY()), null); // see javadoc for more info on the parameters
+                g.drawImage( ImageIO.read(DrawPanel.class.getResourceAsStream("pics/"+car.getModelName()+".jpg")), (int) Math.round(car.getPositionX()), (int) Math.round(car.getPositionY()) + distance, null); // see javadoc for more info on the parameters
             } catch (IOException e) {
                 e.printStackTrace();
             }

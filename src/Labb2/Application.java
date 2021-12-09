@@ -31,6 +31,7 @@ public class Application {
 
         // Start the timer
         model.start();
+
     }
 
 

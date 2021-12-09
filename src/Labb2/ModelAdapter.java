@@ -27,6 +27,10 @@ public class ModelAdapter {
 
     private Timer timer = new Timer(delay, new TimerListener());
 
+
+    CarView carView = new CarView("LL");
+
+
     private class TimerListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
             for (Vehicle car : vehicle) {
@@ -36,7 +40,7 @@ public class ModelAdapter {
                 if (x > 700 || y > 700 || x < 0 || y < 0) {
                     car.turnRight();
                     car.turnRight();
-                }
+                };
 
                 // repaint() calls the paintComponent method of the panel
                 //frame.drawPanel.repaint();
