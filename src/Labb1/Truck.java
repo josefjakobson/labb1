@@ -1,6 +1,7 @@
 package Labb1;
 
 import java.awt.*;
+import java.util.ArrayList;
 
 /**
  * @JosefJakobson
