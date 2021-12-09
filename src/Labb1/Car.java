@@ -30,9 +30,8 @@ public abstract class Car extends Vehicle {
      * @param modelName is the model name of the Car
      */
     public Car(int nrDoors, double enginePower, double currentSpeed, Color color, String modelName) {
-        super(nrDoors, enginePower, currentSpeed);
+        super(nrDoors, enginePower, currentSpeed, modelName);
         this.color = color;
-        this.modelName = modelName;
         this.isloaded = false;
     }
 
@@ -57,5 +56,6 @@ public abstract class Car extends Vehicle {
     public void setIsloadedfalse(){isloaded = false;}
 
     public boolean getisloaded(){return isloaded;}
+
 
 }

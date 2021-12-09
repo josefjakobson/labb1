@@ -1,6 +1,7 @@
 package Labb1;
 
 import java.awt.*;
+import java.util.ArrayList;
 
 /**
  * @JosefJakobson
@@ -32,9 +33,8 @@ public abstract class Truck extends Vehicle implements Platform{
 
 
     public Truck(int nrDoors, double enginePower, double currentSpeed, int length, String modelName) {
-        super(nrDoors, enginePower, currentSpeed);
+        super(nrDoors, enginePower, currentSpeed, modelName);
         this.length = length;
-        this.modelName = modelName;
         this.isMoving = false;
         this.platformAngle = 0;
 
@@ -92,4 +92,5 @@ public abstract class Truck extends Vehicle implements Platform{
     public int getLength(){
         return length;
     }
+
 }

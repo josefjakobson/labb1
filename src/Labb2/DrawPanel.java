@@ -1,10 +1,12 @@
 package Labb2;
-
+import Labb1.Scania;
+import Labb1.Vehicle;
 
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
 import javax.imageio.ImageIO;
 import javax.swing.*;
 
@@ -17,21 +19,12 @@ public class DrawPanel extends JPanel{
     BufferedImage scaniaImage;
     BufferedImage saabIMage;
     // To keep track of a single cars position
-    Point volvoPoint = new Point();
-    Point saabPoint = new Point();
-    Point scaniaPoint = new Point();
+
+    ModelAdapter model = new ModelAdapter();
+    ArrayList<Vehicle> vehicles = new ArrayList<>();
 
     // TODO: Make this general for all cars
-    public void moveit(int x, int y){
-        volvoPoint.x = x;
-        volvoPoint.y = y;
 
-        saabPoint.x = x;
-        saabPoint.y = y;
-
-        scaniaPoint.x = x;
-        scaniaPoint.y = y;
-    }
 
     // Initializes the panel and reads the images
     public DrawPanel(int x, int y) {
@@ -61,9 +54,14 @@ public class DrawPanel extends JPanel{
     @Override
     protected void paintComponent(Graphics g) {
         super.paintComponent(g);
-        g.drawImage(volvoImage, volvoPoint.x, volvoPoint.y, null); // see javadoc for more info on the parameters
-        g.drawImage(saabIMage, saabPoint.x , saabPoint.y + 100, null );
-        g.drawImage(scaniaImage, scaniaPoint.x, scaniaPoint.y + 200,null);
-
+        int distance = 0;
+        for (Vehicle car : vehicles){
+            try {
+                g.drawImage( ImageIO.read(DrawPanel.class.getResourceAsStream("pics/"+car.getModelName()+".jpg")), (int) Math.round(car.getPositionX()) + distance, (int) Math.round(car.getPositionY()), null); // see javadoc for more info on the parameters
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            distance += 100;
+        }
     }
 }
