@@ -10,6 +10,8 @@ import java.util.ArrayList;
 
 public class Application {
 
+
+
     public static void main(String[] args) {
         ModelAdapter model = new ModelAdapter();
         // Instance of this class
@@ -28,7 +30,7 @@ public class Application {
         cc.frame = new CarView("CarSim 1.0");
 
         // Start the timer
-        //cc.timer.start();
+        model.start();
     }
 
 

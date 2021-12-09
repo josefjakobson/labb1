@@ -91,16 +91,7 @@ public class CarController {
             }
         });
 
-        frame.turboOnButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                for (Vehicle car : Vehicle) {
-                    if (car instanceof Saab95) {
-                        ((Saab95) car).setTurboOn();
-                    }
-                }
-            }
-        });
+
 
         frame.liftBedButton.addActionListener(new ActionListener() {
             @Override
@@ -124,16 +115,7 @@ public class CarController {
             }
         });
 
-        frame.turboOffButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                for (Vehicle car : Vehicle) {
-                    if (car instanceof Saab95) {
-                        ((Saab95) car).setTurboOff();
-                    }
-                }
-            }
-        });
+
     }
 
 
