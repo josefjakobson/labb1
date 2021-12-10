@@ -1,0 +1,21 @@
+Index: src/Labb2/CarController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Labb2;\r\n\r\nimport Labb1.*;\r\n\r\nimport javax.swing.*;\r\nimport java.awt.event.ActionEvent;\r\nimport java.awt.event.ActionListener;\r\nimport java.util.ArrayList;\r\nimport java.util.PrimitiveIterator;\r\n\r\n\r\n/*\r\n* This class represents the Controller part in the MVC pattern.\r\n* It's responsibilities is to listen to the View and responds in a appropriate manner by\r\n* modifying the model state and the updating the view.\r\n */\r\n\r\npublic class CarController {\r\n    // member fields:\r\n\r\n    // The delay (ms) corresponds to 20 updates a sec (hz)\r\n    private final int delay = 50;\r\n    // The timer is started with an listener (see below) that executes the statements\r\n    // each step between delays.\r\n    private Timer timer = new Timer(delay, new TimerListener());\r\n\r\n    // The frame that represents this instance View of the MVC pattern\r\n    CarView frame;\r\n    // A list of cars, modify if needed\r\n    ArrayList<Vehicle> Vehicle = new ArrayList<>();\r\n\r\n    //methods:\r\n\r\n\r\n\r\n    /* Each step the TimerListener moves all the cars in the list and tells the\r\n    * view to update its images. Change this method to your needs.\r\n    * */\r\n    private class TimerListener implements ActionListener {\r\n        public void actionPerformed(ActionEvent e) {\r\n            for (Vehicle car : Vehicle) {\r\n                car.move();\r\n                int x = (int) Math.round(car.getPositionX());\r\n                int y = (int) Math.round(car.getPositionY());\r\n                frame.drawPanel.moveit(x, y);\r\n                // repaint() calls the paintComponent method of the panel\r\n                frame.drawPanel.repaint();\r\n            }\r\n        }\r\n    }\r\n\r\n    // Calls the gas method for each car once\r\n    public void gas(int amount) {\r\n        double gas = ((double) amount) / 100;\r\n        for (Vehicle car : Vehicle) {\r\n            car.gas(gas);\r\n        }\r\n    }\r\n\r\n    public void brake(int amount) {\r\n        double brake = ((double) amount) / 100;\r\n        for (Vehicle car : Vehicle) {\r\n            car.brake(brake);\r\n        }\r\n    }\r\n\r\n    public void stopEngine() {\r\n        for (Vehicle car : Vehicle) {\r\n            car.stopEngine();\r\n        }\r\n    }\r\n\r\n    public void startEngine() {\r\n        for (Vehicle car : Vehicle) {\r\n            car.startEngine();\r\n        }\r\n    }\r\n\r\n    public void raisePlatform(){\r\n        for (Vehicle car : Vehicle) {\r\n            if (car instanceof Truck) {\r\n                ((Truck) car).RaisePlatform();\r\n            }\r\n        }\r\n    }\r\n\r\n    public void lowerPlatform() {\r\n        for (Vehicle car : Vehicle) {\r\n            if (car instanceof Truck) {\r\n                ((Truck) car).LowerPlatform();\r\n            }\r\n        }\r\n    }\r\n\r\n    public void turboOn() {\r\n\r\n        for (Vehicle car : Vehicle) {\r\n            if (car instanceof Saab95) {\r\n                ((Saab95) car).setTurboOn();\r\n            }\r\n        }\r\n    }\r\n    public void turboOff() {\r\n\r\n        for (Vehicle car : Vehicle) {\r\n            if (car instanceof Saab95) {\r\n                ((Saab95) car).setTurboOff();\r\n            }\r\n        }\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Labb2/CarController.java b/src/Labb2/CarController.java
+--- a/src/Labb2/CarController.java	(revision 286d090dc355d8f5b0ab1190b2094ce773123684)
++++ b/src/Labb2/CarController.java	(date 1639052561785)
+@@ -42,6 +42,10 @@
+                 car.move();
+                 int x = (int) Math.round(car.getPositionX());
+                 int y = (int) Math.round(car.getPositionY());
++                if (x > 700 || y > 700 || x < 0 || y < 0) {
++                    car.turnRight();
++                    car.turnRight();
++                }
+                 frame.drawPanel.moveit(x, y);
+                 // repaint() calls the paintComponent method of the panel
+                 frame.drawPanel.repaint();

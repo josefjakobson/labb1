@@ -21,7 +21,7 @@ public class DrawPanel extends JPanel{
     // To keep track of a single cars position
 
     ModelAdapter model = new ModelAdapter();
-    ArrayList<Vehicle> vehicles = new ArrayList<>();
+    ArrayList<Vehicle> vehicles = model.getVehicleArray();
 
     // TODO: Make this general for all cars
 
