@@ -15,14 +15,14 @@ import java.util.PrimitiveIterator;
 public class SaabController {
     CarView frame;
 
-    ArrayList<Vehicle> Vehicle;
+    private ArrayList<Vehicle> Vehicle;
 
     public SaabController(ArrayList<Vehicle> Vehicle) {
         this.Vehicle = Vehicle;
 
     }
 
-    private void initComponents(ArrayList<Vehicle> Vehicle) {
+    private void initComponents(String title) {
 
 
         frame.turboOffButton.addActionListener(new ActionListener() {
