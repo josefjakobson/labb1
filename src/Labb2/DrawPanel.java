@@ -64,4 +64,6 @@ public class DrawPanel extends JPanel{
             distance += 100;
         }
     }
+
 }
+

@@ -20,6 +20,7 @@ public class Application {
         Vehicle.add(new Scania());
         Vehicle.add(new Saab95());
 
+        CarView carView = new CarView("CarSim 1.0");
 
         CarController cc = new CarController(Vehicle);
         SaabController sc = new SaabController(Vehicle);
