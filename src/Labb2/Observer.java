@@ -1,5 +1,5 @@
-//package Labb2;
+package Labb2;
 
-//public interface Observer {
-//   public void update();
-//}
+public interface Observer {
+    public void update();
+}

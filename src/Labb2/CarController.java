@@ -35,9 +35,10 @@ public class CarController {
 
     //methods:
 
-    public CarController(ArrayList<Vehicle> Vehicle) {
+    public CarController(ArrayList<Vehicle> Vehicle, CarView frame) {
         this.Vehicle = Vehicle;
-
+        this.frame = frame;
+        initComponents();
     }
 
 
@@ -60,6 +61,7 @@ public class CarController {
                 double gas = ((double) gasAmount) / 100;
                 for (Vehicle car : Vehicle) {
                     car.gas(gas);
+                    System.out.println(car.getCurrentSpeed());
                 }
             }
         });
@@ -88,6 +90,8 @@ public class CarController {
             public void actionPerformed(ActionEvent e) {
                 for (Vehicle car : Vehicle) {
                     car.startEngine();
+                    System.out.println(car.getCurrentSpeed());
+
                 }
             }
         });

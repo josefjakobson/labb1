@@ -15,10 +15,10 @@ import java.util.ArrayList;
 public class ModelAdapter {
 
 
-    ArrayList<Vehicle> vehicle;
+    private ArrayList<Vehicle> vehicle = new ArrayList<>();
+    private Observer observer;
 
     public ArrayList<Vehicle> getVehicleArray(){
-        vehicle = new ArrayList<>();
         vehicle.add(new Volvo240());
         vehicle.add(new Scania());
         vehicle.add(new Saab95());
@@ -29,23 +29,24 @@ public class ModelAdapter {
 
     private Timer timer = new Timer(delay, new TimerListener());
 
+    public void addObserver(Observer observer){
+        this.observer = observer;
+    }
 
 
     private class TimerListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
-            for (Vehicle car : getVehicleArray()) {
-                car.move();
+            for (Vehicle car : vehicle) {
+                car.moveCall();
                 int x = (int) Math.round(car.getPositionX());
                 int y = (int) Math.round(car.getPositionY());
-                //Update()
                 if (x > 700 || y > 700 || x < 0 || y < 0) {
                     car.turnRight();
                     car.turnRight();
                 };
 
                 // repaint() calls the paintComponent method of the panel
-
-                //frame.drawPanel.repaint();
+                observer.update();
             }
         }
     }

@@ -12,7 +12,7 @@ import javax.swing.*;
 
 // This panel represents the animated part of the view with the car images.
 
-public class DrawPanel extends JPanel{
+public class DrawPanel extends JPanel implements Observer{
 
     // Just a single image, TODO: Generalize
     BufferedImage volvoImage;
@@ -20,14 +20,14 @@ public class DrawPanel extends JPanel{
     BufferedImage saabIMage;
     // To keep track of a single cars position
 
-    ModelAdapter model = new ModelAdapter();
-    ArrayList<Vehicle> vehicles = model.getVehicleArray();
+    ArrayList<Vehicle> vehicles;
 
     // TODO: Make this general for all cars
 
 
     // Initializes the panel and reads the images
-    public DrawPanel(int x, int y) {
+    public DrawPanel(int x, int y, ArrayList<Vehicle> vehicles) {
+        this.vehicles = vehicles;
         this.setDoubleBuffered(true);
         this.setPreferredSize(new Dimension(x, y));
         this.setBackground(Color.green);
@@ -49,6 +49,11 @@ public class DrawPanel extends JPanel{
 
     }
 
+    @Override
+    public void update() {
+        repaint();
+    }
+
     // This method is called each time the panel updates/refreshes/repaints itself
     // TODO: Change to suit your needs.
     @Override
@@ -64,6 +69,5 @@ public class DrawPanel extends JPanel{
             distance += 100;
         }
     }
-
 }
 

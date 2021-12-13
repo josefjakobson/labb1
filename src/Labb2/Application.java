@@ -16,13 +16,16 @@ public class Application {
         ModelAdapter model = new ModelAdapter();
         // Instance of this class
         ArrayList<Vehicle> Vehicle = model.getVehicleArray();
+        DrawPanel drawPanel = new DrawPanel(800, 560, Vehicle);
+        CarView carView = new CarView("CarSim 1.0", drawPanel);
 
 
-        CarView carView = new CarView("CarSim 1.0");
+        model.addObserver(drawPanel);
 
-        CarController cc = new CarController(Vehicle);
-        SaabController sc = new SaabController(Vehicle);
-        TruckController tc = new TruckController(Vehicle);
+
+        CarController cc = new CarController(Vehicle, carView);
+        SaabController sc = new SaabController(Vehicle,carView);
+        TruckController tc = new TruckController(Vehicle, carView);
 
 
         // Start a new view and send a reference of self

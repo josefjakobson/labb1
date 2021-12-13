@@ -4,17 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="130d83ed-b5e7-4d81-994e-7f99302416ee" name="Changes" comment="Full Refactoring">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-12-09_13_21__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-12-09_13_21__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-12-09_13_21__Changes_by_jonte_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-12-09_13_21__Changes_by_jonte_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-12-09_15_48__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-12-09_15_48__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-12-09_15_48__Changes_by_jonte_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-12-09_15_48__Changes_by_jonte_.xml" afterDir="false" />
+    <list default="true" id="130d83ed-b5e7-4d81-994e-7f99302416ee" name="Changes" comment="workspace changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/labb1/Labb1/Vehicle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labb1/Labb1/Vehicle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/labb1/Labb2/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labb1/Labb2/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/labb1/Labb2/CarController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labb1/Labb2/CarController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/labb1/Labb2/CarController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labb1/Labb2/CarController$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/labb1/Labb2/CarController$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labb1/Labb2/CarController$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/labb1/Labb2/CarController$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labb1/Labb2/CarController$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/labb1/Labb2/CarController$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labb1/Labb2/CarController$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/labb1/Labb2/CarController$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labb1/Labb2/CarController$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/labb1/Labb2/CarController$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labb1/Labb2/CarController$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/labb1/Labb2/CarController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labb1/Labb2/CarController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/labb1/Labb2/CarView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labb1/Labb2/CarView$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/labb1/Labb2/CarView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labb1/Labb2/CarView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/labb1/Labb2/DrawPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labb1/Labb2/DrawPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/labb1/Labb2/ModelAdapter$TimerListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labb1/Labb2/ModelAdapter$TimerListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/labb1/Labb2/ModelAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labb1/Labb2/ModelAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/labb1/Labb2/SaabController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labb1/Labb2/SaabController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/labb1/Labb2/SaabController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labb1/Labb2/SaabController$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/labb1/Labb2/SaabController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labb1/Labb2/SaabController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Labb1/Scania.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb1/Scania.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Labb1/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb1/Truck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Labb1/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb1/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Labb1/Volvo240.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb1/Volvo240.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Labb2/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb2/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Labb2/CarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb2/CarController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Labb2/CarView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb2/CarView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Labb2/DrawPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb2/DrawPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Labb2/ModelAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb2/ModelAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Labb2/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb2/Observer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Labb2/SaabController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb2/SaabController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Labb2/TruckController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Labb2/TruckController.java" afterDir="false" />
     </list>
-    <list id="6015336e-8d40-487e-8fb3-15b63b74adf0" name="Changes by Jonathan" comment="Changes by Jonathan" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +47,7 @@
       <list>
         <option value="Class" />
         <option value="Enum" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -50,6 +73,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="codeWithMe.voiceChat.enabledByDefault" value="false" />
   </component>
@@ -102,7 +126,14 @@
       <updated>1639059495366</updated>
       <workItem from="1639059502428" duration="1598000" />
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="workspace changes">
+      <created>1639380091932</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1639380091932</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,18 +153,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Main flyttad från CarController till application" />
     <MESSAGE value="Full Refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="Full Refactoring" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Labb1/Truck.java</url>
-          <line>95</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="workspace changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace changes" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Laboration1$TestScania_test_isMoving_gas.ic" NAME="TestScania.test_isMoving_gas Coverage Results" MODIFIED="1637755453495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

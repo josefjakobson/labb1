@@ -11,8 +11,10 @@ public class TruckController {
     CarView frame;
     ArrayList<Vehicle> Vehicle;
 
-    public TruckController(ArrayList<Vehicle> Vehicle) {
+    public TruckController(ArrayList<Vehicle> Vehicle, CarView frame) {
         this.Vehicle = Vehicle;
+        this.frame = frame;
+        initComponents();
 
     }
     private void initComponents() {

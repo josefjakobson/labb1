@@ -14,7 +14,7 @@ import java.awt.*;
  */
 public class Volvo240 extends Car{
 
-    private final static double trimFactor = 1.25;
+    private final static double trimFactor = 1.3;
 
     /**
      * Creates instance of Volvo240 using attributes inherited from Car.

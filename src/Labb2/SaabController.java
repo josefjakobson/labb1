@@ -17,14 +17,13 @@ public class SaabController {
 
     private ArrayList<Vehicle> Vehicle;
 
-    public SaabController(ArrayList<Vehicle> Vehicle) {
+    public SaabController(ArrayList<Vehicle> Vehicle, CarView frame) {
         this.Vehicle = Vehicle;
-
+        this.frame = frame;
+        initComponents();
     }
 
-    private void initComponents(String title) {
-
-
+    private void initComponents() {
         frame.turboOffButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -42,6 +41,7 @@ public class SaabController {
                 for (Vehicle car : Vehicle) {
                     if (car instanceof Saab95) {
                         ((Saab95) car).setTurboOn();
+                        System.out.println("ON");
                     }
                 }
             }

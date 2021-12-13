@@ -47,7 +47,6 @@ public abstract class Truck extends Vehicle implements Platform{
     @Override
     public double getSpeedFactor() {
         if (platformAngle == 0) {
-            isMoving = true;
             return getEnginePower() * 0.01;
         }
         else{
@@ -59,14 +58,28 @@ public abstract class Truck extends Vehicle implements Platform{
      * Changes the value of the attribute isMoving to True or False
      */
     private void UpdateMovement(){
-        if (getCurrentSpeed() > 0){isMoving = true;}
-        else{isMoving = false;}
+        isMoving = getCurrentSpeed() > 0;
     }
 
 
     abstract public void LowerPlatform ();
 
     abstract public void RaisePlatform ();
+
+    @Override
+    public void move(){
+        if(platformAngle == 0){
+            switch (getDirection()) {
+                case "Up" -> setPositionY(getPositionY()-getCurrentSpeed());
+                case "Down" -> setPositionY(getPositionY()+getCurrentSpeed());
+                case "Right" -> setPositionX(getPositionX()+getCurrentSpeed());
+                case "Left" -> setPositionX(getPositionX()-getCurrentSpeed());
+                default -> {
+                }
+            }
+        }
+
+    }
 
     /**
      * Gets the isMoving value.
