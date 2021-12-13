@@ -15,10 +15,8 @@ public class Application {
     public static void main(String[] args) {
         ModelAdapter model = new ModelAdapter();
         // Instance of this class
-        ArrayList<Vehicle> Vehicle = new ArrayList<>();
-        Vehicle.add(new Volvo240());
-        Vehicle.add(new Scania());
-        Vehicle.add(new Saab95());
+        ArrayList<Vehicle> Vehicle = model.getVehicleArray();
+
 
         CarView carView = new CarView("CarSim 1.0");
 
